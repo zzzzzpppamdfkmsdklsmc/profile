@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>My Profile~</title>
+  <link rel="stylesheet" href="../styles/test.css" />
+</head>
+<body>
+  <main class="board">
+    <div class="topbar">
+      <h1>My Profile~</h1>
+    </div>
+
+    <!-- 상단 소개 영역 -->
+    <section class="intro">
+      <!-- 왼쪽: 사진 -->
+      <div class="photo-card">
+        <div class="photo-inner">
+          <img class="photo-img" src="../../FACE.jpg" alt="프로필 사진" />
+          <div class="photo-fallback">내<br/>사진</div>
+        </div>
+      </div>
+
+      <!-- 오른쪽: 이름 + 학교 + 탭 -->
+      <div class="info-card" aria-label="기본 정보">
+        <ul class="info-list">
+          <li><b>이름</b> : 박성우</li>
+          <li><b>학교</b> : 숭실대학교 · 4학년 2학기 재학중</li>
+        </ul>
+
+        <!-- 성과(수상/자격증) 탭 -->
+        <div class="tabs">
+          <input type="radio" id="tab-awards" name="tab-achieve" checked />
+          <label for="tab-awards">수상</label>
+
+          <div class="tab-panels">
+            <div class="panel" data-panel="awards">
+              <ul class="bullet">
+                <li>2025 대한산업공학회 대학생 경진대회 <b>장려상</b></li>
+                <li>2025 캡스톤디자인전시 <b>은상</b></li>
+                <li>2025 형남공학상 <b>동상</b></li>
+                <li>2025 춘계통합학술대회-대학생 ERP 아이디어 공모전 <b>대상</b> (YOLO 화재탐지)</li>
+                <li>2023 이데일리 아이디어 유니버시아드 공모전  <b>최우수상</b></li>
+                <li>2023 대국민 아이디어 공모전-LH <b>최우수상</b></li>
+
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 포트폴리오 -->
+    <section class="gallery">
+      <div class="gallery-head">
+        <div class="left-chip">포트폴리오</div>
+        <button class="manage-btn" type="button">관리</button>
+      </div>
+
+      <div class="tiles">
+        <div class="tile"></div><div class="tile"></div><div class="tile"></div>
+        <div class="tile"></div><div class="tile"></div><div class="tile"></div>
+        <div class="tile"></div><div class="tile"></div><div class="tile"></div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
