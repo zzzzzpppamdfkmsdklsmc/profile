@@ -1,11 +1,100 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="ko">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>My Profile~</title>
+  <link rel="stylesheet" href="../styles/test.css" />
 </head>
 <body>
-    
+  <main class="board">
+    <div class="topbar">
+      <h1>My Profile~</h1>
+    </div>
+
+    <!-- 상단 소개: 좌 사진 / 우 정보 -->
+    <section class="intro">
+      <!-- 왼쪽: 사진 -->
+      <div class="photo-card">
+        <div class="photo-inner">
+          <img class="photo-img" src="../../FACE.jpg" alt="프로필 사진" />
+          <div class="photo-fallback">내<br/>사진</div>
+        </div>
+      </div>
+
+      <!-- 오른쪽: 기본 정보 + 요약/핵심역량/링크 -->
+      <div class="info-card" aria-label="기본 정보">
+        <ul class="info-list">
+          <li><b>이름</b> : 박성우</li>
+          <li><b>생년월일</b> : 2001년 3월 7일</li>
+          <li><b>좌우명</b> : 한번 시작한 일은 책임감있게 마무리하자!</li>
+          <li><b>학교</b> : 숭실대학교 · 4학년 2학기 재학중</li>
+          <li><b>학점</b> : 3.88 - 133학점 </li>
+          <li><b>자격증</b> : SAP Certified Associate - Back-End Developer - ABAP Cloud</li>
+          <li><b>대외활동</b> : 청년일보 서포터지-8기, FIELD-16기-컴페티션부서 </li>
+          
+        </ul>
+        <!-- 한줄 요약 -->
+        <div class="about">
+          <!-- YOLO 기반 안전·SCM 프로젝트와 ERP(ABAP) 경험을 가진
+          <b>산업정보시스템공학</b> 전공자입니다. 데이터·최적화·프론트/백엔드에 관심이 많아요. -->
+        </div>
+
+        <!-- 핵심 역량 (태그형) -->
+        <!-- <div class="meta-grid">
+          <div class="meta-item">
+            <div class="meta-label">관심분야</div>
+            <div class="meta-value pills">
+              <span class="pill">컴비너토리얼 최적화</span>
+              <span class="pill">SCM</span>
+              <span class="pill">컴퓨터비전</span>
+            </div>
+          </div> -->
+          <!-- <div class="meta-item">
+            <div class="meta-label">핵심역량</div>
+            <div class="meta-value pills">
+              <span class="pill">ABAP</span>
+              <span class="pill">Python</span>
+              <span class="pill">React</span>
+              <span class="pill">YOLO/Streamlit</span>
+            </div>
+          </div>
+        </div> -->
+
+        <!-- 링크 버튼 -->
+        <div class="links">
+          <!-- <a class="btn-link" href="#" target="_blank" rel="noreferrer">Blog</a> -->
+          <a class="btn-link" href="mailto:your@email.com">Email</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="achieve">
+      <div class="tabs">
+        <input type="radio" id="tab-awards" name="tab-achieve" checked />
+        <label for="tab-awards">수상</label>
+        <div class="tab-panels">
+          <div class="panel" data-panel="awards">
+            <ul class="bullet">
+                <li>2025 대한산업공학회 대학생 경진대회 <b>장려상</b></li>
+                <li>2025 캡스톤디자인전시 <b>은상</b></li>
+                <li>2025 형남공학상 <b>동상</b></li>
+                <li>2025 춘계통합학술대회-대학생 ERP 아이디어 공모전 <b>대상</b> (YOLO 화재탐지)</li>
+                <li>2023 이데일리 아이디어 유니버시아드 공모전  <b>최우수상</b></li>
+                <li>2023 대국민 아이디어 공모전-LH <b>최우수상</b></li>
+
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- (선택) 포트폴리오 그리드가 뒤에 온다면 여기에 배치 -->
+    <!--
+    <section class="gallery">
+      ...
+    </section>
+    -->
+  </main>
 </body>
 </html>
