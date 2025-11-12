@@ -1,0 +1,7299 @@
+
+C:\inspire\aone_pj\my-portfolio-admin
+├── .env.local
+├── .gitignore
+├── .next/
+|  ├── app-path-routes-manifest.json
+|  ├── build/
+|  |  ├── chunks/
+|  |  |  ├── node_modules_fe693df6._.js
+|  |  |  ├── node_modules_fe693df6._.js.map
+|  |  |  ├── [root-of-the-server]__51225daf._.js
+|  |  |  ├── [root-of-the-server]__51225daf._.js.map
+|  |  |  ├── [root-of-the-server]__974941ed._.js
+|  |  |  ├── [root-of-the-server]__974941ed._.js.map
+|  |  |  ├── [turbopack-node]_transforms_postcss_ts_7180740f._.js
+|  |  |  ├── [turbopack-node]_transforms_postcss_ts_7180740f._.js.map
+|  |  |  ├── [turbopack]_runtime.js
+|  |  |  └── [turbopack]_runtime.js.map
+|  |  ├── package.json
+|  |  ├── postcss.js
+|  |  └── postcss.js.map
+|  ├── build-manifest.json
+|  ├── BUILD_ID
+|  ├── cache/
+|  |  ├── .previewinfo
+|  |  ├── .rscinfo
+|  |  └── .tsbuildinfo
+|  ├── diagnostics/
+|  |  ├── build-diagnostics.json
+|  |  └── framework.json
+|  ├── export-marker.json
+|  ├── fallback-build-manifest.json
+|  ├── images-manifest.json
+|  ├── next-minimal-server.js.nft.json
+|  ├── next-server.js.nft.json
+|  ├── package.json
+|  ├── prerender-manifest.json
+|  ├── required-server-files.json
+|  ├── routes-manifest.json
+|  ├── server/
+|  |  ├── app/
+|  |  |  ├── admin/
+|  |  |  ├── admin.html
+|  |  |  ├── admin.meta
+|  |  |  ├── admin.rsc
+|  |  |  ├── admin.segments/
+|  |  |  ├── api/
+|  |  |  ├── favicon.ico/
+|  |  |  ├── favicon.ico.body
+|  |  |  ├── favicon.ico.meta
+|  |  |  ├── index.html
+|  |  |  ├── index.meta
+|  |  |  ├── index.rsc
+|  |  |  ├── index.segments/
+|  |  |  ├── page/
+|  |  |  ├── page.js
+|  |  |  ├── page.js.map
+|  |  |  ├── page.js.nft.json
+|  |  |  ├── page_client-reference-manifest.js
+|  |  |  ├── _global-error/
+|  |  |  ├── _global-error.html
+|  |  |  ├── _global-error.meta
+|  |  |  ├── _global-error.rsc
+|  |  |  ├── _global-error.segments/
+|  |  |  ├── _not-found/
+|  |  |  ├── _not-found.html
+|  |  |  ├── _not-found.meta
+|  |  |  ├── _not-found.rsc
+|  |  |  └── _not-found.segments/
+|  |  ├── app-paths-manifest.json
+|  |  ├── chunks/
+|  |  |  ├── node_modules_next_dist_esm_build_templates_app-route_d6a474cc.js
+|  |  |  ├── node_modules_next_dist_esm_build_templates_app-route_d6a474cc.js.map
+|  |  |  ├── ssr/
+|  |  |  ├── [root-of-the-server]__2c34ef56._.js
+|  |  |  ├── [root-of-the-server]__2c34ef56._.js.map
+|  |  |  ├── [root-of-the-server]__5a33ca6c._.js
+|  |  |  ├── [root-of-the-server]__5a33ca6c._.js.map
+|  |  |  ├── [root-of-the-server]__6c4d8d82._.js
+|  |  |  ├── [root-of-the-server]__6c4d8d82._.js.map
+|  |  |  ├── [root-of-the-server]__8e7024fd._.js
+|  |  |  ├── [root-of-the-server]__8e7024fd._.js.map
+|  |  |  ├── [root-of-the-server]__b01ab6e1._.js
+|  |  |  ├── [root-of-the-server]__b01ab6e1._.js.map
+|  |  |  ├── [root-of-the-server]__b2da729a._.js
+|  |  |  ├── [root-of-the-server]__b2da729a._.js.map
+|  |  |  ├── [root-of-the-server]__bf58989a._.js
+|  |  |  ├── [root-of-the-server]__bf58989a._.js.map
+|  |  |  ├── [root-of-the-server]__f2b74fdc._.js
+|  |  |  ├── [root-of-the-server]__f2b74fdc._.js.map
+|  |  |  ├── [root-of-the-server]__fa222495._.js
+|  |  |  ├── [root-of-the-server]__fa222495._.js.map
+|  |  |  ├── [turbopack]_runtime.js
+|  |  |  ├── [turbopack]_runtime.js.map
+|  |  |  ├── _next-internal_server_app_api_admin_login_route_actions_8c49ded7.js
+|  |  |  ├── _next-internal_server_app_api_admin_login_route_actions_8c49ded7.js.map
+|  |  |  ├── _next-internal_server_app_api_admin_logout_route_actions_7d86066f.js
+|  |  |  ├── _next-internal_server_app_api_admin_logout_route_actions_7d86066f.js.map
+|  |  |  ├── _next-internal_server_app_api_create_route_actions_7866397b.js
+|  |  |  ├── _next-internal_server_app_api_create_route_actions_7866397b.js.map
+|  |  |  ├── _next-internal_server_app_api_delete_[id]_route_actions_c56e45fd.js
+|  |  |  ├── _next-internal_server_app_api_delete_[id]_route_actions_c56e45fd.js.map
+|  |  |  ├── _next-internal_server_app_api_edit_[id]_route_actions_87d2514a.js
+|  |  |  ├── _next-internal_server_app_api_edit_[id]_route_actions_87d2514a.js.map
+|  |  |  ├── _next-internal_server_app_api_read_route_actions_66d4189b.js
+|  |  |  ├── _next-internal_server_app_api_read_route_actions_66d4189b.js.map
+|  |  |  ├── _next-internal_server_app_api_update_route_actions_62c81e45.js
+|  |  |  ├── _next-internal_server_app_api_update_route_actions_62c81e45.js.map
+|  |  |  ├── _next-internal_server_app_favicon_ico_route_actions_353150a5.js
+|  |  |  └── _next-internal_server_app_favicon_ico_route_actions_353150a5.js.map
+|  |  ├── functions-config-manifest.json
+|  |  ├── interception-route-rewrite-manifest.js
+|  |  ├── middleware-build-manifest.js
+|  |  ├── middleware-manifest.json
+|  |  ├── next-font-manifest.js
+|  |  ├── next-font-manifest.json
+|  |  ├── pages/
+|  |  |  ├── 404.html
+|  |  |  └── 500.html
+|  |  ├── pages-manifest.json
+|  |  ├── server-reference-manifest.js
+|  |  └── server-reference-manifest.json
+|  ├── static/
+|  |  ├── 8VgAphrgEvXGQtQb-AwRx/
+|  |  |  ├── _buildManifest.js
+|  |  |  ├── _clientMiddlewareManifest.json
+|  |  |  └── _ssgManifest.js
+|  |  ├── chunks/
+|  |  |  ├── 101acf998f2feb64.js
+|  |  |  ├── 1248aa8d9fa140eb.js
+|  |  |  ├── 247eb132b7f7b574.js
+|  |  |  ├── 2e5b89f46b61d738.js
+|  |  |  ├── 3fec78118b0f5f51.js
+|  |  |  ├── 58e77fc17acbf1e7.js
+|  |  |  ├── 925b45604ae2ab79.js
+|  |  |  ├── a6dad97d9634a72d.js
+|  |  |  ├── aab5becddca52488.js
+|  |  |  ├── cbd55ab9639e1e66.js
+|  |  |  ├── d1260cf62126618a.css
+|  |  |  ├── e2245f0777e87307.js
+|  |  |  ├── ff1a16fafef87110.js
+|  |  |  └── turbopack-b34aa7175d29cdf8.js
+|  |  └── media/
+|  |     ├── 4fa387ec64143e14-s.c1fdd6c2.woff2
+|  |     ├── 7178b3e590c64307-s.b97b3418.woff2
+|  |     ├── 797e433ab948586e-s.p.dbea232f.woff2
+|  |     ├── 8a480f0b521d4e75-s.8e0177b5.woff2
+|  |     ├── bbc41e54d2fcbd21-s.799d8ef8.woff2
+|  |     ├── caa3a2e1cccd8315-s.p.853070df.woff2
+|  |     └── favicon.0b3bf435.ico
+|  ├── trace
+|  ├── trace-build
+|  ├── turbopack
+|  └── types/
+|     ├── routes.d.ts
+|     └── validator.ts
+├── app/
+|  ├── (admin)/
+|  |  ├── admin/
+|  |  |  ├── DeleteButton.tsx
+|  |  |  ├── edit/
+|  |  |  ├── login/
+|  |  |  ├── LogoutBtn.tsx
+|  |  |  ├── new/
+|  |  |  └── page.tsx
+|  |  └── layout.tsx
+|  ├── (site)/
+|  |  ├── layout.tsx
+|  |  ├── page.tsx
+|  |  └── projects/
+|  |     ├── page.tsx
+|  |     └── [id]/
+|  ├── api/
+|  |  ├── admin/
+|  |  |  ├── login/
+|  |  |  └── logout/
+|  |  ├── create/
+|  |  |  └── route.ts
+|  |  ├── delete/
+|  |  |  └── [id]/
+|  |  ├── edit/
+|  |  |  └── [id]/
+|  |  ├── read/
+|  |  |  └── route.ts
+|  |  └── update/
+|  |     └── route.ts
+|  ├── copmonets/
+|  |  ├── AdminForm.tsx
+|  |  └── ProjectCard.tsx
+|  ├── data/
+|  |  └── projects.json
+|  ├── favicon.ico
+|  ├── globals.css
+|  ├── styles/
+|  |  └── global.css
+|  └── utils/
+|     └── fileUtils.ts
+├── data/
+|  └── projects.json
+├── eslint.config.mjs
+├── middware.ts
+├── next-env.d.ts
+├── next.config.ts
+├── node_modules/
+|  ├── .bin/
+|  |  ├── acorn
+|  |  ├── acorn.cmd
+|  |  ├── acorn.ps1
+|  |  ├── baseline-browser-mapping
+|  |  ├── baseline-browser-mapping.cmd
+|  |  ├── baseline-browser-mapping.ps1
+|  |  ├── browserslist
+|  |  ├── browserslist.cmd
+|  |  ├── browserslist.ps1
+|  |  ├── eslint
+|  |  ├── eslint.cmd
+|  |  ├── eslint.ps1
+|  |  ├── jiti
+|  |  ├── jiti.cmd
+|  |  ├── jiti.ps1
+|  |  ├── js-yaml
+|  |  ├── js-yaml.cmd
+|  |  ├── js-yaml.ps1
+|  |  ├── jsesc
+|  |  ├── jsesc.cmd
+|  |  ├── jsesc.ps1
+|  |  ├── json5
+|  |  ├── json5.cmd
+|  |  ├── json5.ps1
+|  |  ├── loose-envify
+|  |  ├── loose-envify.cmd
+|  |  ├── loose-envify.ps1
+|  |  ├── nanoid
+|  |  ├── nanoid.cmd
+|  |  ├── nanoid.ps1
+|  |  ├── napi-postinstall
+|  |  ├── napi-postinstall.cmd
+|  |  ├── napi-postinstall.ps1
+|  |  ├── next
+|  |  ├── next.cmd
+|  |  ├── next.ps1
+|  |  ├── node-which
+|  |  ├── node-which.cmd
+|  |  ├── node-which.ps1
+|  |  ├── parser
+|  |  ├── parser.cmd
+|  |  ├── parser.ps1
+|  |  ├── resolve
+|  |  ├── resolve.cmd
+|  |  ├── resolve.ps1
+|  |  ├── semver
+|  |  ├── semver.cmd
+|  |  ├── semver.ps1
+|  |  ├── tsc
+|  |  ├── tsc.cmd
+|  |  ├── tsc.ps1
+|  |  ├── tsserver
+|  |  ├── tsserver.cmd
+|  |  ├── tsserver.ps1
+|  |  ├── update-browserslist-db
+|  |  ├── update-browserslist-db.cmd
+|  |  └── update-browserslist-db.ps1
+|  ├── .package-lock.json
+|  ├── @alloc/
+|  |  └── quick-lru/
+|  |     ├── index.d.ts
+|  |     ├── index.js
+|  |     ├── license
+|  |     ├── package.json
+|  |     └── readme.md
+|  ├── @babel/
+|  |  ├── code-frame/
+|  |  |  ├── lib/
+|  |  |  ├── LICENSE
+|  |  |  ├── package.json
+|  |  |  └── README.md
+|  |  ├── compat-data/
+|  |  |  ├── corejs2-built-ins.js
+|  |  |  ├── corejs3-shipped-proposals.js
+|  |  |  ├── data/
+|  |  |  ├── LICENSE
+|  |  |  ├── native-modules.js
+|  |  |  ├── overlapping-plugins.js
+|  |  |  ├── package.json
+|  |  |  ├── plugin-bugfixes.js
+|  |  |  ├── plugins.js
+|  |  |  └── README.md
+|  |  ├── core/
+|  |  |  ├── lib/
+|  |  |  ├── LICENSE
+|  |  |  ├── package.json
+|  |  |  ├── README.md
+|  |  |  └── src/
+|  |  ├── generator/
+|  |  |  ├── lib/
+|  |  |  ├── LICENSE
+|  |  |  ├── package.json
+|  |  |  └── README.md
+|  |  ├── helper-compilation-targets/
+|  |  |  ├── lib/
+|  |  |  ├── LICENSE
+|  |  |  ├── package.json
+|  |  |  └── README.md
+|  |  ├── helper-globals/
+|  |  |  ├── data/
+|  |  |  ├── LICENSE
+|  |  |  ├── package.json
+|  |  |  └── README.md
+|  |  ├── helper-module-imports/
+|  |  |  ├── lib/
+|  |  |  ├── LICENSE
+|  |  |  ├── package.json
+|  |  |  └── README.md
+|  |  ├── helper-module-transforms/
+|  |  |  ├── lib/
+|  |  |  ├── LICENSE
+|  |  |  ├── package.json
+|  |  |  └── README.md
+|  |  ├── helper-string-parser/
+|  |  |  ├── lib/
+|  |  |  ├── LICENSE
+|  |  |  ├── package.json
+|  |  |  └── README.md
+|  |  ├── helper-validator-identifier/
+|  |  |  ├── lib/
+|  |  |  ├── LICENSE
+|  |  |  ├── package.json
+|  |  |  └── README.md
+|  |  ├── helper-validator-option/
+|  |  |  ├── lib/
+|  |  |  ├── LICENSE
+|  |  |  ├── package.json
+|  |  |  └── README.md
+|  |  ├── helpers/
+|  |  |  ├── lib/
+|  |  |  ├── LICENSE
+|  |  |  ├── package.json
+|  |  |  └── README.md
+|  |  ├── parser/
+|  |  |  ├── bin/
+|  |  |  ├── CHANGELOG.md
+|  |  |  ├── lib/
+|  |  |  ├── LICENSE
+|  |  |  ├── package.json
+|  |  |  ├── README.md
+|  |  |  └── typings/
+|  |  ├── template/
+|  |  |  ├── lib/
+|  |  |  ├── LICENSE
+|  |  |  ├── package.json
+|  |  |  └── README.md
+|  |  ├── traverse/
+|  |  |  ├── lib/
+|  |  |  ├── LICENSE
+|  |  |  ├── package.json
+|  |  |  └── README.md
+|  |  └── types/
+|  |     ├── lib/
+|  |     ├── LICENSE
+|  |     ├── package.json
+|  |     └── README.md
+|  ├── @emnapi/
+|  |  ├── core/
+|  |  |  ├── dist/
+|  |  |  ├── index.js
+|  |  |  ├── LICENSE
+|  |  |  ├── package.json
+|  |  |  └── README.md
+|  |  ├── runtime/
+|  |  |  ├── dist/
+|  |  |  ├── index.js
+|  |  |  ├── LICENSE
+|  |  |  ├── package.json
+|  |  |  └── README.md
+|  |  └── wasi-threads/
+|  |     ├── dist/
+|  |     ├── index.js
+|  |     ├── LICENSE
+|  |     ├── package.json
+|  |     └── README.md
+|  ├── @eslint/
+|  |  ├── config-array/
+|  |  |  ├── dist/
+|  |  |  ├── LICENSE
+|  |  |  ├── package.json
+|  |  |  └── README.md
+|  |  ├── config-helpers/
+|  |  |  ├── dist/
+|  |  |  ├── LICENSE
+|  |  |  ├── package.json
+|  |  |  └── README.md
+|  |  ├── core/
+|  |  |  ├── dist/
+|  |  |  ├── LICENSE
+|  |  |  ├── package.json
+|  |  |  └── README.md
+|  |  ├── eslintrc/
+|  |  |  ├── conf/
+|  |  |  ├── dist/
+|  |  |  ├── lib/
+|  |  |  ├── LICENSE
+|  |  |  ├── package.json
+|  |  |  ├── README.md
+|  |  |  └── universal.js
+|  |  ├── js/
+|  |  |  ├── LICENSE
+|  |  |  ├── package.json
+|  |  |  ├── README.md
+|  |  |  ├── src/
+|  |  |  └── types/
+|  |  ├── object-schema/
+|  |  |  ├── dist/
+|  |  |  ├── LICENSE
+|  |  |  ├── package.json
+|  |  |  └── README.md
+|  |  └── plugin-kit/
+|  |     ├── dist/
+|  |     ├── LICENSE
+|  |     ├── package.json
+|  |     └── README.md
+|  ├── @eslint-community/
+|  |  ├── eslint-utils/
+|  |  |  ├── index.d.mts
+|  |  |  ├── index.d.ts
+|  |  |  ├── index.js
+|  |  |  ├── index.js.map
+|  |  |  ├── index.mjs
+|  |  |  ├── index.mjs.map
+|  |  |  ├── LICENSE
+|  |  |  ├── node_modules/
+|  |  |  ├── package.json
+|  |  |  └── README.md
+|  |  └── regexpp/
+|  |     ├── index.d.ts
+|  |     ├── index.js
+|  |     ├── index.js.map
+|  |     ├── index.mjs
+|  |     ├── index.mjs.map
+|  |     ├── LICENSE
+|  |     ├── package.json
+|  |     └── README.md
+|  ├── @humanfs/
+|  |  ├── core/
+|  |  |  ├── dist/
+|  |  |  ├── LICENSE
+|  |  |  ├── package.json
+|  |  |  ├── README.md
+|  |  |  └── src/
+|  |  └── node/
+|  |     ├── dist/
+|  |     ├── LICENSE
+|  |     ├── package.json
+|  |     ├── README.md
+|  |     └── src/
+|  ├── @humanwhocodes/
+|  |  ├── module-importer/
+|  |  |  ├── CHANGELOG.md
+|  |  |  ├── dist/
+|  |  |  ├── LICENSE
+|  |  |  ├── package.json
+|  |  |  ├── README.md
+|  |  |  └── src/
+|  |  └── retry/
+|  |     ├── dist/
+|  |     ├── LICENSE
+|  |     ├── package.json
+|  |     └── README.md
+|  ├── @img/
+|  |  ├── colour/
+|  |  |  ├── color.cjs
+|  |  |  ├── index.cjs
+|  |  |  ├── LICENSE.md
+|  |  |  ├── package.json
+|  |  |  └── README.md
+|  |  └── sharp-win32-x64/
+|  |     ├── lib/
+|  |     ├── LICENSE
+|  |     ├── package.json
+|  |     ├── README.md
+|  |     └── versions.json
+|  ├── @jridgewell/
+|  |  ├── gen-mapping/
+|  |  |  ├── dist/
+|  |  |  ├── LICENSE
+|  |  |  ├── package.json
+|  |  |  ├── README.md
+|  |  |  ├── src/
+|  |  |  └── types/
+|  |  ├── remapping/
+|  |  |  ├── dist/
+|  |  |  ├── LICENSE
+|  |  |  ├── package.json
+|  |  |  ├── README.md
+|  |  |  ├── src/
+|  |  |  └── types/
+|  |  ├── resolve-uri/
+|  |  |  ├── dist/
+|  |  |  ├── LICENSE
+|  |  |  ├── package.json
+|  |  |  └── README.md
+|  |  ├── sourcemap-codec/
+|  |  |  ├── dist/
+|  |  |  ├── LICENSE
+|  |  |  ├── package.json
+|  |  |  ├── README.md
+|  |  |  ├── src/
+|  |  |  └── types/
+|  |  └── trace-mapping/
+|  |     ├── dist/
+|  |     ├── LICENSE
+|  |     ├── package.json
+|  |     ├── README.md
+|  |     ├── src/
+|  |     └── types/
+|  ├── @napi-rs/
+|  |  └── wasm-runtime/
+|  |     ├── dist/
+|  |     ├── fs-proxy.cjs
+|  |     ├── LICENSE
+|  |     ├── package.json
+|  |     └── runtime.cjs
+|  ├── @next/
+|  |  ├── env/
+|  |  |  ├── dist/
+|  |  |  ├── package.json
+|  |  |  └── README.md
+|  |  ├── eslint-plugin-next/
+|  |  |  ├── dist/
+|  |  |  ├── package.json
+|  |  |  └── README.md
+|  |  └── swc-win32-x64-msvc/
+|  |     ├── next-swc.win32-x64-msvc.node
+|  |     ├── package.json
+|  |     └── README.md
+|  ├── @nodelib/
+|  |  ├── fs.scandir/
+|  |  |  ├── LICENSE
+|  |  |  ├── out/
+|  |  |  ├── package.json
+|  |  |  └── README.md
+|  |  ├── fs.stat/
+|  |  |  ├── LICENSE
+|  |  |  ├── out/
+|  |  |  ├── package.json
+|  |  |  └── README.md
+|  |  └── fs.walk/
+|  |     ├── LICENSE
+|  |     ├── out/
+|  |     ├── package.json
+|  |     └── README.md
+|  ├── @nolyfill/
+|  |  └── is-core-module/
+|  |     ├── index.d.ts
+|  |     ├── index.js
+|  |     ├── LICENSE
+|  |     └── package.json
+|  ├── @rtsao/
+|  |  └── scc/
+|  |     ├── index.d.ts
+|  |     ├── index.js
+|  |     ├── index.js.flow
+|  |     ├── LICENSE
+|  |     ├── package.json
+|  |     └── README.md
+|  ├── @swc/
+|  |  └── helpers/
+|  |     ├── cjs/
+|  |     ├── esm/
+|  |     ├── LICENSE
+|  |     ├── package.json
+|  |     ├── scripts/
+|  |     ├── src/
+|  |     └── _/
+|  ├── @tailwindcss/
+|  |  ├── node/
+|  |  |  ├── dist/
+|  |  |  ├── LICENSE
+|  |  |  ├── package.json
+|  |  |  └── README.md
+|  |  ├── oxide/
+|  |  |  ├── index.d.ts
+|  |  |  ├── index.js
+|  |  |  ├── LICENSE
+|  |  |  └── package.json
+|  |  ├── oxide-win32-x64-msvc/
+|  |  |  ├── LICENSE
+|  |  |  ├── package.json
+|  |  |  ├── README.md
+|  |  |  └── tailwindcss-oxide.win32-x64-msvc.node
+|  |  └── postcss/
+|  |     ├── dist/
+|  |     ├── LICENSE
+|  |     ├── package.json
+|  |     └── README.md
+|  ├── @tybys/
+|  |  └── wasm-util/
+|  |     ├── dist/
+|  |     ├── lib/
+|  |     ├── package.json
+|  |     └── README.md
+|  ├── @types/
+|  |  ├── estree/
+|  |  |  ├── flow.d.ts
+|  |  |  ├── index.d.ts
+|  |  |  ├── LICENSE
+|  |  |  ├── package.json
+|  |  |  └── README.md
+|  |  ├── json-schema/
+|  |  |  ├── index.d.ts
+|  |  |  ├── LICENSE
+|  |  |  ├── package.json
+|  |  |  └── README.md
+|  |  ├── json5/
+|  |  |  ├── index.d.ts
+|  |  |  ├── package.json
+|  |  |  ├── README.md
+|  |  |  └── types-metadata.json
+|  |  ├── node/
+|  |  |  ├── assert/
+|  |  |  ├── assert.d.ts
+|  |  |  ├── async_hooks.d.ts
+|  |  |  ├── buffer.buffer.d.ts
+|  |  |  ├── buffer.d.ts
+|  |  |  ├── child_process.d.ts
+|  |  |  ├── cluster.d.ts
+|  |  |  ├── compatibility/
+|  |  |  ├── console.d.ts
+|  |  |  ├── constants.d.ts
+|  |  |  ├── crypto.d.ts
+|  |  |  ├── dgram.d.ts
+|  |  |  ├── diagnostics_channel.d.ts
+|  |  |  ├── dns/
+|  |  |  ├── dns.d.ts
+|  |  |  ├── domain.d.ts
+|  |  |  ├── events.d.ts
+|  |  |  ├── fs/
+|  |  |  ├── fs.d.ts
+|  |  |  ├── globals.d.ts
+|  |  |  ├── globals.typedarray.d.ts
+|  |  |  ├── http.d.ts
+|  |  |  ├── http2.d.ts
+|  |  |  ├── https.d.ts
+|  |  |  ├── index.d.ts
+|  |  |  ├── inspector.generated.d.ts
+|  |  |  ├── LICENSE
+|  |  |  ├── module.d.ts
+|  |  |  ├── net.d.ts
+|  |  |  ├── os.d.ts
+|  |  |  ├── package.json
+|  |  |  ├── path.d.ts
+|  |  |  ├── perf_hooks.d.ts
+|  |  |  ├── process.d.ts
+|  |  |  ├── punycode.d.ts
+|  |  |  ├── querystring.d.ts
+|  |  |  ├── readline/
+|  |  |  ├── readline.d.ts
+|  |  |  ├── README.md
+|  |  |  ├── repl.d.ts
+|  |  |  ├── sea.d.ts
+|  |  |  ├── stream/
+|  |  |  ├── stream.d.ts
+|  |  |  ├── string_decoder.d.ts
+|  |  |  ├── test.d.ts
+|  |  |  ├── timers/
+|  |  |  ├── timers.d.ts
+|  |  |  ├── tls.d.ts
+|  |  |  ├── trace_events.d.ts
+|  |  |  ├── ts5.6/
+|  |  |  ├── tty.d.ts
+|  |  |  ├── url.d.ts
+|  |  |  ├── util.d.ts
+|  |  |  ├── v8.d.ts
+|  |  |  ├── vm.d.ts
+|  |  |  ├── wasi.d.ts
+|  |  |  ├── web-globals/
+|  |  |  ├── worker_threads.d.ts
+|  |  |  └── zlib.d.ts
+|  |  ├── react/
+|  |  |  ├── canary.d.ts
+|  |  |  ├── compiler-runtime.d.ts
+|  |  |  ├── experimental.d.ts
+|  |  |  ├── global.d.ts
+|  |  |  ├── index.d.ts
+|  |  |  ├── jsx-dev-runtime.d.ts
+|  |  |  ├── jsx-runtime.d.ts
+|  |  |  ├── LICENSE
+|  |  |  ├── package.json
+|  |  |  ├── README.md
+|  |  |  └── ts5.0/
+|  |  └── react-dom/
+|  |     ├── canary.d.ts
+|  |     ├── client.d.ts
+|  |     ├── experimental.d.ts
+|  |     ├── index.d.ts
+|  |     ├── LICENSE
+|  |     ├── package.json
+|  |     ├── README.md
+|  |     ├── server.browser.d.ts
+|  |     ├── server.bun.d.ts
+|  |     ├── server.d.ts
+|  |     ├── server.edge.d.ts
+|  |     ├── server.node.d.ts
+|  |     ├── static.browser.d.ts
+|  |     ├── static.d.ts
+|  |     ├── static.edge.d.ts
+|  |     ├── static.node.d.ts
+|  |     └── test-utils/
+|  ├── @typescript-eslint/
+|  |  ├── eslint-plugin/
+|  |  |  ├── dist/
+|  |  |  ├── index.d.ts
+|  |  |  ├── LICENSE
+|  |  |  ├── node_modules/
+|  |  |  ├── package.json
+|  |  |  ├── raw-plugin.d.ts
+|  |  |  ├── README.md
+|  |  |  └── rules.d.ts
+|  |  ├── parser/
+|  |  |  ├── dist/
+|  |  |  ├── LICENSE
+|  |  |  ├── package.json
+|  |  |  └── README.md
+|  |  ├── project-service/
+|  |  |  ├── dist/
+|  |  |  ├── LICENSE
+|  |  |  ├── package.json
+|  |  |  └── README.md
+|  |  ├── scope-manager/
+|  |  |  ├── dist/
+|  |  |  ├── LICENSE
+|  |  |  ├── package.json
+|  |  |  └── README.md
+|  |  ├── tsconfig-utils/
+|  |  |  ├── dist/
+|  |  |  ├── LICENSE
+|  |  |  ├── package.json
+|  |  |  └── README.md
+|  |  ├── type-utils/
+|  |  |  ├── dist/
+|  |  |  ├── LICENSE
+|  |  |  ├── package.json
+|  |  |  └── README.md
+|  |  ├── types/
+|  |  |  ├── dist/
+|  |  |  ├── LICENSE
+|  |  |  ├── package.json
+|  |  |  └── README.md
+|  |  ├── typescript-estree/
+|  |  |  ├── dist/
+|  |  |  ├── LICENSE
+|  |  |  ├── node_modules/
+|  |  |  ├── package.json
+|  |  |  └── README.md
+|  |  ├── utils/
+|  |  |  ├── dist/
+|  |  |  ├── LICENSE
+|  |  |  ├── package.json
+|  |  |  └── README.md
+|  |  └── visitor-keys/
+|  |     ├── dist/
+|  |     ├── LICENSE
+|  |     ├── package.json
+|  |     └── README.md
+|  ├── @unrs/
+|  |  └── resolver-binding-win32-x64-msvc/
+|  |     ├── package.json
+|  |     ├── README.md
+|  |     └── resolver.win32-x64-msvc.node
+|  ├── acorn/
+|  |  ├── bin/
+|  |  |  └── acorn
+|  |  ├── CHANGELOG.md
+|  |  ├── dist/
+|  |  |  ├── acorn.d.mts
+|  |  |  ├── acorn.d.ts
+|  |  |  ├── acorn.js
+|  |  |  ├── acorn.mjs
+|  |  |  └── bin.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  └── README.md
+|  ├── acorn-jsx/
+|  |  ├── index.d.ts
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  ├── README.md
+|  |  └── xhtml.js
+|  ├── ajv/
+|  |  ├── .tonic_example.js
+|  |  ├── dist/
+|  |  |  ├── ajv.bundle.js
+|  |  |  ├── ajv.min.js
+|  |  |  └── ajv.min.js.map
+|  |  ├── lib/
+|  |  |  ├── ajv.d.ts
+|  |  |  ├── ajv.js
+|  |  |  ├── cache.js
+|  |  |  ├── compile/
+|  |  |  ├── data.js
+|  |  |  ├── definition_schema.js
+|  |  |  ├── dot/
+|  |  |  ├── dotjs/
+|  |  |  ├── keyword.js
+|  |  |  └── refs/
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  ├── README.md
+|  |  └── scripts/
+|  |     ├── .eslintrc.yml
+|  |     ├── bundle.js
+|  |     ├── compile-dots.js
+|  |     ├── info
+|  |     ├── prepare-tests
+|  |     ├── publish-built-version
+|  |     └── travis-gh-pages
+|  ├── ansi-styles/
+|  |  ├── index.d.ts
+|  |  ├── index.js
+|  |  ├── license
+|  |  ├── package.json
+|  |  └── readme.md
+|  ├── argparse/
+|  |  ├── argparse.js
+|  |  ├── CHANGELOG.md
+|  |  ├── lib/
+|  |  |  ├── sub.js
+|  |  |  └── textwrap.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  └── README.md
+|  ├── aria-query/
+|  |  ├── lib/
+|  |  |  ├── ariaPropsMap.js
+|  |  |  ├── domMap.js
+|  |  |  ├── elementRoleMap.js
+|  |  |  ├── etc/
+|  |  |  ├── index.js
+|  |  |  ├── roleElementMap.js
+|  |  |  ├── rolesMap.js
+|  |  |  └── util/
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  └── README.md
+|  ├── array-buffer-byte-length/
+|  |  ├── .eslintrc
+|  |  ├── .github/
+|  |  |  └── FUNDING.yml
+|  |  ├── .nycrc
+|  |  ├── CHANGELOG.md
+|  |  ├── index.d.ts
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  ├── README.md
+|  |  ├── test/
+|  |  |  └── index.js
+|  |  └── tsconfig.json
+|  ├── array-includes/
+|  |  ├── .editorconfig
+|  |  ├── .eslintrc
+|  |  ├── .github/
+|  |  |  └── FUNDING.yml
+|  |  ├── .nycrc
+|  |  ├── auto.js
+|  |  ├── CHANGELOG.md
+|  |  ├── implementation.js
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  ├── polyfill.js
+|  |  ├── README.md
+|  |  ├── shim.js
+|  |  └── test/
+|  |     ├── implementation.js
+|  |     ├── index.js
+|  |     ├── shimmed.js
+|  |     └── tests.js
+|  ├── array.prototype.findlast/
+|  |  ├── .editorconfig
+|  |  ├── .eslintrc
+|  |  ├── .github/
+|  |  |  └── FUNDING.yml
+|  |  ├── .nycrc
+|  |  ├── auto.js
+|  |  ├── CHANGELOG.md
+|  |  ├── implementation.js
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  ├── polyfill.js
+|  |  ├── README.md
+|  |  ├── shim.js
+|  |  └── test/
+|  |     ├── implementation.js
+|  |     ├── index.js
+|  |     ├── shimmed.js
+|  |     └── tests.js
+|  ├── array.prototype.findlastindex/
+|  |  ├── .eslintrc
+|  |  ├── .github/
+|  |  |  └── FUNDING.yml
+|  |  ├── .nycrc
+|  |  ├── auto.js
+|  |  ├── CHANGELOG.md
+|  |  ├── implementation.js
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  ├── polyfill.js
+|  |  ├── README.md
+|  |  ├── shim.js
+|  |  └── test/
+|  |     ├── implementation.js
+|  |     ├── index.js
+|  |     ├── shimmed.js
+|  |     └── tests.js
+|  ├── array.prototype.flat/
+|  |  ├── .editorconfig
+|  |  ├── .eslintrc
+|  |  ├── .github/
+|  |  |  └── FUNDING.yml
+|  |  ├── .nycrc
+|  |  ├── auto.js
+|  |  ├── CHANGELOG.md
+|  |  ├── implementation.js
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  ├── polyfill.js
+|  |  ├── README.md
+|  |  ├── shim.js
+|  |  └── test/
+|  |     ├── implementation.js
+|  |     ├── index.js
+|  |     ├── shimmed.js
+|  |     └── tests.js
+|  ├── array.prototype.flatmap/
+|  |  ├── .editorconfig
+|  |  ├── .eslintrc
+|  |  ├── .github/
+|  |  |  └── FUNDING.yml
+|  |  ├── .nycrc
+|  |  ├── auto.js
+|  |  ├── CHANGELOG.md
+|  |  ├── implementation.js
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  ├── polyfill.js
+|  |  ├── README.md
+|  |  ├── shim.js
+|  |  └── test/
+|  |     ├── implementation.js
+|  |     ├── index.js
+|  |     ├── shimmed.js
+|  |     └── tests.js
+|  ├── array.prototype.tosorted/
+|  |  ├── .eslintrc
+|  |  ├── .github/
+|  |  |  └── FUNDING.yml
+|  |  ├── .nycrc
+|  |  ├── auto.js
+|  |  ├── CHANGELOG.md
+|  |  ├── implementation.js
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  ├── polyfill.js
+|  |  ├── README.md
+|  |  ├── shim.js
+|  |  └── test/
+|  |     ├── implementation.js
+|  |     ├── index.js
+|  |     ├── shimmed.js
+|  |     └── tests.js
+|  ├── arraybuffer.prototype.slice/
+|  |  ├── .editorconfig
+|  |  ├── .eslintrc
+|  |  ├── .nycrc
+|  |  ├── auto.js
+|  |  ├── CHANGELOG.md
+|  |  ├── implementation.js
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  ├── polyfill.js
+|  |  ├── README.md
+|  |  ├── shim.js
+|  |  └── test/
+|  |     ├── implementation.js
+|  |     ├── index.js
+|  |     ├── shimmed.js
+|  |     └── tests.js
+|  ├── ast-types-flow/
+|  |  ├── lib/
+|  |  |  └── types.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  └── README.md
+|  ├── async-function/
+|  |  ├── .eslintrc
+|  |  ├── .github/
+|  |  |  └── FUNDING.yml
+|  |  ├── .nycrc
+|  |  ├── CHANGELOG.md
+|  |  ├── index.d.mts
+|  |  ├── index.d.ts
+|  |  ├── index.js
+|  |  ├── index.mjs
+|  |  ├── legacy.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  ├── README.md
+|  |  ├── require.mjs
+|  |  ├── test/
+|  |  |  └── index.js
+|  |  └── tsconfig.json
+|  ├── available-typed-arrays/
+|  |  ├── .eslintrc
+|  |  ├── .github/
+|  |  |  └── FUNDING.yml
+|  |  ├── .nycrc
+|  |  ├── CHANGELOG.md
+|  |  ├── index.d.ts
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  ├── README.md
+|  |  ├── test/
+|  |  |  └── index.js
+|  |  └── tsconfig.json
+|  ├── axe-core/
+|  |  ├── axe.d.ts
+|  |  ├── axe.js
+|  |  ├── axe.min.js
+|  |  ├── LICENSE
+|  |  ├── LICENSE-3RD-PARTY.txt
+|  |  ├── locales/
+|  |  |  ├── da.json
+|  |  |  ├── de.json
+|  |  |  ├── el.json
+|  |  |  ├── es.json
+|  |  |  ├── eu.json
+|  |  |  ├── fr.json
+|  |  |  ├── he.json
+|  |  |  ├── it.json
+|  |  |  ├── ja.json
+|  |  |  ├── ko.json
+|  |  |  ├── nl.json
+|  |  |  ├── no_NB.json
+|  |  |  ├── pl.json
+|  |  |  ├── pt_BR.json
+|  |  |  ├── pt_PT.json
+|  |  |  ├── README.md
+|  |  |  ├── ru.json
+|  |  |  ├── zh_CN.json
+|  |  |  ├── zh_TW.json
+|  |  |  └── _template.json
+|  |  ├── package.json
+|  |  ├── README.md
+|  |  └── sri-history.json
+|  ├── axobject-query/
+|  |  ├── lib/
+|  |  |  ├── AXObjectElementMap.js
+|  |  |  ├── AXObjectRoleMap.js
+|  |  |  ├── AXObjectsMap.js
+|  |  |  ├── elementAXObjectMap.js
+|  |  |  ├── etc/
+|  |  |  ├── index.js
+|  |  |  └── util/
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  └── README.md
+|  ├── balanced-match/
+|  |  ├── .github/
+|  |  |  └── FUNDING.yml
+|  |  ├── index.js
+|  |  ├── LICENSE.md
+|  |  ├── package.json
+|  |  └── README.md
+|  ├── baseline-browser-mapping/
+|  |  ├── dist/
+|  |  |  ├── cli.js
+|  |  |  ├── index.cjs
+|  |  |  ├── index.d.ts
+|  |  |  └── index.js
+|  |  ├── LICENSE.txt
+|  |  ├── package.json
+|  |  └── README.md
+|  ├── brace-expansion/
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  └── README.md
+|  ├── braces/
+|  |  ├── index.js
+|  |  ├── lib/
+|  |  |  ├── compile.js
+|  |  |  ├── constants.js
+|  |  |  ├── expand.js
+|  |  |  ├── parse.js
+|  |  |  ├── stringify.js
+|  |  |  └── utils.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  └── README.md
+|  ├── browserslist/
+|  |  ├── browser.js
+|  |  ├── cli.js
+|  |  ├── error.d.ts
+|  |  ├── error.js
+|  |  ├── index.d.ts
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── node.js
+|  |  ├── package.json
+|  |  ├── parse.js
+|  |  └── README.md
+|  ├── call-bind/
+|  |  ├── .eslintignore
+|  |  ├── .eslintrc
+|  |  ├── .github/
+|  |  |  └── FUNDING.yml
+|  |  ├── .nycrc
+|  |  ├── callBound.js
+|  |  ├── CHANGELOG.md
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  ├── README.md
+|  |  └── test/
+|  |     ├── callBound.js
+|  |     └── index.js
+|  ├── call-bind-apply-helpers/
+|  |  ├── .eslintrc
+|  |  ├── .github/
+|  |  |  └── FUNDING.yml
+|  |  ├── .nycrc
+|  |  ├── actualApply.d.ts
+|  |  ├── actualApply.js
+|  |  ├── applyBind.d.ts
+|  |  ├── applyBind.js
+|  |  ├── CHANGELOG.md
+|  |  ├── functionApply.d.ts
+|  |  ├── functionApply.js
+|  |  ├── functionCall.d.ts
+|  |  ├── functionCall.js
+|  |  ├── index.d.ts
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  ├── README.md
+|  |  ├── reflectApply.d.ts
+|  |  ├── reflectApply.js
+|  |  ├── test/
+|  |  |  └── index.js
+|  |  └── tsconfig.json
+|  ├── call-bound/
+|  |  ├── .eslintrc
+|  |  ├── .github/
+|  |  |  └── FUNDING.yml
+|  |  ├── .nycrc
+|  |  ├── CHANGELOG.md
+|  |  ├── index.d.ts
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  ├── README.md
+|  |  ├── test/
+|  |  |  └── index.js
+|  |  └── tsconfig.json
+|  ├── callsites/
+|  |  ├── index.d.ts
+|  |  ├── index.js
+|  |  ├── license
+|  |  ├── package.json
+|  |  └── readme.md
+|  ├── caniuse-lite/
+|  |  ├── data/
+|  |  |  ├── agents.js
+|  |  |  ├── browsers.js
+|  |  |  ├── browserVersions.js
+|  |  |  ├── features/
+|  |  |  ├── features.js
+|  |  |  └── regions/
+|  |  ├── dist/
+|  |  |  ├── lib/
+|  |  |  └── unpacker/
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  └── README.md
+|  ├── chalk/
+|  |  ├── index.d.ts
+|  |  ├── license
+|  |  ├── package.json
+|  |  ├── readme.md
+|  |  └── source/
+|  |     ├── index.js
+|  |     ├── templates.js
+|  |     └── util.js
+|  ├── client-only/
+|  |  ├── error.js
+|  |  ├── index.js
+|  |  └── package.json
+|  ├── color-convert/
+|  |  ├── CHANGELOG.md
+|  |  ├── conversions.js
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  ├── README.md
+|  |  └── route.js
+|  ├── color-name/
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  └── README.md
+|  ├── concat-map/
+|  |  ├── .travis.yml
+|  |  ├── example/
+|  |  |  └── map.js
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  ├── README.markdown
+|  |  └── test/
+|  |     └── map.js
+|  ├── convert-source-map/
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  └── README.md
+|  ├── cross-spawn/
+|  |  ├── index.js
+|  |  ├── lib/
+|  |  |  ├── enoent.js
+|  |  |  ├── parse.js
+|  |  |  └── util/
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  └── README.md
+|  ├── csstype/
+|  |  ├── index.d.ts
+|  |  ├── index.js.flow
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  └── README.md
+|  ├── damerau-levenshtein/
+|  |  ├── CHANGELOG.md
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  ├── README.md
+|  |  ├── scripts/
+|  |  |  └── update-changelog.sh
+|  |  └── test/
+|  |     └── test.js
+|  ├── data-view-buffer/
+|  |  ├── .eslintrc
+|  |  ├── .github/
+|  |  |  └── FUNDING.yml
+|  |  ├── .nycrc
+|  |  ├── CHANGELOG.md
+|  |  ├── index.d.ts
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  ├── README.md
+|  |  ├── test/
+|  |  |  └── index.js
+|  |  └── tsconfig.json
+|  ├── data-view-byte-length/
+|  |  ├── .eslintrc
+|  |  ├── .github/
+|  |  |  └── FUNDING.yml
+|  |  ├── .nycrc
+|  |  ├── CHANGELOG.md
+|  |  ├── index.d.ts
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  ├── README.md
+|  |  ├── test/
+|  |  |  └── index.js
+|  |  └── tsconfig.json
+|  ├── data-view-byte-offset/
+|  |  ├── .eslintrc
+|  |  ├── .github/
+|  |  |  └── FUNDING.yml
+|  |  ├── .nycrc
+|  |  ├── CHANGELOG.md
+|  |  ├── index.d.ts
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  ├── README.md
+|  |  ├── test/
+|  |  |  └── index.js
+|  |  └── tsconfig.json
+|  ├── debug/
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  ├── README.md
+|  |  └── src/
+|  |     ├── browser.js
+|  |     ├── common.js
+|  |     ├── index.js
+|  |     └── node.js
+|  ├── deep-is/
+|  |  ├── .travis.yml
+|  |  ├── example/
+|  |  |  └── cmp.js
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  ├── README.markdown
+|  |  └── test/
+|  |     ├── cmp.js
+|  |     ├── NaN.js
+|  |     └── neg-vs-pos-0.js
+|  ├── define-data-property/
+|  |  ├── .eslintrc
+|  |  ├── .github/
+|  |  |  └── FUNDING.yml
+|  |  ├── .nycrc
+|  |  ├── CHANGELOG.md
+|  |  ├── index.d.ts
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  ├── README.md
+|  |  ├── test/
+|  |  |  └── index.js
+|  |  └── tsconfig.json
+|  ├── define-properties/
+|  |  ├── .editorconfig
+|  |  ├── .eslintrc
+|  |  ├── .github/
+|  |  |  └── FUNDING.yml
+|  |  ├── .nycrc
+|  |  ├── CHANGELOG.md
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  └── README.md
+|  ├── detect-libc/
+|  |  ├── index.d.ts
+|  |  ├── lib/
+|  |  |  ├── detect-libc.js
+|  |  |  ├── elf.js
+|  |  |  ├── filesystem.js
+|  |  |  └── process.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  └── README.md
+|  ├── doctrine/
+|  |  ├── CHANGELOG.md
+|  |  ├── lib/
+|  |  |  ├── doctrine.js
+|  |  |  ├── typed.js
+|  |  |  └── utility.js
+|  |  ├── LICENSE
+|  |  ├── LICENSE.closure-compiler
+|  |  ├── LICENSE.esprima
+|  |  ├── package.json
+|  |  └── README.md
+|  ├── dunder-proto/
+|  |  ├── .eslintrc
+|  |  ├── .github/
+|  |  |  └── FUNDING.yml
+|  |  ├── .nycrc
+|  |  ├── CHANGELOG.md
+|  |  ├── get.d.ts
+|  |  ├── get.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  ├── README.md
+|  |  ├── set.d.ts
+|  |  ├── set.js
+|  |  ├── test/
+|  |  |  ├── get.js
+|  |  |  ├── index.js
+|  |  |  └── set.js
+|  |  └── tsconfig.json
+|  ├── electron-to-chromium/
+|  |  ├── chromium-versions.js
+|  |  ├── chromium-versions.json
+|  |  ├── full-chromium-versions.js
+|  |  ├── full-chromium-versions.json
+|  |  ├── full-versions.js
+|  |  ├── full-versions.json
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  ├── README.md
+|  |  ├── versions.js
+|  |  └── versions.json
+|  ├── emoji-regex/
+|  |  ├── es2015/
+|  |  |  ├── index.d.ts
+|  |  |  ├── index.js
+|  |  |  ├── RGI_Emoji.d.ts
+|  |  |  ├── RGI_Emoji.js
+|  |  |  ├── text.d.ts
+|  |  |  └── text.js
+|  |  ├── index.d.ts
+|  |  ├── index.js
+|  |  ├── LICENSE-MIT.txt
+|  |  ├── package.json
+|  |  ├── README.md
+|  |  ├── RGI_Emoji.d.ts
+|  |  ├── RGI_Emoji.js
+|  |  ├── text.d.ts
+|  |  └── text.js
+|  ├── enhanced-resolve/
+|  |  ├── lib/
+|  |  |  ├── AliasFieldPlugin.js
+|  |  |  ├── AliasPlugin.js
+|  |  |  ├── AppendPlugin.js
+|  |  |  ├── CachedInputFileSystem.js
+|  |  |  ├── CloneBasenamePlugin.js
+|  |  |  ├── ConditionalPlugin.js
+|  |  |  ├── createInnerContext.js
+|  |  |  ├── DescriptionFilePlugin.js
+|  |  |  ├── DescriptionFileUtils.js
+|  |  |  ├── DirectoryExistsPlugin.js
+|  |  |  ├── ExportsFieldPlugin.js
+|  |  |  ├── ExtensionAliasPlugin.js
+|  |  |  ├── FileExistsPlugin.js
+|  |  |  ├── forEachBail.js
+|  |  |  ├── getInnerRequest.js
+|  |  |  ├── getPaths.js
+|  |  |  ├── ImportsFieldPlugin.js
+|  |  |  ├── index.js
+|  |  |  ├── JoinRequestPartPlugin.js
+|  |  |  ├── JoinRequestPlugin.js
+|  |  |  ├── LogInfoPlugin.js
+|  |  |  ├── MainFieldPlugin.js
+|  |  |  ├── ModulesInHierachicDirectoriesPlugin.js
+|  |  |  ├── ModulesInHierarchicalDirectoriesPlugin.js
+|  |  |  ├── ModulesInRootPlugin.js
+|  |  |  ├── NextPlugin.js
+|  |  |  ├── ParsePlugin.js
+|  |  |  ├── PnpPlugin.js
+|  |  |  ├── Resolver.js
+|  |  |  ├── ResolverFactory.js
+|  |  |  ├── RestrictionsPlugin.js
+|  |  |  ├── ResultPlugin.js
+|  |  |  ├── RootsPlugin.js
+|  |  |  ├── SelfReferencePlugin.js
+|  |  |  ├── SymlinkPlugin.js
+|  |  |  ├── SyncAsyncFileSystemDecorator.js
+|  |  |  ├── TryNextPlugin.js
+|  |  |  ├── UnsafeCachePlugin.js
+|  |  |  ├── UseFilePlugin.js
+|  |  |  └── util/
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  ├── README.md
+|  |  └── types.d.ts
+|  ├── es-abstract/
+|  |  ├── .editorconfig
+|  |  ├── .eslintrc
+|  |  ├── .nycrc
+|  |  ├── 2015/
+|  |  |  ├── abs.js
+|  |  |  ├── AbstractEqualityComparison.js
+|  |  |  ├── AbstractRelationalComparison.js
+|  |  |  ├── AdvanceStringIndex.js
+|  |  |  ├── ArrayCreate.js
+|  |  |  ├── ArraySetLength.js
+|  |  |  ├── ArraySpeciesCreate.js
+|  |  |  ├── Call.js
+|  |  |  ├── Canonicalize.js
+|  |  |  ├── CanonicalNumericIndexString.js
+|  |  |  ├── CharacterRange.js
+|  |  |  ├── CompletePropertyDescriptor.js
+|  |  |  ├── CompletionRecord.js
+|  |  |  ├── CreateDataProperty.js
+|  |  |  ├── CreateDataPropertyOrThrow.js
+|  |  |  ├── CreateHTML.js
+|  |  |  ├── CreateIterResultObject.js
+|  |  |  ├── CreateListFromArrayLike.js
+|  |  |  ├── CreateMethodProperty.js
+|  |  |  ├── DateFromTime.js
+|  |  |  ├── Day.js
+|  |  |  ├── DayFromYear.js
+|  |  |  ├── DaysInYear.js
+|  |  |  ├── DayWithinYear.js
+|  |  |  ├── DefinePropertyOrThrow.js
+|  |  |  ├── DeletePropertyOrThrow.js
+|  |  |  ├── DetachArrayBuffer.js
+|  |  |  ├── EnumerableOwnNames.js
+|  |  |  ├── floor.js
+|  |  |  ├── FromPropertyDescriptor.js
+|  |  |  ├── Get.js
+|  |  |  ├── GetGlobalObject.js
+|  |  |  ├── GetIterator.js
+|  |  |  ├── GetMethod.js
+|  |  |  ├── GetOwnPropertyKeys.js
+|  |  |  ├── GetPrototypeFromConstructor.js
+|  |  |  ├── GetSubstitution.js
+|  |  |  ├── GetV.js
+|  |  |  ├── GetValueFromBuffer.js
+|  |  |  ├── HasOwnProperty.js
+|  |  |  ├── HasProperty.js
+|  |  |  ├── HourFromTime.js
+|  |  |  ├── InLeapYear.js
+|  |  |  ├── InstanceofOperator.js
+|  |  |  ├── IntegerIndexedElementGet.js
+|  |  |  ├── IntegerIndexedElementSet.js
+|  |  |  ├── InternalizeJSONProperty.js
+|  |  |  ├── Invoke.js
+|  |  |  ├── IsAccessorDescriptor.js
+|  |  |  ├── IsArray.js
+|  |  |  ├── IsCallable.js
+|  |  |  ├── IsCompatiblePropertyDescriptor.js
+|  |  |  ├── IsConcatSpreadable.js
+|  |  |  ├── IsConstructor.js
+|  |  |  ├── IsDataDescriptor.js
+|  |  |  ├── IsDetachedBuffer.js
+|  |  |  ├── IsExtensible.js
+|  |  |  ├── IsGenericDescriptor.js
+|  |  |  ├── IsInteger.js
+|  |  |  ├── IsPromise.js
+|  |  |  ├── IsPropertyDescriptor.js
+|  |  |  ├── IsPropertyKey.js
+|  |  |  ├── IsRegExp.js
+|  |  |  ├── IsWordChar.js
+|  |  |  ├── IteratorClose.js
+|  |  |  ├── IteratorComplete.js
+|  |  |  ├── IteratorNext.js
+|  |  |  ├── IteratorStep.js
+|  |  |  ├── IteratorValue.js
+|  |  |  ├── MakeDate.js
+|  |  |  ├── MakeDay.js
+|  |  |  ├── MakeTime.js
+|  |  |  ├── max.js
+|  |  |  ├── min.js
+|  |  |  ├── MinFromTime.js
+|  |  |  ├── modulo.js
+|  |  |  ├── MonthFromTime.js
+|  |  |  ├── msFromTime.js
+|  |  |  ├── NewPromiseCapability.js
+|  |  |  ├── NormalCompletion.js
+|  |  |  ├── ObjectCreate.js
+|  |  |  ├── ObjectDefineProperties.js
+|  |  |  ├── OrdinaryCreateFromConstructor.js
+|  |  |  ├── OrdinaryDefineOwnProperty.js
+|  |  |  ├── OrdinaryGetOwnProperty.js
+|  |  |  ├── OrdinaryHasInstance.js
+|  |  |  ├── OrdinaryHasProperty.js
+|  |  |  ├── QuoteJSONString.js
+|  |  |  ├── RegExpCreate.js
+|  |  |  ├── RegExpExec.js
+|  |  |  ├── RequireObjectCoercible.js
+|  |  |  ├── SameValue.js
+|  |  |  ├── SameValueZero.js
+|  |  |  ├── SecFromTime.js
+|  |  |  ├── Set.js
+|  |  |  ├── SetFunctionName.js
+|  |  |  ├── SetIntegrityLevel.js
+|  |  |  ├── SetValueInBuffer.js
+|  |  |  ├── SpeciesConstructor.js
+|  |  |  ├── SplitMatch.js
+|  |  |  ├── StrictEqualityComparison.js
+|  |  |  ├── StringCreate.js
+|  |  |  ├── StringGetIndexProperty.js
+|  |  |  ├── SymbolDescriptiveString.js
+|  |  |  ├── tables/
+|  |  |  ├── TestIntegrityLevel.js
+|  |  |  ├── thisBooleanValue.js
+|  |  |  ├── thisNumberValue.js
+|  |  |  ├── thisStringValue.js
+|  |  |  ├── thisTimeValue.js
+|  |  |  ├── TimeClip.js
+|  |  |  ├── TimeFromYear.js
+|  |  |  ├── TimeWithinDay.js
+|  |  |  ├── ToBoolean.js
+|  |  |  ├── ToDateString.js
+|  |  |  ├── ToInt16.js
+|  |  |  ├── ToInt32.js
+|  |  |  ├── ToInt8.js
+|  |  |  ├── ToInteger.js
+|  |  |  ├── ToLength.js
+|  |  |  ├── ToNumber.js
+|  |  |  ├── ToObject.js
+|  |  |  ├── ToPrimitive.js
+|  |  |  ├── ToPropertyDescriptor.js
+|  |  |  ├── ToPropertyKey.js
+|  |  |  ├── ToString.js
+|  |  |  ├── ToUint16.js
+|  |  |  ├── ToUint32.js
+|  |  |  ├── ToUint8.js
+|  |  |  ├── ToUint8Clamp.js
+|  |  |  ├── Type.js
+|  |  |  ├── ValidateAndApplyPropertyDescriptor.js
+|  |  |  ├── ValidateTypedArray.js
+|  |  |  ├── WeekDay.js
+|  |  |  └── YearFromTime.js
+|  |  ├── 2016/
+|  |  |  ├── abs.js
+|  |  |  ├── AbstractEqualityComparison.js
+|  |  |  ├── AbstractRelationalComparison.js
+|  |  |  ├── AdvanceStringIndex.js
+|  |  |  ├── ArrayCreate.js
+|  |  |  ├── ArraySetLength.js
+|  |  |  ├── ArraySpeciesCreate.js
+|  |  |  ├── Call.js
+|  |  |  ├── Canonicalize.js
+|  |  |  ├── CanonicalNumericIndexString.js
+|  |  |  ├── CharacterRange.js
+|  |  |  ├── CompletePropertyDescriptor.js
+|  |  |  ├── CompletionRecord.js
+|  |  |  ├── CreateDataProperty.js
+|  |  |  ├── CreateDataPropertyOrThrow.js
+|  |  |  ├── CreateHTML.js
+|  |  |  ├── CreateIterResultObject.js
+|  |  |  ├── CreateListFromArrayLike.js
+|  |  |  ├── CreateMethodProperty.js
+|  |  |  ├── DateFromTime.js
+|  |  |  ├── Day.js
+|  |  |  ├── DayFromYear.js
+|  |  |  ├── DaysInYear.js
+|  |  |  ├── DayWithinYear.js
+|  |  |  ├── DefinePropertyOrThrow.js
+|  |  |  ├── DeletePropertyOrThrow.js
+|  |  |  ├── DetachArrayBuffer.js
+|  |  |  ├── EnumerableOwnNames.js
+|  |  |  ├── floor.js
+|  |  |  ├── FromPropertyDescriptor.js
+|  |  |  ├── Get.js
+|  |  |  ├── GetGlobalObject.js
+|  |  |  ├── GetIterator.js
+|  |  |  ├── GetMethod.js
+|  |  |  ├── GetOwnPropertyKeys.js
+|  |  |  ├── GetPrototypeFromConstructor.js
+|  |  |  ├── GetSubstitution.js
+|  |  |  ├── GetV.js
+|  |  |  ├── GetValueFromBuffer.js
+|  |  |  ├── HasOwnProperty.js
+|  |  |  ├── HasProperty.js
+|  |  |  ├── HourFromTime.js
+|  |  |  ├── InLeapYear.js
+|  |  |  ├── InstanceofOperator.js
+|  |  |  ├── IntegerIndexedElementGet.js
+|  |  |  ├── IntegerIndexedElementSet.js
+|  |  |  ├── InternalizeJSONProperty.js
+|  |  |  ├── Invoke.js
+|  |  |  ├── IsAccessorDescriptor.js
+|  |  |  ├── IsArray.js
+|  |  |  ├── IsCallable.js
+|  |  |  ├── IsCompatiblePropertyDescriptor.js
+|  |  |  ├── IsConcatSpreadable.js
+|  |  |  ├── IsConstructor.js
+|  |  |  ├── IsDataDescriptor.js
+|  |  |  ├── IsDetachedBuffer.js
+|  |  |  ├── IsExtensible.js
+|  |  |  ├── IsGenericDescriptor.js
+|  |  |  ├── IsInteger.js
+|  |  |  ├── IsPromise.js
+|  |  |  ├── IsPropertyDescriptor.js
+|  |  |  ├── IsPropertyKey.js
+|  |  |  ├── IsRegExp.js
+|  |  |  ├── IsWordChar.js
+|  |  |  ├── IterableToArrayLike.js
+|  |  |  ├── IteratorClose.js
+|  |  |  ├── IteratorComplete.js
+|  |  |  ├── IteratorNext.js
+|  |  |  ├── IteratorStep.js
+|  |  |  ├── IteratorValue.js
+|  |  |  ├── MakeDate.js
+|  |  |  ├── MakeDay.js
+|  |  |  ├── MakeTime.js
+|  |  |  ├── max.js
+|  |  |  ├── min.js
+|  |  |  ├── MinFromTime.js
+|  |  |  ├── modulo.js
+|  |  |  ├── MonthFromTime.js
+|  |  |  ├── msFromTime.js
+|  |  |  ├── NewPromiseCapability.js
+|  |  |  ├── NormalCompletion.js
+|  |  |  ├── ObjectCreate.js
+|  |  |  ├── ObjectDefineProperties.js
+|  |  |  ├── OrdinaryCreateFromConstructor.js
+|  |  |  ├── OrdinaryDefineOwnProperty.js
+|  |  |  ├── OrdinaryGetOwnProperty.js
+|  |  |  ├── OrdinaryGetPrototypeOf.js
+|  |  |  ├── OrdinaryHasInstance.js
+|  |  |  ├── OrdinaryHasProperty.js
+|  |  |  ├── OrdinarySetPrototypeOf.js
+|  |  |  ├── QuoteJSONString.js
+|  |  |  ├── RegExpCreate.js
+|  |  |  ├── RegExpExec.js
+|  |  |  ├── RequireObjectCoercible.js
+|  |  |  ├── SameValue.js
+|  |  |  ├── SameValueNonNumber.js
+|  |  |  ├── SameValueZero.js
+|  |  |  ├── SecFromTime.js
+|  |  |  ├── Set.js
+|  |  |  ├── SetFunctionName.js
+|  |  |  ├── SetIntegrityLevel.js
+|  |  |  ├── SetValueInBuffer.js
+|  |  |  ├── SpeciesConstructor.js
+|  |  |  ├── SplitMatch.js
+|  |  |  ├── StrictEqualityComparison.js
+|  |  |  ├── StringCreate.js
+|  |  |  ├── SymbolDescriptiveString.js
+|  |  |  ├── tables/
+|  |  |  ├── TestIntegrityLevel.js
+|  |  |  ├── thisBooleanValue.js
+|  |  |  ├── thisNumberValue.js
+|  |  |  ├── thisStringValue.js
+|  |  |  ├── thisTimeValue.js
+|  |  |  ├── TimeClip.js
+|  |  |  ├── TimeFromYear.js
+|  |  |  ├── TimeWithinDay.js
+|  |  |  ├── ToBoolean.js
+|  |  |  ├── ToDateString.js
+|  |  |  ├── ToInt16.js
+|  |  |  ├── ToInt32.js
+|  |  |  ├── ToInt8.js
+|  |  |  ├── ToInteger.js
+|  |  |  ├── ToLength.js
+|  |  |  ├── ToNumber.js
+|  |  |  ├── ToObject.js
+|  |  |  ├── ToPrimitive.js
+|  |  |  ├── ToPropertyDescriptor.js
+|  |  |  ├── ToPropertyKey.js
+|  |  |  ├── ToString.js
+|  |  |  ├── ToUint16.js
+|  |  |  ├── ToUint32.js
+|  |  |  ├── ToUint8.js
+|  |  |  ├── ToUint8Clamp.js
+|  |  |  ├── Type.js
+|  |  |  ├── TypedArrayCreate.js
+|  |  |  ├── TypedArraySpeciesCreate.js
+|  |  |  ├── UTF16Decode.js
+|  |  |  ├── UTF16Encoding.js
+|  |  |  ├── ValidateAndApplyPropertyDescriptor.js
+|  |  |  ├── ValidateTypedArray.js
+|  |  |  ├── WeekDay.js
+|  |  |  └── YearFromTime.js
+|  |  ├── 2017/
+|  |  |  ├── abs.js
+|  |  |  ├── AbstractEqualityComparison.js
+|  |  |  ├── AbstractRelationalComparison.js
+|  |  |  ├── AdvanceStringIndex.js
+|  |  |  ├── ArrayCreate.js
+|  |  |  ├── ArraySetLength.js
+|  |  |  ├── ArraySpeciesCreate.js
+|  |  |  ├── Call.js
+|  |  |  ├── Canonicalize.js
+|  |  |  ├── CanonicalNumericIndexString.js
+|  |  |  ├── CharacterRange.js
+|  |  |  ├── CompletePropertyDescriptor.js
+|  |  |  ├── CompletionRecord.js
+|  |  |  ├── CreateDataProperty.js
+|  |  |  ├── CreateDataPropertyOrThrow.js
+|  |  |  ├── CreateHTML.js
+|  |  |  ├── CreateIterResultObject.js
+|  |  |  ├── CreateListFromArrayLike.js
+|  |  |  ├── CreateMethodProperty.js
+|  |  |  ├── DateFromTime.js
+|  |  |  ├── Day.js
+|  |  |  ├── DayFromYear.js
+|  |  |  ├── DaysInYear.js
+|  |  |  ├── DayWithinYear.js
+|  |  |  ├── DefinePropertyOrThrow.js
+|  |  |  ├── DeletePropertyOrThrow.js
+|  |  |  ├── DetachArrayBuffer.js
+|  |  |  ├── EnumerableOwnProperties.js
+|  |  |  ├── floor.js
+|  |  |  ├── FromPropertyDescriptor.js
+|  |  |  ├── Get.js
+|  |  |  ├── GetGlobalObject.js
+|  |  |  ├── GetIterator.js
+|  |  |  ├── GetMethod.js
+|  |  |  ├── GetOwnPropertyKeys.js
+|  |  |  ├── GetPrototypeFromConstructor.js
+|  |  |  ├── GetSubstitution.js
+|  |  |  ├── GetV.js
+|  |  |  ├── GetValueFromBuffer.js
+|  |  |  ├── HasOwnProperty.js
+|  |  |  ├── HasProperty.js
+|  |  |  ├── HourFromTime.js
+|  |  |  ├── InLeapYear.js
+|  |  |  ├── InstanceofOperator.js
+|  |  |  ├── IntegerIndexedElementGet.js
+|  |  |  ├── IntegerIndexedElementSet.js
+|  |  |  ├── InternalizeJSONProperty.js
+|  |  |  ├── Invoke.js
+|  |  |  ├── IsAccessorDescriptor.js
+|  |  |  ├── IsArray.js
+|  |  |  ├── IsCallable.js
+|  |  |  ├── IsCompatiblePropertyDescriptor.js
+|  |  |  ├── IsConcatSpreadable.js
+|  |  |  ├── IsConstructor.js
+|  |  |  ├── IsDataDescriptor.js
+|  |  |  ├── IsDetachedBuffer.js
+|  |  |  ├── IsExtensible.js
+|  |  |  ├── IsGenericDescriptor.js
+|  |  |  ├── IsInteger.js
+|  |  |  ├── IsPromise.js
+|  |  |  ├── IsPropertyDescriptor.js
+|  |  |  ├── IsPropertyKey.js
+|  |  |  ├── IsRegExp.js
+|  |  |  ├── IsSharedArrayBuffer.js
+|  |  |  ├── IsWordChar.js
+|  |  |  ├── IterableToList.js
+|  |  |  ├── IteratorClose.js
+|  |  |  ├── IteratorComplete.js
+|  |  |  ├── IteratorNext.js
+|  |  |  ├── IteratorStep.js
+|  |  |  ├── IteratorValue.js
+|  |  |  ├── MakeDate.js
+|  |  |  ├── MakeDay.js
+|  |  |  ├── MakeTime.js
+|  |  |  ├── max.js
+|  |  |  ├── min.js
+|  |  |  ├── MinFromTime.js
+|  |  |  ├── modulo.js
+|  |  |  ├── MonthFromTime.js
+|  |  |  ├── msFromTime.js
+|  |  |  ├── NewPromiseCapability.js
+|  |  |  ├── NormalCompletion.js
+|  |  |  ├── NumberToRawBytes.js
+|  |  |  ├── ObjectCreate.js
+|  |  |  ├── ObjectDefineProperties.js
+|  |  |  ├── OrdinaryCreateFromConstructor.js
+|  |  |  ├── OrdinaryDefineOwnProperty.js
+|  |  |  ├── OrdinaryGetOwnProperty.js
+|  |  |  ├── OrdinaryGetPrototypeOf.js
+|  |  |  ├── OrdinaryHasInstance.js
+|  |  |  ├── OrdinaryHasProperty.js
+|  |  |  ├── OrdinarySetPrototypeOf.js
+|  |  |  ├── OrdinaryToPrimitive.js
+|  |  |  ├── QuoteJSONString.js
+|  |  |  ├── RawBytesToNumber.js
+|  |  |  ├── RegExpCreate.js
+|  |  |  ├── RegExpExec.js
+|  |  |  ├── RequireObjectCoercible.js
+|  |  |  ├── SameValue.js
+|  |  |  ├── SameValueNonNumber.js
+|  |  |  ├── SameValueZero.js
+|  |  |  ├── SecFromTime.js
+|  |  |  ├── Set.js
+|  |  |  ├── SetFunctionName.js
+|  |  |  ├── SetIntegrityLevel.js
+|  |  |  ├── SetValueInBuffer.js
+|  |  |  ├── SpeciesConstructor.js
+|  |  |  ├── SplitMatch.js
+|  |  |  ├── StrictEqualityComparison.js
+|  |  |  ├── StringCreate.js
+|  |  |  ├── StringGetOwnProperty.js
+|  |  |  ├── SymbolDescriptiveString.js
+|  |  |  ├── tables/
+|  |  |  ├── TestIntegrityLevel.js
+|  |  |  ├── thisBooleanValue.js
+|  |  |  ├── thisNumberValue.js
+|  |  |  ├── thisStringValue.js
+|  |  |  ├── thisTimeValue.js
+|  |  |  ├── TimeClip.js
+|  |  |  ├── TimeFromYear.js
+|  |  |  ├── TimeWithinDay.js
+|  |  |  ├── ToBoolean.js
+|  |  |  ├── ToDateString.js
+|  |  |  ├── ToIndex.js
+|  |  |  ├── ToInt16.js
+|  |  |  ├── ToInt32.js
+|  |  |  ├── ToInt8.js
+|  |  |  ├── ToInteger.js
+|  |  |  ├── ToLength.js
+|  |  |  ├── ToNumber.js
+|  |  |  ├── ToObject.js
+|  |  |  ├── ToPrimitive.js
+|  |  |  ├── ToPropertyDescriptor.js
+|  |  |  ├── ToPropertyKey.js
+|  |  |  ├── ToString.js
+|  |  |  ├── ToUint16.js
+|  |  |  ├── ToUint32.js
+|  |  |  ├── ToUint8.js
+|  |  |  ├── ToUint8Clamp.js
+|  |  |  ├── Type.js
+|  |  |  ├── TypedArrayCreate.js
+|  |  |  ├── TypedArraySpeciesCreate.js
+|  |  |  ├── UTF16Decode.js
+|  |  |  ├── UTF16Encoding.js
+|  |  |  ├── ValidateAndApplyPropertyDescriptor.js
+|  |  |  ├── ValidateAtomicAccess.js
+|  |  |  ├── ValidateTypedArray.js
+|  |  |  ├── WeekDay.js
+|  |  |  ├── WordCharacters.js
+|  |  |  └── YearFromTime.js
+|  |  ├── 2018/
+|  |  |  ├── abs.js
+|  |  |  ├── AbstractEqualityComparison.js
+|  |  |  ├── AbstractRelationalComparison.js
+|  |  |  ├── AdvanceStringIndex.js
+|  |  |  ├── ArrayCreate.js
+|  |  |  ├── ArraySetLength.js
+|  |  |  ├── ArraySpeciesCreate.js
+|  |  |  ├── AsyncIteratorClose.js
+|  |  |  ├── Call.js
+|  |  |  ├── Canonicalize.js
+|  |  |  ├── CanonicalNumericIndexString.js
+|  |  |  ├── CharacterRange.js
+|  |  |  ├── CompletePropertyDescriptor.js
+|  |  |  ├── CompletionRecord.js
+|  |  |  ├── CopyDataProperties.js
+|  |  |  ├── CreateAsyncFromSyncIterator.js
+|  |  |  ├── CreateDataProperty.js
+|  |  |  ├── CreateDataPropertyOrThrow.js
+|  |  |  ├── CreateHTML.js
+|  |  |  ├── CreateIterResultObject.js
+|  |  |  ├── CreateListFromArrayLike.js
+|  |  |  ├── CreateMethodProperty.js
+|  |  |  ├── DateFromTime.js
+|  |  |  ├── DateString.js
+|  |  |  ├── Day.js
+|  |  |  ├── DayFromYear.js
+|  |  |  ├── DaysInYear.js
+|  |  |  ├── DayWithinYear.js
+|  |  |  ├── DefinePropertyOrThrow.js
+|  |  |  ├── DeletePropertyOrThrow.js
+|  |  |  ├── DetachArrayBuffer.js
+|  |  |  ├── EnumerableOwnPropertyNames.js
+|  |  |  ├── floor.js
+|  |  |  ├── FromPropertyDescriptor.js
+|  |  |  ├── Get.js
+|  |  |  ├── GetGlobalObject.js
+|  |  |  ├── GetIterator.js
+|  |  |  ├── GetMethod.js
+|  |  |  ├── GetOwnPropertyKeys.js
+|  |  |  ├── GetPrototypeFromConstructor.js
+|  |  |  ├── GetSubstitution.js
+|  |  |  ├── GetV.js
+|  |  |  ├── GetValueFromBuffer.js
+|  |  |  ├── HasOwnProperty.js
+|  |  |  ├── HasProperty.js
+|  |  |  ├── HourFromTime.js
+|  |  |  ├── InLeapYear.js
+|  |  |  ├── InstanceofOperator.js
+|  |  |  ├── IntegerIndexedElementGet.js
+|  |  |  ├── IntegerIndexedElementSet.js
+|  |  |  ├── InternalizeJSONProperty.js
+|  |  |  ├── Invoke.js
+|  |  |  ├── IsAccessorDescriptor.js
+|  |  |  ├── IsArray.js
+|  |  |  ├── IsCallable.js
+|  |  |  ├── IsCompatiblePropertyDescriptor.js
+|  |  |  ├── IsConcatSpreadable.js
+|  |  |  ├── IsConstructor.js
+|  |  |  ├── IsDataDescriptor.js
+|  |  |  ├── IsDetachedBuffer.js
+|  |  |  ├── IsExtensible.js
+|  |  |  ├── IsGenericDescriptor.js
+|  |  |  ├── IsInteger.js
+|  |  |  ├── IsPromise.js
+|  |  |  ├── IsPropertyKey.js
+|  |  |  ├── IsRegExp.js
+|  |  |  ├── IsSharedArrayBuffer.js
+|  |  |  ├── IsStringPrefix.js
+|  |  |  ├── IsWordChar.js
+|  |  |  ├── IterableToList.js
+|  |  |  ├── IteratorClose.js
+|  |  |  ├── IteratorComplete.js
+|  |  |  ├── IteratorNext.js
+|  |  |  ├── IteratorStep.js
+|  |  |  ├── IteratorValue.js
+|  |  |  ├── MakeDate.js
+|  |  |  ├── MakeDay.js
+|  |  |  ├── MakeTime.js
+|  |  |  ├── max.js
+|  |  |  ├── min.js
+|  |  |  ├── MinFromTime.js
+|  |  |  ├── modulo.js
+|  |  |  ├── MonthFromTime.js
+|  |  |  ├── msFromTime.js
+|  |  |  ├── NewPromiseCapability.js
+|  |  |  ├── NormalCompletion.js
+|  |  |  ├── NumberToRawBytes.js
+|  |  |  ├── NumberToString.js
+|  |  |  ├── ObjectCreate.js
+|  |  |  ├── ObjectDefineProperties.js
+|  |  |  ├── OrdinaryCreateFromConstructor.js
+|  |  |  ├── OrdinaryDefineOwnProperty.js
+|  |  |  ├── OrdinaryGetOwnProperty.js
+|  |  |  ├── OrdinaryGetPrototypeOf.js
+|  |  |  ├── OrdinaryHasInstance.js
+|  |  |  ├── OrdinaryHasProperty.js
+|  |  |  ├── OrdinarySetPrototypeOf.js
+|  |  |  ├── OrdinaryToPrimitive.js
+|  |  |  ├── PromiseResolve.js
+|  |  |  ├── QuoteJSONString.js
+|  |  |  ├── RawBytesToNumber.js
+|  |  |  ├── RegExpCreate.js
+|  |  |  ├── RegExpExec.js
+|  |  |  ├── RequireObjectCoercible.js
+|  |  |  ├── SameValue.js
+|  |  |  ├── SameValueNonNumber.js
+|  |  |  ├── SameValueZero.js
+|  |  |  ├── SecFromTime.js
+|  |  |  ├── Set.js
+|  |  |  ├── SetFunctionLength.js
+|  |  |  ├── SetFunctionName.js
+|  |  |  ├── SetIntegrityLevel.js
+|  |  |  ├── SetValueInBuffer.js
+|  |  |  ├── SpeciesConstructor.js
+|  |  |  ├── SplitMatch.js
+|  |  |  ├── StrictEqualityComparison.js
+|  |  |  ├── StringCreate.js
+|  |  |  ├── StringGetOwnProperty.js
+|  |  |  ├── SymbolDescriptiveString.js
+|  |  |  ├── tables/
+|  |  |  ├── TestIntegrityLevel.js
+|  |  |  ├── thisBooleanValue.js
+|  |  |  ├── thisNumberValue.js
+|  |  |  ├── thisStringValue.js
+|  |  |  ├── thisSymbolValue.js
+|  |  |  ├── thisTimeValue.js
+|  |  |  ├── ThrowCompletion.js
+|  |  |  ├── TimeClip.js
+|  |  |  ├── TimeFromYear.js
+|  |  |  ├── TimeString.js
+|  |  |  ├── TimeWithinDay.js
+|  |  |  ├── TimeZoneString.js
+|  |  |  ├── ToBoolean.js
+|  |  |  ├── ToDateString.js
+|  |  |  ├── ToIndex.js
+|  |  |  ├── ToInt16.js
+|  |  |  ├── ToInt32.js
+|  |  |  ├── ToInt8.js
+|  |  |  ├── ToInteger.js
+|  |  |  ├── ToLength.js
+|  |  |  ├── ToNumber.js
+|  |  |  ├── ToObject.js
+|  |  |  ├── ToPrimitive.js
+|  |  |  ├── ToPropertyDescriptor.js
+|  |  |  ├── ToPropertyKey.js
+|  |  |  ├── ToString.js
+|  |  |  ├── ToUint16.js
+|  |  |  ├── ToUint32.js
+|  |  |  ├── ToUint8.js
+|  |  |  ├── ToUint8Clamp.js
+|  |  |  ├── Type.js
+|  |  |  ├── TypedArrayCreate.js
+|  |  |  ├── TypedArraySpeciesCreate.js
+|  |  |  ├── UnicodeEscape.js
+|  |  |  ├── UTF16Decode.js
+|  |  |  ├── UTF16Encoding.js
+|  |  |  ├── ValidateAndApplyPropertyDescriptor.js
+|  |  |  ├── ValidateAtomicAccess.js
+|  |  |  ├── ValidateTypedArray.js
+|  |  |  ├── WeekDay.js
+|  |  |  ├── WordCharacters.js
+|  |  |  └── YearFromTime.js
+|  |  ├── 2019/
+|  |  |  ├── abs.js
+|  |  |  ├── AbstractEqualityComparison.js
+|  |  |  ├── AbstractRelationalComparison.js
+|  |  |  ├── AddEntriesFromIterable.js
+|  |  |  ├── AdvanceStringIndex.js
+|  |  |  ├── ArrayCreate.js
+|  |  |  ├── ArraySetLength.js
+|  |  |  ├── ArraySpeciesCreate.js
+|  |  |  ├── AsyncFromSyncIteratorContinuation.js
+|  |  |  ├── AsyncIteratorClose.js
+|  |  |  ├── Call.js
+|  |  |  ├── Canonicalize.js
+|  |  |  ├── CanonicalNumericIndexString.js
+|  |  |  ├── CharacterRange.js
+|  |  |  ├── CompletePropertyDescriptor.js
+|  |  |  ├── CompletionRecord.js
+|  |  |  ├── CopyDataProperties.js
+|  |  |  ├── CreateAsyncFromSyncIterator.js
+|  |  |  ├── CreateDataProperty.js
+|  |  |  ├── CreateDataPropertyOrThrow.js
+|  |  |  ├── CreateHTML.js
+|  |  |  ├── CreateIterResultObject.js
+|  |  |  ├── CreateListFromArrayLike.js
+|  |  |  ├── CreateMethodProperty.js
+|  |  |  ├── DateFromTime.js
+|  |  |  ├── DateString.js
+|  |  |  ├── Day.js
+|  |  |  ├── DayFromYear.js
+|  |  |  ├── DaysInYear.js
+|  |  |  ├── DayWithinYear.js
+|  |  |  ├── DefinePropertyOrThrow.js
+|  |  |  ├── DeletePropertyOrThrow.js
+|  |  |  ├── DetachArrayBuffer.js
+|  |  |  ├── EnumerableOwnPropertyNames.js
+|  |  |  ├── FlattenIntoArray.js
+|  |  |  ├── floor.js
+|  |  |  ├── FromPropertyDescriptor.js
+|  |  |  ├── Get.js
+|  |  |  ├── GetGlobalObject.js
+|  |  |  ├── GetIterator.js
+|  |  |  ├── GetMethod.js
+|  |  |  ├── GetOwnPropertyKeys.js
+|  |  |  ├── GetPrototypeFromConstructor.js
+|  |  |  ├── GetSubstitution.js
+|  |  |  ├── GetV.js
+|  |  |  ├── GetValueFromBuffer.js
+|  |  |  ├── HasOwnProperty.js
+|  |  |  ├── HasProperty.js
+|  |  |  ├── HourFromTime.js
+|  |  |  ├── InLeapYear.js
+|  |  |  ├── InstanceofOperator.js
+|  |  |  ├── IntegerIndexedElementGet.js
+|  |  |  ├── IntegerIndexedElementSet.js
+|  |  |  ├── InternalizeJSONProperty.js
+|  |  |  ├── Invoke.js
+|  |  |  ├── IsAccessorDescriptor.js
+|  |  |  ├── IsArray.js
+|  |  |  ├── IsCallable.js
+|  |  |  ├── IsCompatiblePropertyDescriptor.js
+|  |  |  ├── IsConcatSpreadable.js
+|  |  |  ├── IsConstructor.js
+|  |  |  ├── IsDataDescriptor.js
+|  |  |  ├── IsDetachedBuffer.js
+|  |  |  ├── IsExtensible.js
+|  |  |  ├── IsGenericDescriptor.js
+|  |  |  ├── IsInteger.js
+|  |  |  ├── IsPromise.js
+|  |  |  ├── IsPropertyKey.js
+|  |  |  ├── IsRegExp.js
+|  |  |  ├── IsSharedArrayBuffer.js
+|  |  |  ├── IsStringPrefix.js
+|  |  |  ├── IsWordChar.js
+|  |  |  ├── IterableToList.js
+|  |  |  ├── IteratorClose.js
+|  |  |  ├── IteratorComplete.js
+|  |  |  ├── IteratorNext.js
+|  |  |  ├── IteratorStep.js
+|  |  |  ├── IteratorValue.js
+|  |  |  ├── MakeDate.js
+|  |  |  ├── MakeDay.js
+|  |  |  ├── MakeTime.js
+|  |  |  ├── max.js
+|  |  |  ├── min.js
+|  |  |  ├── MinFromTime.js
+|  |  |  ├── modulo.js
+|  |  |  ├── MonthFromTime.js
+|  |  |  ├── msFromTime.js
+|  |  |  ├── NewPromiseCapability.js
+|  |  |  ├── NormalCompletion.js
+|  |  |  ├── NumberToRawBytes.js
+|  |  |  ├── NumberToString.js
+|  |  |  ├── ObjectCreate.js
+|  |  |  ├── ObjectDefineProperties.js
+|  |  |  ├── OrdinaryCreateFromConstructor.js
+|  |  |  ├── OrdinaryDefineOwnProperty.js
+|  |  |  ├── OrdinaryGetOwnProperty.js
+|  |  |  ├── OrdinaryGetPrototypeOf.js
+|  |  |  ├── OrdinaryHasInstance.js
+|  |  |  ├── OrdinaryHasProperty.js
+|  |  |  ├── OrdinarySetPrototypeOf.js
+|  |  |  ├── OrdinaryToPrimitive.js
+|  |  |  ├── PromiseResolve.js
+|  |  |  ├── QuoteJSONString.js
+|  |  |  ├── RawBytesToNumber.js
+|  |  |  ├── RegExpCreate.js
+|  |  |  ├── RegExpExec.js
+|  |  |  ├── RequireObjectCoercible.js
+|  |  |  ├── SameValue.js
+|  |  |  ├── SameValueNonNumber.js
+|  |  |  ├── SameValueZero.js
+|  |  |  ├── SecFromTime.js
+|  |  |  ├── Set.js
+|  |  |  ├── SetFunctionLength.js
+|  |  |  ├── SetFunctionName.js
+|  |  |  ├── SetIntegrityLevel.js
+|  |  |  ├── SetValueInBuffer.js
+|  |  |  ├── SpeciesConstructor.js
+|  |  |  ├── SplitMatch.js
+|  |  |  ├── StrictEqualityComparison.js
+|  |  |  ├── StringCreate.js
+|  |  |  ├── StringGetOwnProperty.js
+|  |  |  ├── SymbolDescriptiveString.js
+|  |  |  ├── tables/
+|  |  |  ├── TestIntegrityLevel.js
+|  |  |  ├── thisBooleanValue.js
+|  |  |  ├── thisNumberValue.js
+|  |  |  ├── thisStringValue.js
+|  |  |  ├── thisSymbolValue.js
+|  |  |  ├── thisTimeValue.js
+|  |  |  ├── ThrowCompletion.js
+|  |  |  ├── TimeClip.js
+|  |  |  ├── TimeFromYear.js
+|  |  |  ├── TimeString.js
+|  |  |  ├── TimeWithinDay.js
+|  |  |  ├── TimeZoneString.js
+|  |  |  ├── ToBoolean.js
+|  |  |  ├── ToDateString.js
+|  |  |  ├── ToIndex.js
+|  |  |  ├── ToInt16.js
+|  |  |  ├── ToInt32.js
+|  |  |  ├── ToInt8.js
+|  |  |  ├── ToInteger.js
+|  |  |  ├── ToLength.js
+|  |  |  ├── ToNumber.js
+|  |  |  ├── ToObject.js
+|  |  |  ├── ToPrimitive.js
+|  |  |  ├── ToPropertyDescriptor.js
+|  |  |  ├── ToPropertyKey.js
+|  |  |  ├── ToString.js
+|  |  |  ├── ToUint16.js
+|  |  |  ├── ToUint32.js
+|  |  |  ├── ToUint8.js
+|  |  |  ├── ToUint8Clamp.js
+|  |  |  ├── TrimString.js
+|  |  |  ├── Type.js
+|  |  |  ├── TypedArrayCreate.js
+|  |  |  ├── TypedArraySpeciesCreate.js
+|  |  |  ├── UnicodeEscape.js
+|  |  |  ├── UTF16Decode.js
+|  |  |  ├── UTF16Encoding.js
+|  |  |  ├── ValidateAndApplyPropertyDescriptor.js
+|  |  |  ├── ValidateAtomicAccess.js
+|  |  |  ├── ValidateTypedArray.js
+|  |  |  ├── WeekDay.js
+|  |  |  ├── WordCharacters.js
+|  |  |  └── YearFromTime.js
+|  |  ├── 2020/
+|  |  |  ├── abs.js
+|  |  |  ├── AbstractEqualityComparison.js
+|  |  |  ├── AbstractRelationalComparison.js
+|  |  |  ├── AddEntriesFromIterable.js
+|  |  |  ├── AdvanceStringIndex.js
+|  |  |  ├── ArrayCreate.js
+|  |  |  ├── ArraySetLength.js
+|  |  |  ├── ArraySpeciesCreate.js
+|  |  |  ├── AsyncFromSyncIteratorContinuation.js
+|  |  |  ├── AsyncIteratorClose.js
+|  |  |  ├── BigInt/
+|  |  |  ├── BigIntBitwiseOp.js
+|  |  |  ├── BinaryAnd.js
+|  |  |  ├── BinaryOr.js
+|  |  |  ├── BinaryXor.js
+|  |  |  ├── Call.js
+|  |  |  ├── Canonicalize.js
+|  |  |  ├── CanonicalNumericIndexString.js
+|  |  |  ├── CharacterRange.js
+|  |  |  ├── CodePointAt.js
+|  |  |  ├── CompletePropertyDescriptor.js
+|  |  |  ├── CompletionRecord.js
+|  |  |  ├── CopyDataProperties.js
+|  |  |  ├── CreateAsyncFromSyncIterator.js
+|  |  |  ├── CreateDataProperty.js
+|  |  |  ├── CreateDataPropertyOrThrow.js
+|  |  |  ├── CreateHTML.js
+|  |  |  ├── CreateIterResultObject.js
+|  |  |  ├── CreateListFromArrayLike.js
+|  |  |  ├── CreateMethodProperty.js
+|  |  |  ├── CreateRegExpStringIterator.js
+|  |  |  ├── DateFromTime.js
+|  |  |  ├── DateString.js
+|  |  |  ├── Day.js
+|  |  |  ├── DayFromYear.js
+|  |  |  ├── DaysInYear.js
+|  |  |  ├── DayWithinYear.js
+|  |  |  ├── DefinePropertyOrThrow.js
+|  |  |  ├── DeletePropertyOrThrow.js
+|  |  |  ├── DetachArrayBuffer.js
+|  |  |  ├── EnumerableOwnPropertyNames.js
+|  |  |  ├── FlattenIntoArray.js
+|  |  |  ├── floor.js
+|  |  |  ├── FromPropertyDescriptor.js
+|  |  |  ├── Get.js
+|  |  |  ├── GetGlobalObject.js
+|  |  |  ├── GetIterator.js
+|  |  |  ├── GetMethod.js
+|  |  |  ├── GetOwnPropertyKeys.js
+|  |  |  ├── GetPrototypeFromConstructor.js
+|  |  |  ├── GetSubstitution.js
+|  |  |  ├── GetV.js
+|  |  |  ├── GetValueFromBuffer.js
+|  |  |  ├── HasOwnProperty.js
+|  |  |  ├── HasProperty.js
+|  |  |  ├── HourFromTime.js
+|  |  |  ├── InLeapYear.js
+|  |  |  ├── InstanceofOperator.js
+|  |  |  ├── IntegerIndexedElementGet.js
+|  |  |  ├── IntegerIndexedElementSet.js
+|  |  |  ├── InternalizeJSONProperty.js
+|  |  |  ├── Invoke.js
+|  |  |  ├── IsAccessorDescriptor.js
+|  |  |  ├── IsArray.js
+|  |  |  ├── IsBigIntElementType.js
+|  |  |  ├── IsCallable.js
+|  |  |  ├── IsCompatiblePropertyDescriptor.js
+|  |  |  ├── IsConcatSpreadable.js
+|  |  |  ├── IsConstructor.js
+|  |  |  ├── IsDataDescriptor.js
+|  |  |  ├── IsDetachedBuffer.js
+|  |  |  ├── IsExtensible.js
+|  |  |  ├── IsGenericDescriptor.js
+|  |  |  ├── IsInteger.js
+|  |  |  ├── IsNonNegativeInteger.js
+|  |  |  ├── IsNoTearConfiguration.js
+|  |  |  ├── IsPromise.js
+|  |  |  ├── IsPropertyKey.js
+|  |  |  ├── IsRegExp.js
+|  |  |  ├── IsSharedArrayBuffer.js
+|  |  |  ├── IsStringPrefix.js
+|  |  |  ├── IsUnclampedIntegerElementType.js
+|  |  |  ├── IsUnsignedElementType.js
+|  |  |  ├── IsValidIntegerIndex.js
+|  |  |  ├── IsWordChar.js
+|  |  |  ├── IterableToList.js
+|  |  |  ├── IteratorClose.js
+|  |  |  ├── IteratorComplete.js
+|  |  |  ├── IteratorNext.js
+|  |  |  ├── IteratorStep.js
+|  |  |  ├── IteratorValue.js
+|  |  |  ├── LengthOfArrayLike.js
+|  |  |  ├── MakeDate.js
+|  |  |  ├── MakeDay.js
+|  |  |  ├── MakeTime.js
+|  |  |  ├── max.js
+|  |  |  ├── min.js
+|  |  |  ├── MinFromTime.js
+|  |  |  ├── modulo.js
+|  |  |  ├── MonthFromTime.js
+|  |  |  ├── msFromTime.js
+|  |  |  ├── NewPromiseCapability.js
+|  |  |  ├── NormalCompletion.js
+|  |  |  ├── Number/
+|  |  |  ├── NumberBitwiseOp.js
+|  |  |  ├── NumberToBigInt.js
+|  |  |  ├── NumericToRawBytes.js
+|  |  |  ├── ObjectDefineProperties.js
+|  |  |  ├── OrdinaryCreateFromConstructor.js
+|  |  |  ├── OrdinaryDefineOwnProperty.js
+|  |  |  ├── OrdinaryGetOwnProperty.js
+|  |  |  ├── OrdinaryGetPrototypeOf.js
+|  |  |  ├── OrdinaryHasInstance.js
+|  |  |  ├── OrdinaryHasProperty.js
+|  |  |  ├── OrdinaryObjectCreate.js
+|  |  |  ├── OrdinarySetPrototypeOf.js
+|  |  |  ├── OrdinaryToPrimitive.js
+|  |  |  ├── PromiseResolve.js
+|  |  |  ├── QuoteJSONString.js
+|  |  |  ├── RawBytesToNumeric.js
+|  |  |  ├── RegExpCreate.js
+|  |  |  ├── RegExpExec.js
+|  |  |  ├── RequireObjectCoercible.js
+|  |  |  ├── SameValue.js
+|  |  |  ├── SameValueNonNumeric.js
+|  |  |  ├── SameValueZero.js
+|  |  |  ├── SecFromTime.js
+|  |  |  ├── Set.js
+|  |  |  ├── SetFunctionLength.js
+|  |  |  ├── SetFunctionName.js
+|  |  |  ├── SetIntegrityLevel.js
+|  |  |  ├── SetValueInBuffer.js
+|  |  |  ├── SpeciesConstructor.js
+|  |  |  ├── SplitMatch.js
+|  |  |  ├── StrictEqualityComparison.js
+|  |  |  ├── StringCreate.js
+|  |  |  ├── StringGetOwnProperty.js
+|  |  |  ├── StringPad.js
+|  |  |  ├── StringToBigInt.js
+|  |  |  ├── SymbolDescriptiveString.js
+|  |  |  ├── tables/
+|  |  |  ├── TestIntegrityLevel.js
+|  |  |  ├── thisBigIntValue.js
+|  |  |  ├── thisBooleanValue.js
+|  |  |  ├── thisNumberValue.js
+|  |  |  ├── thisStringValue.js
+|  |  |  ├── thisSymbolValue.js
+|  |  |  ├── thisTimeValue.js
+|  |  |  ├── ThrowCompletion.js
+|  |  |  ├── TimeClip.js
+|  |  |  ├── TimeFromYear.js
+|  |  |  ├── TimeString.js
+|  |  |  ├── TimeWithinDay.js
+|  |  |  ├── TimeZoneString.js
+|  |  |  ├── ToBigInt.js
+|  |  |  ├── ToBigInt64.js
+|  |  |  ├── ToBigUint64.js
+|  |  |  ├── ToBoolean.js
+|  |  |  ├── ToDateString.js
+|  |  |  ├── ToIndex.js
+|  |  |  ├── ToInt16.js
+|  |  |  ├── ToInt32.js
+|  |  |  ├── ToInt8.js
+|  |  |  ├── ToInteger.js
+|  |  |  ├── ToLength.js
+|  |  |  ├── ToNumber.js
+|  |  |  ├── ToNumeric.js
+|  |  |  ├── ToObject.js
+|  |  |  ├── ToPrimitive.js
+|  |  |  ├── ToPropertyDescriptor.js
+|  |  |  ├── ToPropertyKey.js
+|  |  |  ├── ToString.js
+|  |  |  ├── ToUint16.js
+|  |  |  ├── ToUint32.js
+|  |  |  ├── ToUint8.js
+|  |  |  ├── ToUint8Clamp.js
+|  |  |  ├── TrimString.js
+|  |  |  ├── Type.js
+|  |  |  ├── TypedArrayCreate.js
+|  |  |  ├── TypedArraySpeciesCreate.js
+|  |  |  ├── UnicodeEscape.js
+|  |  |  ├── UTF16DecodeString.js
+|  |  |  ├── UTF16DecodeSurrogatePair.js
+|  |  |  ├── UTF16Encoding.js
+|  |  |  ├── ValidateAndApplyPropertyDescriptor.js
+|  |  |  ├── ValidateAtomicAccess.js
+|  |  |  ├── ValidateTypedArray.js
+|  |  |  ├── WeekDay.js
+|  |  |  ├── WordCharacters.js
+|  |  |  └── YearFromTime.js
+|  |  ├── 2021/
+|  |  |  ├── abs.js
+|  |  |  ├── AbstractEqualityComparison.js
+|  |  |  ├── AbstractRelationalComparison.js
+|  |  |  ├── AddEntriesFromIterable.js
+|  |  |  ├── AddToKeptObjects.js
+|  |  |  ├── AdvanceStringIndex.js
+|  |  |  ├── ApplyStringOrNumericBinaryOperator.js
+|  |  |  ├── ArrayCreate.js
+|  |  |  ├── ArraySetLength.js
+|  |  |  ├── ArraySpeciesCreate.js
+|  |  |  ├── AsyncFromSyncIteratorContinuation.js
+|  |  |  ├── AsyncIteratorClose.js
+|  |  |  ├── BigInt/
+|  |  |  ├── BigIntBitwiseOp.js
+|  |  |  ├── BinaryAnd.js
+|  |  |  ├── BinaryOr.js
+|  |  |  ├── BinaryXor.js
+|  |  |  ├── ByteListBitwiseOp.js
+|  |  |  ├── ByteListEqual.js
+|  |  |  ├── Call.js
+|  |  |  ├── Canonicalize.js
+|  |  |  ├── CanonicalNumericIndexString.js
+|  |  |  ├── CharacterRange.js
+|  |  |  ├── clamp.js
+|  |  |  ├── ClearKeptObjects.js
+|  |  |  ├── CloneArrayBuffer.js
+|  |  |  ├── CodePointAt.js
+|  |  |  ├── CodePointsToString.js
+|  |  |  ├── CompletePropertyDescriptor.js
+|  |  |  ├── CompletionRecord.js
+|  |  |  ├── CopyDataProperties.js
+|  |  |  ├── CreateAsyncFromSyncIterator.js
+|  |  |  ├── CreateDataProperty.js
+|  |  |  ├── CreateDataPropertyOrThrow.js
+|  |  |  ├── CreateHTML.js
+|  |  |  ├── CreateIterResultObject.js
+|  |  |  ├── CreateListFromArrayLike.js
+|  |  |  ├── CreateMethodProperty.js
+|  |  |  ├── CreateRegExpStringIterator.js
+|  |  |  ├── DateFromTime.js
+|  |  |  ├── DateString.js
+|  |  |  ├── Day.js
+|  |  |  ├── DayFromYear.js
+|  |  |  ├── DaysInYear.js
+|  |  |  ├── DayWithinYear.js
+|  |  |  ├── DefinePropertyOrThrow.js
+|  |  |  ├── DeletePropertyOrThrow.js
+|  |  |  ├── DetachArrayBuffer.js
+|  |  |  ├── EnumerableOwnPropertyNames.js
+|  |  |  ├── FlattenIntoArray.js
+|  |  |  ├── floor.js
+|  |  |  ├── FromPropertyDescriptor.js
+|  |  |  ├── Get.js
+|  |  |  ├── GetGlobalObject.js
+|  |  |  ├── GetIterator.js
+|  |  |  ├── GetMethod.js
+|  |  |  ├── GetOwnPropertyKeys.js
+|  |  |  ├── GetPromiseResolve.js
+|  |  |  ├── GetPrototypeFromConstructor.js
+|  |  |  ├── GetSubstitution.js
+|  |  |  ├── GetV.js
+|  |  |  ├── GetValueFromBuffer.js
+|  |  |  ├── HasOwnProperty.js
+|  |  |  ├── HasProperty.js
+|  |  |  ├── HourFromTime.js
+|  |  |  ├── InLeapYear.js
+|  |  |  ├── InstanceofOperator.js
+|  |  |  ├── IntegerIndexedElementGet.js
+|  |  |  ├── IntegerIndexedElementSet.js
+|  |  |  ├── InternalizeJSONProperty.js
+|  |  |  ├── Invoke.js
+|  |  |  ├── IsAccessorDescriptor.js
+|  |  |  ├── IsArray.js
+|  |  |  ├── IsBigIntElementType.js
+|  |  |  ├── IsCallable.js
+|  |  |  ├── IsCompatiblePropertyDescriptor.js
+|  |  |  ├── IsConcatSpreadable.js
+|  |  |  ├── IsConstructor.js
+|  |  |  ├── IsDataDescriptor.js
+|  |  |  ├── IsDetachedBuffer.js
+|  |  |  ├── IsExtensible.js
+|  |  |  ├── IsGenericDescriptor.js
+|  |  |  ├── IsIntegralNumber.js
+|  |  |  ├── IsNoTearConfiguration.js
+|  |  |  ├── IsPromise.js
+|  |  |  ├── IsPropertyKey.js
+|  |  |  ├── IsRegExp.js
+|  |  |  ├── IsSharedArrayBuffer.js
+|  |  |  ├── IsStringPrefix.js
+|  |  |  ├── IsUnclampedIntegerElementType.js
+|  |  |  ├── IsUnsignedElementType.js
+|  |  |  ├── IsValidIntegerIndex.js
+|  |  |  ├── IsWordChar.js
+|  |  |  ├── IterableToList.js
+|  |  |  ├── IteratorClose.js
+|  |  |  ├── IteratorComplete.js
+|  |  |  ├── IteratorNext.js
+|  |  |  ├── IteratorStep.js
+|  |  |  ├── IteratorValue.js
+|  |  |  ├── LengthOfArrayLike.js
+|  |  |  ├── MakeDate.js
+|  |  |  ├── MakeDay.js
+|  |  |  ├── MakeTime.js
+|  |  |  ├── max.js
+|  |  |  ├── min.js
+|  |  |  ├── MinFromTime.js
+|  |  |  ├── modulo.js
+|  |  |  ├── MonthFromTime.js
+|  |  |  ├── msFromTime.js
+|  |  |  ├── NewPromiseCapability.js
+|  |  |  ├── NormalCompletion.js
+|  |  |  ├── Number/
+|  |  |  ├── NumberBitwiseOp.js
+|  |  |  ├── NumberToBigInt.js
+|  |  |  ├── NumericToRawBytes.js
+|  |  |  ├── ObjectDefineProperties.js
+|  |  |  ├── OrdinaryCreateFromConstructor.js
+|  |  |  ├── OrdinaryDefineOwnProperty.js
+|  |  |  ├── OrdinaryGetOwnProperty.js
+|  |  |  ├── OrdinaryGetPrototypeOf.js
+|  |  |  ├── OrdinaryHasInstance.js
+|  |  |  ├── OrdinaryHasProperty.js
+|  |  |  ├── OrdinaryObjectCreate.js
+|  |  |  ├── OrdinarySetPrototypeOf.js
+|  |  |  ├── OrdinaryToPrimitive.js
+|  |  |  ├── PromiseResolve.js
+|  |  |  ├── QuoteJSONString.js
+|  |  |  ├── RawBytesToNumeric.js
+|  |  |  ├── RegExpCreate.js
+|  |  |  ├── RegExpExec.js
+|  |  |  ├── RequireObjectCoercible.js
+|  |  |  ├── SameValue.js
+|  |  |  ├── SameValueNonNumeric.js
+|  |  |  ├── SameValueZero.js
+|  |  |  ├── SecFromTime.js
+|  |  |  ├── Set.js
+|  |  |  ├── SetFunctionLength.js
+|  |  |  ├── SetFunctionName.js
+|  |  |  ├── SetIntegrityLevel.js
+|  |  |  ├── SetTypedArrayFromArrayLike.js
+|  |  |  ├── SetTypedArrayFromTypedArray.js
+|  |  |  ├── SetValueInBuffer.js
+|  |  |  ├── SpeciesConstructor.js
+|  |  |  ├── SplitMatch.js
+|  |  |  ├── StrictEqualityComparison.js
+|  |  |  ├── StringCreate.js
+|  |  |  ├── StringGetOwnProperty.js
+|  |  |  ├── StringIndexOf.js
+|  |  |  ├── StringPad.js
+|  |  |  ├── StringToBigInt.js
+|  |  |  ├── StringToCodePoints.js
+|  |  |  ├── substring.js
+|  |  |  ├── SymbolDescriptiveString.js
+|  |  |  ├── tables/
+|  |  |  ├── TestIntegrityLevel.js
+|  |  |  ├── thisBigIntValue.js
+|  |  |  ├── thisBooleanValue.js
+|  |  |  ├── thisNumberValue.js
+|  |  |  ├── thisStringValue.js
+|  |  |  ├── thisSymbolValue.js
+|  |  |  ├── thisTimeValue.js
+|  |  |  ├── ThrowCompletion.js
+|  |  |  ├── TimeClip.js
+|  |  |  ├── TimeFromYear.js
+|  |  |  ├── TimeString.js
+|  |  |  ├── TimeWithinDay.js
+|  |  |  ├── TimeZoneString.js
+|  |  |  ├── ToBigInt.js
+|  |  |  ├── ToBigInt64.js
+|  |  |  ├── ToBigUint64.js
+|  |  |  ├── ToBoolean.js
+|  |  |  ├── ToDateString.js
+|  |  |  ├── ToIndex.js
+|  |  |  ├── ToInt16.js
+|  |  |  ├── ToInt32.js
+|  |  |  ├── ToInt8.js
+|  |  |  ├── ToIntegerOrInfinity.js
+|  |  |  ├── ToLength.js
+|  |  |  ├── ToNumber.js
+|  |  |  ├── ToNumeric.js
+|  |  |  ├── ToObject.js
+|  |  |  ├── ToPrimitive.js
+|  |  |  ├── ToPropertyDescriptor.js
+|  |  |  ├── ToPropertyKey.js
+|  |  |  ├── ToString.js
+|  |  |  ├── ToUint16.js
+|  |  |  ├── ToUint32.js
+|  |  |  ├── ToUint8.js
+|  |  |  ├── ToUint8Clamp.js
+|  |  |  ├── TrimString.js
+|  |  |  ├── Type.js
+|  |  |  ├── TypedArrayCreate.js
+|  |  |  ├── TypedArraySpeciesCreate.js
+|  |  |  ├── UnicodeEscape.js
+|  |  |  ├── UTF16EncodeCodePoint.js
+|  |  |  ├── UTF16SurrogatePairToCodePoint.js
+|  |  |  ├── ValidateAndApplyPropertyDescriptor.js
+|  |  |  ├── ValidateAtomicAccess.js
+|  |  |  ├── ValidateIntegerTypedArray.js
+|  |  |  ├── ValidateTypedArray.js
+|  |  |  ├── WeakRefDeref.js
+|  |  |  ├── WeekDay.js
+|  |  |  ├── WordCharacters.js
+|  |  |  └── YearFromTime.js
+|  |  ├── 2022/
+|  |  |  ├── abs.js
+|  |  |  ├── AddEntriesFromIterable.js
+|  |  |  ├── AddToKeptObjects.js
+|  |  |  ├── AdvanceStringIndex.js
+|  |  |  ├── ApplyStringOrNumericBinaryOperator.js
+|  |  |  ├── ArrayCreate.js
+|  |  |  ├── ArraySetLength.js
+|  |  |  ├── ArraySpeciesCreate.js
+|  |  |  ├── AsyncFromSyncIteratorContinuation.js
+|  |  |  ├── AsyncIteratorClose.js
+|  |  |  ├── BigInt/
+|  |  |  ├── BigIntBitwiseOp.js
+|  |  |  ├── BinaryAnd.js
+|  |  |  ├── BinaryOr.js
+|  |  |  ├── BinaryXor.js
+|  |  |  ├── ByteListBitwiseOp.js
+|  |  |  ├── ByteListEqual.js
+|  |  |  ├── Call.js
+|  |  |  ├── Canonicalize.js
+|  |  |  ├── CanonicalNumericIndexString.js
+|  |  |  ├── CharacterRange.js
+|  |  |  ├── clamp.js
+|  |  |  ├── ClearKeptObjects.js
+|  |  |  ├── CloneArrayBuffer.js
+|  |  |  ├── CodePointAt.js
+|  |  |  ├── CodePointsToString.js
+|  |  |  ├── CompletePropertyDescriptor.js
+|  |  |  ├── CompletionRecord.js
+|  |  |  ├── CopyDataProperties.js
+|  |  |  ├── CreateAsyncFromSyncIterator.js
+|  |  |  ├── CreateDataProperty.js
+|  |  |  ├── CreateDataPropertyOrThrow.js
+|  |  |  ├── CreateHTML.js
+|  |  |  ├── CreateIterResultObject.js
+|  |  |  ├── CreateListFromArrayLike.js
+|  |  |  ├── CreateMethodProperty.js
+|  |  |  ├── CreateNonEnumerableDataPropertyOrThrow.js
+|  |  |  ├── CreateRegExpStringIterator.js
+|  |  |  ├── DateFromTime.js
+|  |  |  ├── DateString.js
+|  |  |  ├── Day.js
+|  |  |  ├── DayFromYear.js
+|  |  |  ├── DaysInYear.js
+|  |  |  ├── DayWithinYear.js
+|  |  |  ├── DefineMethodProperty.js
+|  |  |  ├── DefinePropertyOrThrow.js
+|  |  |  ├── DeletePropertyOrThrow.js
+|  |  |  ├── DetachArrayBuffer.js
+|  |  |  ├── EnumerableOwnPropertyNames.js
+|  |  |  ├── FlattenIntoArray.js
+|  |  |  ├── floor.js
+|  |  |  ├── FromPropertyDescriptor.js
+|  |  |  ├── Get.js
+|  |  |  ├── GetGlobalObject.js
+|  |  |  ├── GetIterator.js
+|  |  |  ├── GetMatchIndexPair.js
+|  |  |  ├── GetMatchString.js
+|  |  |  ├── GetMethod.js
+|  |  |  ├── GetOwnPropertyKeys.js
+|  |  |  ├── GetPromiseResolve.js
+|  |  |  ├── GetPrototypeFromConstructor.js
+|  |  |  ├── GetStringIndex.js
+|  |  |  ├── GetSubstitution.js
+|  |  |  ├── GetV.js
+|  |  |  ├── GetValueFromBuffer.js
+|  |  |  ├── HasOwnProperty.js
+|  |  |  ├── HasProperty.js
+|  |  |  ├── HourFromTime.js
+|  |  |  ├── InLeapYear.js
+|  |  |  ├── InstallErrorCause.js
+|  |  |  ├── InstanceofOperator.js
+|  |  |  ├── IntegerIndexedElementGet.js
+|  |  |  ├── IntegerIndexedElementSet.js
+|  |  |  ├── InternalizeJSONProperty.js
+|  |  |  ├── Invoke.js
+|  |  |  ├── IsAccessorDescriptor.js
+|  |  |  ├── IsArray.js
+|  |  |  ├── IsBigIntElementType.js
+|  |  |  ├── IsCallable.js
+|  |  |  ├── IsCompatiblePropertyDescriptor.js
+|  |  |  ├── IsConcatSpreadable.js
+|  |  |  ├── IsConstructor.js
+|  |  |  ├── IsDataDescriptor.js
+|  |  |  ├── IsDetachedBuffer.js
+|  |  |  ├── IsExtensible.js
+|  |  |  ├── IsGenericDescriptor.js
+|  |  |  ├── IsIntegralNumber.js
+|  |  |  ├── IsLessThan.js
+|  |  |  ├── IsLooselyEqual.js
+|  |  |  ├── IsNoTearConfiguration.js
+|  |  |  ├── IsPromise.js
+|  |  |  ├── IsPropertyKey.js
+|  |  |  ├── IsRegExp.js
+|  |  |  ├── IsSharedArrayBuffer.js
+|  |  |  ├── IsStrictlyEqual.js
+|  |  |  ├── IsStringPrefix.js
+|  |  |  ├── IsStringWellFormedUnicode.js
+|  |  |  ├── IsUnclampedIntegerElementType.js
+|  |  |  ├── IsUnsignedElementType.js
+|  |  |  ├── IsValidIntegerIndex.js
+|  |  |  ├── IsWordChar.js
+|  |  |  ├── IterableToList.js
+|  |  |  ├── IteratorClose.js
+|  |  |  ├── IteratorComplete.js
+|  |  |  ├── IteratorNext.js
+|  |  |  ├── IteratorStep.js
+|  |  |  ├── IteratorValue.js
+|  |  |  ├── LengthOfArrayLike.js
+|  |  |  ├── MakeDate.js
+|  |  |  ├── MakeDay.js
+|  |  |  ├── MakeMatchIndicesIndexPairArray.js
+|  |  |  ├── MakeTime.js
+|  |  |  ├── max.js
+|  |  |  ├── min.js
+|  |  |  ├── MinFromTime.js
+|  |  |  ├── modulo.js
+|  |  |  ├── MonthFromTime.js
+|  |  |  ├── msFromTime.js
+|  |  |  ├── NewPromiseCapability.js
+|  |  |  ├── NormalCompletion.js
+|  |  |  ├── Number/
+|  |  |  ├── NumberBitwiseOp.js
+|  |  |  ├── NumberToBigInt.js
+|  |  |  ├── NumericToRawBytes.js
+|  |  |  ├── ObjectDefineProperties.js
+|  |  |  ├── OrdinaryCreateFromConstructor.js
+|  |  |  ├── OrdinaryDefineOwnProperty.js
+|  |  |  ├── OrdinaryGetOwnProperty.js
+|  |  |  ├── OrdinaryGetPrototypeOf.js
+|  |  |  ├── OrdinaryHasInstance.js
+|  |  |  ├── OrdinaryHasProperty.js
+|  |  |  ├── OrdinaryObjectCreate.js
+|  |  |  ├── OrdinarySetPrototypeOf.js
+|  |  |  ├── OrdinaryToPrimitive.js
+|  |  |  ├── PromiseResolve.js
+|  |  |  ├── QuoteJSONString.js
+|  |  |  ├── RawBytesToNumeric.js
+|  |  |  ├── RegExpCreate.js
+|  |  |  ├── RegExpExec.js
+|  |  |  ├── RegExpHasFlag.js
+|  |  |  ├── RequireObjectCoercible.js
+|  |  |  ├── SameValue.js
+|  |  |  ├── SameValueNonNumeric.js
+|  |  |  ├── SameValueZero.js
+|  |  |  ├── SecFromTime.js
+|  |  |  ├── Set.js
+|  |  |  ├── SetFunctionLength.js
+|  |  |  ├── SetFunctionName.js
+|  |  |  ├── SetIntegrityLevel.js
+|  |  |  ├── SetTypedArrayFromArrayLike.js
+|  |  |  ├── SetTypedArrayFromTypedArray.js
+|  |  |  ├── SetValueInBuffer.js
+|  |  |  ├── SortIndexedProperties.js
+|  |  |  ├── SpeciesConstructor.js
+|  |  |  ├── StringCreate.js
+|  |  |  ├── StringGetOwnProperty.js
+|  |  |  ├── StringIndexOf.js
+|  |  |  ├── StringPad.js
+|  |  |  ├── StringToBigInt.js
+|  |  |  ├── StringToCodePoints.js
+|  |  |  ├── StringToNumber.js
+|  |  |  ├── substring.js
+|  |  |  ├── SymbolDescriptiveString.js
+|  |  |  ├── tables/
+|  |  |  ├── TestIntegrityLevel.js
+|  |  |  ├── thisBigIntValue.js
+|  |  |  ├── thisBooleanValue.js
+|  |  |  ├── thisNumberValue.js
+|  |  |  ├── thisStringValue.js
+|  |  |  ├── thisSymbolValue.js
+|  |  |  ├── thisTimeValue.js
+|  |  |  ├── ThrowCompletion.js
+|  |  |  ├── TimeClip.js
+|  |  |  ├── TimeFromYear.js
+|  |  |  ├── TimeString.js
+|  |  |  ├── TimeWithinDay.js
+|  |  |  ├── TimeZoneString.js
+|  |  |  ├── ToBigInt.js
+|  |  |  ├── ToBigInt64.js
+|  |  |  ├── ToBigUint64.js
+|  |  |  ├── ToBoolean.js
+|  |  |  ├── ToDateString.js
+|  |  |  ├── ToIndex.js
+|  |  |  ├── ToInt16.js
+|  |  |  ├── ToInt32.js
+|  |  |  ├── ToInt8.js
+|  |  |  ├── ToIntegerOrInfinity.js
+|  |  |  ├── ToLength.js
+|  |  |  ├── ToNumber.js
+|  |  |  ├── ToNumeric.js
+|  |  |  ├── ToObject.js
+|  |  |  ├── ToPrimitive.js
+|  |  |  ├── ToPropertyDescriptor.js
+|  |  |  ├── ToPropertyKey.js
+|  |  |  ├── ToString.js
+|  |  |  ├── ToUint16.js
+|  |  |  ├── ToUint32.js
+|  |  |  ├── ToUint8.js
+|  |  |  ├── ToUint8Clamp.js
+|  |  |  ├── ToZeroPaddedDecimalString.js
+|  |  |  ├── TrimString.js
+|  |  |  ├── Type.js
+|  |  |  ├── TypedArrayCreate.js
+|  |  |  ├── TypedArrayElementSize.js
+|  |  |  ├── TypedArrayElementType.js
+|  |  |  ├── TypedArraySpeciesCreate.js
+|  |  |  ├── UnicodeEscape.js
+|  |  |  ├── UTF16EncodeCodePoint.js
+|  |  |  ├── UTF16SurrogatePairToCodePoint.js
+|  |  |  ├── ValidateAndApplyPropertyDescriptor.js
+|  |  |  ├── ValidateAtomicAccess.js
+|  |  |  ├── ValidateIntegerTypedArray.js
+|  |  |  ├── ValidateTypedArray.js
+|  |  |  ├── WeakRefDeref.js
+|  |  |  ├── WeekDay.js
+|  |  |  ├── WordCharacters.js
+|  |  |  └── YearFromTime.js
+|  |  ├── 2023/
+|  |  |  ├── abs.js
+|  |  |  ├── AddEntriesFromIterable.js
+|  |  |  ├── AddToKeptObjects.js
+|  |  |  ├── AdvanceStringIndex.js
+|  |  |  ├── ApplyStringOrNumericBinaryOperator.js
+|  |  |  ├── ArrayCreate.js
+|  |  |  ├── ArraySetLength.js
+|  |  |  ├── ArraySpeciesCreate.js
+|  |  |  ├── AsyncFromSyncIteratorContinuation.js
+|  |  |  ├── AsyncIteratorClose.js
+|  |  |  ├── BigInt/
+|  |  |  ├── BigIntBitwiseOp.js
+|  |  |  ├── BinaryAnd.js
+|  |  |  ├── BinaryOr.js
+|  |  |  ├── BinaryXor.js
+|  |  |  ├── ByteListBitwiseOp.js
+|  |  |  ├── ByteListEqual.js
+|  |  |  ├── Call.js
+|  |  |  ├── CanBeHeldWeakly.js
+|  |  |  ├── Canonicalize.js
+|  |  |  ├── CanonicalNumericIndexString.js
+|  |  |  ├── CharacterRange.js
+|  |  |  ├── clamp.js
+|  |  |  ├── ClearKeptObjects.js
+|  |  |  ├── CloneArrayBuffer.js
+|  |  |  ├── CodePointAt.js
+|  |  |  ├── CodePointsToString.js
+|  |  |  ├── CompareArrayElements.js
+|  |  |  ├── CompareTypedArrayElements.js
+|  |  |  ├── CompletePropertyDescriptor.js
+|  |  |  ├── CompletionRecord.js
+|  |  |  ├── CopyDataProperties.js
+|  |  |  ├── CreateAsyncFromSyncIterator.js
+|  |  |  ├── CreateDataProperty.js
+|  |  |  ├── CreateDataPropertyOrThrow.js
+|  |  |  ├── CreateHTML.js
+|  |  |  ├── CreateIterResultObject.js
+|  |  |  ├── CreateListFromArrayLike.js
+|  |  |  ├── CreateMethodProperty.js
+|  |  |  ├── CreateNonEnumerableDataPropertyOrThrow.js
+|  |  |  ├── CreateRegExpStringIterator.js
+|  |  |  ├── DateFromTime.js
+|  |  |  ├── DateString.js
+|  |  |  ├── Day.js
+|  |  |  ├── DayFromYear.js
+|  |  |  ├── DaysInYear.js
+|  |  |  ├── DayWithinYear.js
+|  |  |  ├── DefaultTimeZone.js
+|  |  |  ├── DefineMethodProperty.js
+|  |  |  ├── DefinePropertyOrThrow.js
+|  |  |  ├── DeletePropertyOrThrow.js
+|  |  |  ├── DetachArrayBuffer.js
+|  |  |  ├── EnumerableOwnProperties.js
+|  |  |  ├── FindViaPredicate.js
+|  |  |  ├── FlattenIntoArray.js
+|  |  |  ├── floor.js
+|  |  |  ├── FromPropertyDescriptor.js
+|  |  |  ├── Get.js
+|  |  |  ├── GetGlobalObject.js
+|  |  |  ├── GetIterator.js
+|  |  |  ├── GetIteratorFromMethod.js
+|  |  |  ├── GetMatchIndexPair.js
+|  |  |  ├── GetMatchString.js
+|  |  |  ├── GetMethod.js
+|  |  |  ├── GetNamedTimeZoneEpochNanoseconds.js
+|  |  |  ├── GetOwnPropertyKeys.js
+|  |  |  ├── GetPromiseResolve.js
+|  |  |  ├── GetPrototypeFromConstructor.js
+|  |  |  ├── GetStringIndex.js
+|  |  |  ├── GetSubstitution.js
+|  |  |  ├── GetUTCEpochNanoseconds.js
+|  |  |  ├── GetV.js
+|  |  |  ├── GetValueFromBuffer.js
+|  |  |  ├── HasOwnProperty.js
+|  |  |  ├── HasProperty.js
+|  |  |  ├── HourFromTime.js
+|  |  |  ├── InLeapYear.js
+|  |  |  ├── InstallErrorCause.js
+|  |  |  ├── InstanceofOperator.js
+|  |  |  ├── IntegerIndexedElementGet.js
+|  |  |  ├── IntegerIndexedElementSet.js
+|  |  |  ├── InternalizeJSONProperty.js
+|  |  |  ├── Invoke.js
+|  |  |  ├── IsAccessorDescriptor.js
+|  |  |  ├── IsArray.js
+|  |  |  ├── IsBigIntElementType.js
+|  |  |  ├── IsCallable.js
+|  |  |  ├── IsCompatiblePropertyDescriptor.js
+|  |  |  ├── IsConcatSpreadable.js
+|  |  |  ├── IsConstructor.js
+|  |  |  ├── IsDataDescriptor.js
+|  |  |  ├── IsDetachedBuffer.js
+|  |  |  ├── IsExtensible.js
+|  |  |  ├── IsGenericDescriptor.js
+|  |  |  ├── IsIntegralNumber.js
+|  |  |  ├── IsLessThan.js
+|  |  |  ├── IsLooselyEqual.js
+|  |  |  ├── IsNoTearConfiguration.js
+|  |  |  ├── IsPromise.js
+|  |  |  ├── IsPropertyKey.js
+|  |  |  ├── IsRegExp.js
+|  |  |  ├── IsSharedArrayBuffer.js
+|  |  |  ├── IsStrictlyEqual.js
+|  |  |  ├── IsStringWellFormedUnicode.js
+|  |  |  ├── IsTimeZoneOffsetString.js
+|  |  |  ├── IsUnclampedIntegerElementType.js
+|  |  |  ├── IsUnsignedElementType.js
+|  |  |  ├── IsValidIntegerIndex.js
+|  |  |  ├── IsWordChar.js
+|  |  |  ├── IteratorClose.js
+|  |  |  ├── IteratorComplete.js
+|  |  |  ├── IteratorNext.js
+|  |  |  ├── IteratorStep.js
+|  |  |  ├── IteratorToList.js
+|  |  |  ├── IteratorValue.js
+|  |  |  ├── KeyForSymbol.js
+|  |  |  ├── LengthOfArrayLike.js
+|  |  |  ├── MakeDate.js
+|  |  |  ├── MakeDay.js
+|  |  |  ├── MakeMatchIndicesIndexPairArray.js
+|  |  |  ├── MakeTime.js
+|  |  |  ├── max.js
+|  |  |  ├── min.js
+|  |  |  ├── MinFromTime.js
+|  |  |  ├── modulo.js
+|  |  |  ├── MonthFromTime.js
+|  |  |  ├── msFromTime.js
+|  |  |  ├── NewPromiseCapability.js
+|  |  |  ├── NormalCompletion.js
+|  |  |  ├── Number/
+|  |  |  ├── NumberBitwiseOp.js
+|  |  |  ├── NumberToBigInt.js
+|  |  |  ├── NumericToRawBytes.js
+|  |  |  ├── ObjectDefineProperties.js
+|  |  |  ├── OrdinaryCreateFromConstructor.js
+|  |  |  ├── OrdinaryDefineOwnProperty.js
+|  |  |  ├── OrdinaryGetOwnProperty.js
+|  |  |  ├── OrdinaryGetPrototypeOf.js
+|  |  |  ├── OrdinaryHasInstance.js
+|  |  |  ├── OrdinaryHasProperty.js
+|  |  |  ├── OrdinaryObjectCreate.js
+|  |  |  ├── OrdinarySetPrototypeOf.js
+|  |  |  ├── OrdinaryToPrimitive.js
+|  |  |  ├── ParseHexOctet.js
+|  |  |  ├── PromiseResolve.js
+|  |  |  ├── QuoteJSONString.js
+|  |  |  ├── RawBytesToNumeric.js
+|  |  |  ├── RegExpCreate.js
+|  |  |  ├── RegExpExec.js
+|  |  |  ├── RegExpHasFlag.js
+|  |  |  ├── RequireObjectCoercible.js
+|  |  |  ├── SameValue.js
+|  |  |  ├── SameValueNonNumber.js
+|  |  |  ├── SameValueZero.js
+|  |  |  ├── SecFromTime.js
+|  |  |  ├── Set.js
+|  |  |  ├── SetFunctionLength.js
+|  |  |  ├── SetFunctionName.js
+|  |  |  ├── SetIntegrityLevel.js
+|  |  |  ├── SetTypedArrayFromArrayLike.js
+|  |  |  ├── SetTypedArrayFromTypedArray.js
+|  |  |  ├── SetValueInBuffer.js
+|  |  |  ├── SortIndexedProperties.js
+|  |  |  ├── SpeciesConstructor.js
+|  |  |  ├── StringCreate.js
+|  |  |  ├── StringGetOwnProperty.js
+|  |  |  ├── StringIndexOf.js
+|  |  |  ├── StringPad.js
+|  |  |  ├── StringToBigInt.js
+|  |  |  ├── StringToCodePoints.js
+|  |  |  ├── StringToNumber.js
+|  |  |  ├── substring.js
+|  |  |  ├── SymbolDescriptiveString.js
+|  |  |  ├── tables/
+|  |  |  ├── TestIntegrityLevel.js
+|  |  |  ├── thisBigIntValue.js
+|  |  |  ├── thisBooleanValue.js
+|  |  |  ├── thisNumberValue.js
+|  |  |  ├── thisStringValue.js
+|  |  |  ├── thisSymbolValue.js
+|  |  |  ├── thisTimeValue.js
+|  |  |  ├── ThrowCompletion.js
+|  |  |  ├── TimeClip.js
+|  |  |  ├── TimeFromYear.js
+|  |  |  ├── TimeString.js
+|  |  |  ├── TimeWithinDay.js
+|  |  |  ├── TimeZoneString.js
+|  |  |  ├── ToBigInt.js
+|  |  |  ├── ToBigInt64.js
+|  |  |  ├── ToBigUint64.js
+|  |  |  ├── ToBoolean.js
+|  |  |  ├── ToDateString.js
+|  |  |  ├── ToIndex.js
+|  |  |  ├── ToInt16.js
+|  |  |  ├── ToInt32.js
+|  |  |  ├── ToInt8.js
+|  |  |  ├── ToIntegerOrInfinity.js
+|  |  |  ├── ToLength.js
+|  |  |  ├── ToNumber.js
+|  |  |  ├── ToNumeric.js
+|  |  |  ├── ToObject.js
+|  |  |  ├── ToPrimitive.js
+|  |  |  ├── ToPropertyDescriptor.js
+|  |  |  ├── ToPropertyKey.js
+|  |  |  ├── ToString.js
+|  |  |  ├── ToUint16.js
+|  |  |  ├── ToUint32.js
+|  |  |  ├── ToUint8.js
+|  |  |  ├── ToUint8Clamp.js
+|  |  |  ├── ToZeroPaddedDecimalString.js
+|  |  |  ├── TrimString.js
+|  |  |  ├── truncate.js
+|  |  |  ├── Type.js
+|  |  |  ├── TypedArrayCreate.js
+|  |  |  ├── TypedArrayCreateSameType.js
+|  |  |  ├── TypedArrayElementSize.js
+|  |  |  ├── TypedArrayElementType.js
+|  |  |  ├── TypedArraySpeciesCreate.js
+|  |  |  ├── UnicodeEscape.js
+|  |  |  ├── UTF16EncodeCodePoint.js
+|  |  |  ├── UTF16SurrogatePairToCodePoint.js
+|  |  |  ├── ValidateAndApplyPropertyDescriptor.js
+|  |  |  ├── ValidateAtomicAccess.js
+|  |  |  ├── ValidateIntegerTypedArray.js
+|  |  |  ├── ValidateTypedArray.js
+|  |  |  ├── WeakRefDeref.js
+|  |  |  ├── WeekDay.js
+|  |  |  ├── WordCharacters.js
+|  |  |  └── YearFromTime.js
+|  |  ├── 2024/
+|  |  |  ├── abs.js
+|  |  |  ├── AddEntriesFromIterable.js
+|  |  |  ├── AddToKeptObjects.js
+|  |  |  ├── AddValueToKeyedGroup.js
+|  |  |  ├── AdvanceStringIndex.js
+|  |  |  ├── AllCharacters.js
+|  |  |  ├── ApplyStringOrNumericBinaryOperator.js
+|  |  |  ├── ArrayBufferByteLength.js
+|  |  |  ├── ArrayBufferCopyAndDetach.js
+|  |  |  ├── ArrayCreate.js
+|  |  |  ├── ArraySetLength.js
+|  |  |  ├── ArraySpeciesCreate.js
+|  |  |  ├── AsyncFromSyncIteratorContinuation.js
+|  |  |  ├── AsyncIteratorClose.js
+|  |  |  ├── BigInt/
+|  |  |  ├── BigIntBitwiseOp.js
+|  |  |  ├── BinaryAnd.js
+|  |  |  ├── BinaryOr.js
+|  |  |  ├── BinaryXor.js
+|  |  |  ├── ByteListBitwiseOp.js
+|  |  |  ├── ByteListEqual.js
+|  |  |  ├── Call.js
+|  |  |  ├── CanBeHeldWeakly.js
+|  |  |  ├── Canonicalize.js
+|  |  |  ├── CanonicalNumericIndexString.js
+|  |  |  ├── CharacterComplement.js
+|  |  |  ├── CharacterRange.js
+|  |  |  ├── clamp.js
+|  |  |  ├── ClearKeptObjects.js
+|  |  |  ├── CloneArrayBuffer.js
+|  |  |  ├── CodePointAt.js
+|  |  |  ├── CodePointsToString.js
+|  |  |  ├── CompareArrayElements.js
+|  |  |  ├── CompareTypedArrayElements.js
+|  |  |  ├── CompletePropertyDescriptor.js
+|  |  |  ├── CompletionRecord.js
+|  |  |  ├── CopyDataProperties.js
+|  |  |  ├── CreateAsyncFromSyncIterator.js
+|  |  |  ├── CreateDataProperty.js
+|  |  |  ├── CreateDataPropertyOrThrow.js
+|  |  |  ├── CreateHTML.js
+|  |  |  ├── CreateIterResultObject.js
+|  |  |  ├── CreateListFromArrayLike.js
+|  |  |  ├── CreateNonEnumerableDataPropertyOrThrow.js
+|  |  |  ├── CreateRegExpStringIterator.js
+|  |  |  ├── DateFromTime.js
+|  |  |  ├── DateString.js
+|  |  |  ├── Day.js
+|  |  |  ├── DayFromYear.js
+|  |  |  ├── DaysInYear.js
+|  |  |  ├── DayWithinYear.js
+|  |  |  ├── DefineMethodProperty.js
+|  |  |  ├── DefinePropertyOrThrow.js
+|  |  |  ├── DeletePropertyOrThrow.js
+|  |  |  ├── DetachArrayBuffer.js
+|  |  |  ├── EnumerableOwnProperties.js
+|  |  |  ├── FindViaPredicate.js
+|  |  |  ├── FlattenIntoArray.js
+|  |  |  ├── floor.js
+|  |  |  ├── FromPropertyDescriptor.js
+|  |  |  ├── Get.js
+|  |  |  ├── GetArrayBufferMaxByteLengthOption.js
+|  |  |  ├── GetGlobalObject.js
+|  |  |  ├── GetIterator.js
+|  |  |  ├── GetIteratorFromMethod.js
+|  |  |  ├── GetMatchIndexPair.js
+|  |  |  ├── GetMatchString.js
+|  |  |  ├── GetMethod.js
+|  |  |  ├── GetNamedTimeZoneEpochNanoseconds.js
+|  |  |  ├── GetOwnPropertyKeys.js
+|  |  |  ├── GetPromiseResolve.js
+|  |  |  ├── GetPrototypeFromConstructor.js
+|  |  |  ├── GetStringIndex.js
+|  |  |  ├── GetSubstitution.js
+|  |  |  ├── GetUTCEpochNanoseconds.js
+|  |  |  ├── GetV.js
+|  |  |  ├── GetValueFromBuffer.js
+|  |  |  ├── GetViewByteLength.js
+|  |  |  ├── GroupBy.js
+|  |  |  ├── HasEitherUnicodeFlag.js
+|  |  |  ├── HasOwnProperty.js
+|  |  |  ├── HasProperty.js
+|  |  |  ├── HourFromTime.js
+|  |  |  ├── InLeapYear.js
+|  |  |  ├── InstallErrorCause.js
+|  |  |  ├── InstanceofOperator.js
+|  |  |  ├── InternalizeJSONProperty.js
+|  |  |  ├── Invoke.js
+|  |  |  ├── IsAccessorDescriptor.js
+|  |  |  ├── IsArray.js
+|  |  |  ├── IsArrayBufferViewOutOfBounds.js
+|  |  |  ├── IsBigIntElementType.js
+|  |  |  ├── IsCallable.js
+|  |  |  ├── IsCompatiblePropertyDescriptor.js
+|  |  |  ├── IsConcatSpreadable.js
+|  |  |  ├── IsConstructor.js
+|  |  |  ├── IsDataDescriptor.js
+|  |  |  ├── IsDetachedBuffer.js
+|  |  |  ├── IsExtensible.js
+|  |  |  ├── IsFixedLengthArrayBuffer.js
+|  |  |  ├── IsGenericDescriptor.js
+|  |  |  ├── IsIntegralNumber.js
+|  |  |  ├── IsLessThan.js
+|  |  |  ├── IsLooselyEqual.js
+|  |  |  ├── IsNoTearConfiguration.js
+|  |  |  ├── IsPromise.js
+|  |  |  ├── IsPropertyKey.js
+|  |  |  ├── IsRegExp.js
+|  |  |  ├── IsSharedArrayBuffer.js
+|  |  |  ├── IsStrictlyEqual.js
+|  |  |  ├── IsStringWellFormedUnicode.js
+|  |  |  ├── IsTimeZoneOffsetString.js
+|  |  |  ├── IsTypedArrayOutOfBounds.js
+|  |  |  ├── IsUnclampedIntegerElementType.js
+|  |  |  ├── IsUnsignedElementType.js
+|  |  |  ├── IsValidIntegerIndex.js
+|  |  |  ├── IsViewOutOfBounds.js
+|  |  |  ├── IsWordChar.js
+|  |  |  ├── IteratorClose.js
+|  |  |  ├── IteratorComplete.js
+|  |  |  ├── IteratorNext.js
+|  |  |  ├── IteratorStep.js
+|  |  |  ├── IteratorStepValue.js
+|  |  |  ├── IteratorToList.js
+|  |  |  ├── IteratorValue.js
+|  |  |  ├── KeyForSymbol.js
+|  |  |  ├── LengthOfArrayLike.js
+|  |  |  ├── MakeDataViewWithBufferWitnessRecord.js
+|  |  |  ├── MakeDate.js
+|  |  |  ├── MakeDay.js
+|  |  |  ├── MakeFullYear.js
+|  |  |  ├── MakeMatchIndicesIndexPairArray.js
+|  |  |  ├── MakeTime.js
+|  |  |  ├── MakeTypedArrayWithBufferWitnessRecord.js
+|  |  |  ├── max.js
+|  |  |  ├── min.js
+|  |  |  ├── MinFromTime.js
+|  |  |  ├── modulo.js
+|  |  |  ├── MonthFromTime.js
+|  |  |  ├── msFromTime.js
+|  |  |  ├── NewPromiseCapability.js
+|  |  |  ├── NormalCompletion.js
+|  |  |  ├── Number/
+|  |  |  ├── NumberBitwiseOp.js
+|  |  |  ├── NumberToBigInt.js
+|  |  |  ├── NumericToRawBytes.js
+|  |  |  ├── ObjectDefineProperties.js
+|  |  |  ├── OrdinaryCreateFromConstructor.js
+|  |  |  ├── OrdinaryDefineOwnProperty.js
+|  |  |  ├── OrdinaryGetOwnProperty.js
+|  |  |  ├── OrdinaryGetPrototypeOf.js
+|  |  |  ├── OrdinaryHasInstance.js
+|  |  |  ├── OrdinaryHasProperty.js
+|  |  |  ├── OrdinaryObjectCreate.js
+|  |  |  ├── OrdinarySetPrototypeOf.js
+|  |  |  ├── OrdinaryToPrimitive.js
+|  |  |  ├── ParseHexOctet.js
+|  |  |  ├── PromiseResolve.js
+|  |  |  ├── QuoteJSONString.js
+|  |  |  ├── RawBytesToNumeric.js
+|  |  |  ├── RegExpCreate.js
+|  |  |  ├── RegExpExec.js
+|  |  |  ├── RegExpHasFlag.js
+|  |  |  ├── RequireObjectCoercible.js
+|  |  |  ├── SameValue.js
+|  |  |  ├── SameValueNonNumber.js
+|  |  |  ├── SameValueZero.js
+|  |  |  ├── SecFromTime.js
+|  |  |  ├── Set.js
+|  |  |  ├── SetFunctionLength.js
+|  |  |  ├── SetFunctionName.js
+|  |  |  ├── SetIntegrityLevel.js
+|  |  |  ├── SetTypedArrayFromArrayLike.js
+|  |  |  ├── SetTypedArrayFromTypedArray.js
+|  |  |  ├── SetValueInBuffer.js
+|  |  |  ├── SortIndexedProperties.js
+|  |  |  ├── SpeciesConstructor.js
+|  |  |  ├── StringCreate.js
+|  |  |  ├── StringGetOwnProperty.js
+|  |  |  ├── StringIndexOf.js
+|  |  |  ├── StringPad.js
+|  |  |  ├── StringPaddingBuiltinsImpl.js
+|  |  |  ├── StringToBigInt.js
+|  |  |  ├── StringToCodePoints.js
+|  |  |  ├── StringToNumber.js
+|  |  |  ├── substring.js
+|  |  |  ├── SymbolDescriptiveString.js
+|  |  |  ├── SystemTimeZoneIdentifier.js
+|  |  |  ├── tables/
+|  |  |  ├── TestIntegrityLevel.js
+|  |  |  ├── ThisBigIntValue.js
+|  |  |  ├── ThisBooleanValue.js
+|  |  |  ├── ThisNumberValue.js
+|  |  |  ├── ThisStringValue.js
+|  |  |  ├── ThisSymbolValue.js
+|  |  |  ├── ThrowCompletion.js
+|  |  |  ├── TimeClip.js
+|  |  |  ├── TimeFromYear.js
+|  |  |  ├── TimeString.js
+|  |  |  ├── TimeWithinDay.js
+|  |  |  ├── TimeZoneString.js
+|  |  |  ├── ToBigInt.js
+|  |  |  ├── ToBigInt64.js
+|  |  |  ├── ToBigUint64.js
+|  |  |  ├── ToBoolean.js
+|  |  |  ├── ToDateString.js
+|  |  |  ├── ToIndex.js
+|  |  |  ├── ToInt16.js
+|  |  |  ├── ToInt32.js
+|  |  |  ├── ToInt8.js
+|  |  |  ├── ToIntegerOrInfinity.js
+|  |  |  ├── ToLength.js
+|  |  |  ├── ToNumber.js
+|  |  |  ├── ToNumeric.js
+|  |  |  ├── ToObject.js
+|  |  |  ├── ToPrimitive.js
+|  |  |  ├── ToPropertyDescriptor.js
+|  |  |  ├── ToPropertyKey.js
+|  |  |  ├── ToString.js
+|  |  |  ├── ToUint16.js
+|  |  |  ├── ToUint32.js
+|  |  |  ├── ToUint8.js
+|  |  |  ├── ToUint8Clamp.js
+|  |  |  ├── ToZeroPaddedDecimalString.js
+|  |  |  ├── TrimString.js
+|  |  |  ├── truncate.js
+|  |  |  ├── Type.js
+|  |  |  ├── TypedArrayByteLength.js
+|  |  |  ├── TypedArrayCreateFromConstructor.js
+|  |  |  ├── TypedArrayCreateSameType.js
+|  |  |  ├── TypedArrayElementSize.js
+|  |  |  ├── TypedArrayElementType.js
+|  |  |  ├── TypedArrayGetElement.js
+|  |  |  ├── TypedArrayLength.js
+|  |  |  ├── TypedArraySetElement.js
+|  |  |  ├── TypedArraySpeciesCreate.js
+|  |  |  ├── UnicodeEscape.js
+|  |  |  ├── UTF16EncodeCodePoint.js
+|  |  |  ├── UTF16SurrogatePairToCodePoint.js
+|  |  |  ├── ValidateAndApplyPropertyDescriptor.js
+|  |  |  ├── ValidateAtomicAccess.js
+|  |  |  ├── ValidateAtomicAccessOnIntegerTypedArray.js
+|  |  |  ├── ValidateIntegerTypedArray.js
+|  |  |  ├── ValidateTypedArray.js
+|  |  |  ├── WeakRefDeref.js
+|  |  |  ├── WeekDay.js
+|  |  |  ├── WordCharacters.js
+|  |  |  └── YearFromTime.js
+|  |  ├── 2025/
+|  |  |  ├── abs.js
+|  |  |  ├── AddEntriesFromIterable.js
+|  |  |  ├── AddToKeptObjects.js
+|  |  |  ├── AddValueToKeyedGroup.js
+|  |  |  ├── AdvanceStringIndex.js
+|  |  |  ├── AllCharacters.js
+|  |  |  ├── ApplyStringOrNumericBinaryOperator.js
+|  |  |  ├── ArrayBufferByteLength.js
+|  |  |  ├── ArrayBufferCopyAndDetach.js
+|  |  |  ├── ArrayCreate.js
+|  |  |  ├── ArraySetLength.js
+|  |  |  ├── ArraySpeciesCreate.js
+|  |  |  ├── AsyncFromSyncIteratorContinuation.js
+|  |  |  ├── AsyncIteratorClose.js
+|  |  |  ├── BigInt/
+|  |  |  ├── BigIntBitwiseOp.js
+|  |  |  ├── BinaryAnd.js
+|  |  |  ├── BinaryOr.js
+|  |  |  ├── BinaryXor.js
+|  |  |  ├── ByteListBitwiseOp.js
+|  |  |  ├── ByteListEqual.js
+|  |  |  ├── Call.js
+|  |  |  ├── CanBeHeldWeakly.js
+|  |  |  ├── Canonicalize.js
+|  |  |  ├── CanonicalizeKeyedCollectionKey.js
+|  |  |  ├── CanonicalNumericIndexString.js
+|  |  |  ├── CharacterComplement.js
+|  |  |  ├── CharacterRange.js
+|  |  |  ├── clamp.js
+|  |  |  ├── ClearKeptObjects.js
+|  |  |  ├── CloneArrayBuffer.js
+|  |  |  ├── CodePointAt.js
+|  |  |  ├── CodePointsToString.js
+|  |  |  ├── CompareArrayElements.js
+|  |  |  ├── CompareTypedArrayElements.js
+|  |  |  ├── CompletePropertyDescriptor.js
+|  |  |  ├── CompletionRecord.js
+|  |  |  ├── CopyDataProperties.js
+|  |  |  ├── CreateAsyncFromSyncIterator.js
+|  |  |  ├── CreateDataProperty.js
+|  |  |  ├── CreateDataPropertyOrThrow.js
+|  |  |  ├── CreateHTML.js
+|  |  |  ├── CreateIteratorFromClosure.js
+|  |  |  ├── CreateIteratorResultObject.js
+|  |  |  ├── CreateListFromArrayLike.js
+|  |  |  ├── CreateNonEnumerableDataPropertyOrThrow.js
+|  |  |  ├── CreateRegExpStringIterator.js
+|  |  |  ├── DateFromTime.js
+|  |  |  ├── DateString.js
+|  |  |  ├── Day.js
+|  |  |  ├── DayFromYear.js
+|  |  |  ├── DaysInYear.js
+|  |  |  ├── DayWithinYear.js
+|  |  |  ├── DefineMethodProperty.js
+|  |  |  ├── DefinePropertyOrThrow.js
+|  |  |  ├── DeletePropertyOrThrow.js
+|  |  |  ├── DetachArrayBuffer.js
+|  |  |  ├── EncodeForRegExpEscape.js
+|  |  |  ├── EnumerableOwnProperties.js
+|  |  |  ├── FindViaPredicate.js
+|  |  |  ├── FlattenIntoArray.js
+|  |  |  ├── floor.js
+|  |  |  ├── FromPropertyDescriptor.js
+|  |  |  ├── GeneratorResume.js
+|  |  |  ├── GeneratorResumeAbrupt.js
+|  |  |  ├── GeneratorStart.js
+|  |  |  ├── GeneratorValidate.js
+|  |  |  ├── Get.js
+|  |  |  ├── GetArrayBufferMaxByteLengthOption.js
+|  |  |  ├── GetGlobalObject.js
+|  |  |  ├── GetIterator.js
+|  |  |  ├── GetIteratorDirect.js
+|  |  |  ├── GetIteratorFlattenable.js
+|  |  |  ├── GetIteratorFromMethod.js
+|  |  |  ├── GetMatchIndexPair.js
+|  |  |  ├── GetMatchString.js
+|  |  |  ├── GetMethod.js
+|  |  |  ├── GetNamedTimeZoneEpochNanoseconds.js
+|  |  |  ├── GetOwnPropertyKeys.js
+|  |  |  ├── GetPromiseResolve.js
+|  |  |  ├── GetPrototypeFromConstructor.js
+|  |  |  ├── GetSetRecord.js
+|  |  |  ├── GetStringIndex.js
+|  |  |  ├── GetSubstitution.js
+|  |  |  ├── GetUTCEpochNanoseconds.js
+|  |  |  ├── GetV.js
+|  |  |  ├── GetValueFromBuffer.js
+|  |  |  ├── GetViewByteLength.js
+|  |  |  ├── GroupBy.js
+|  |  |  ├── HasEitherUnicodeFlag.js
+|  |  |  ├── HasOwnProperty.js
+|  |  |  ├── HasProperty.js
+|  |  |  ├── HourFromTime.js
+|  |  |  ├── IfAbruptCloseIterator.js
+|  |  |  ├── InLeapYear.js
+|  |  |  ├── InstallErrorCause.js
+|  |  |  ├── InstanceofOperator.js
+|  |  |  ├── InternalizeJSONProperty.js
+|  |  |  ├── Invoke.js
+|  |  |  ├── IsAccessorDescriptor.js
+|  |  |  ├── IsArray.js
+|  |  |  ├── IsArrayBufferViewOutOfBounds.js
+|  |  |  ├── IsBigIntElementType.js
+|  |  |  ├── IsCallable.js
+|  |  |  ├── IsCompatiblePropertyDescriptor.js
+|  |  |  ├── IsConcatSpreadable.js
+|  |  |  ├── IsConstructor.js
+|  |  |  ├── IsDataDescriptor.js
+|  |  |  ├── IsDetachedBuffer.js
+|  |  |  ├── IsExtensible.js
+|  |  |  ├── IsFixedLengthArrayBuffer.js
+|  |  |  ├── IsGenericDescriptor.js
+|  |  |  ├── IsLessThan.js
+|  |  |  ├── IsLooselyEqual.js
+|  |  |  ├── IsNoTearConfiguration.js
+|  |  |  ├── IsPromise.js
+|  |  |  ├── IsRegExp.js
+|  |  |  ├── IsSharedArrayBuffer.js
+|  |  |  ├── IsStrictlyEqual.js
+|  |  |  ├── IsStringWellFormedUnicode.js
+|  |  |  ├── IsTimeZoneOffsetString.js
+|  |  |  ├── IsTypedArrayFixedLength.js
+|  |  |  ├── IsTypedArrayOutOfBounds.js
+|  |  |  ├── IsUnclampedIntegerElementType.js
+|  |  |  ├── IsUnsignedElementType.js
+|  |  |  ├── IsValidIntegerIndex.js
+|  |  |  ├── IsViewOutOfBounds.js
+|  |  |  ├── IsWordChar.js
+|  |  |  ├── IteratorClose.js
+|  |  |  ├── IteratorComplete.js
+|  |  |  ├── IteratorNext.js
+|  |  |  ├── IteratorStep.js
+|  |  |  ├── IteratorStepValue.js
+|  |  |  ├── IteratorToList.js
+|  |  |  ├── IteratorValue.js
+|  |  |  ├── KeyForSymbol.js
+|  |  |  ├── LengthOfArrayLike.js
+|  |  |  ├── MakeDataViewWithBufferWitnessRecord.js
+|  |  |  ├── MakeDate.js
+|  |  |  ├── MakeDay.js
+|  |  |  ├── MakeFullYear.js
+|  |  |  ├── MakeMatchIndicesIndexPairArray.js
+|  |  |  ├── MakeTime.js
+|  |  |  ├── MakeTypedArrayWithBufferWitnessRecord.js
+|  |  |  ├── max.js
+|  |  |  ├── min.js
+|  |  |  ├── MinFromTime.js
+|  |  |  ├── modulo.js
+|  |  |  ├── MonthFromTime.js
+|  |  |  ├── msFromTime.js
+|  |  |  ├── NewPromiseCapability.js
+|  |  |  ├── NormalCompletion.js
+|  |  |  ├── Number/
+|  |  |  ├── NumberBitwiseOp.js
+|  |  |  ├── NumberToBigInt.js
+|  |  |  ├── NumericToRawBytes.js
+|  |  |  ├── ObjectDefineProperties.js
+|  |  |  ├── OrdinaryCreateFromConstructor.js
+|  |  |  ├── OrdinaryDefineOwnProperty.js
+|  |  |  ├── OrdinaryGetOwnProperty.js
+|  |  |  ├── OrdinaryGetPrototypeOf.js
+|  |  |  ├── OrdinaryHasInstance.js
+|  |  |  ├── OrdinaryHasProperty.js
+|  |  |  ├── OrdinaryObjectCreate.js
+|  |  |  ├── OrdinarySetPrototypeOf.js
+|  |  |  ├── OrdinaryToPrimitive.js
+|  |  |  ├── ParseHexOctet.js
+|  |  |  ├── PromiseResolve.js
+|  |  |  ├── QuoteJSONString.js
+|  |  |  ├── RawBytesToNumeric.js
+|  |  |  ├── RegExpCreate.js
+|  |  |  ├── RegExpExec.js
+|  |  |  ├── RegExpHasFlag.js
+|  |  |  ├── RequireObjectCoercible.js
+|  |  |  ├── ReturnCompletion.js
+|  |  |  ├── SameType.js
+|  |  |  ├── SameValue.js
+|  |  |  ├── SameValueNonNumber.js
+|  |  |  ├── SameValueZero.js
+|  |  |  ├── SecFromTime.js
+|  |  |  ├── Set.js
+|  |  |  ├── SetDataHas.js
+|  |  |  ├── SetDataIndex.js
+|  |  |  ├── SetDataSize.js
+|  |  |  ├── SetFunctionLength.js
+|  |  |  ├── SetFunctionName.js
+|  |  |  ├── SetIntegrityLevel.js
+|  |  |  ├── SetterThatIgnoresPrototypeProperties.js
+|  |  |  ├── SetTypedArrayFromArrayLike.js
+|  |  |  ├── SetTypedArrayFromTypedArray.js
+|  |  |  ├── SetValueInBuffer.js
+|  |  |  ├── SortIndexedProperties.js
+|  |  |  ├── SpeciesConstructor.js
+|  |  |  ├── StringCreate.js
+|  |  |  ├── StringGetOwnProperty.js
+|  |  |  ├── StringIndexOf.js
+|  |  |  ├── StringLastIndexOf.js
+|  |  |  ├── StringPad.js
+|  |  |  ├── StringPaddingBuiltinsImpl.js
+|  |  |  ├── StringToBigInt.js
+|  |  |  ├── StringToCodePoints.js
+|  |  |  ├── StringToNumber.js
+|  |  |  ├── substring.js
+|  |  |  ├── SymbolDescriptiveString.js
+|  |  |  ├── SystemTimeZoneIdentifier.js
+|  |  |  ├── tables/
+|  |  |  ├── TestIntegrityLevel.js
+|  |  |  ├── ThisBigIntValue.js
+|  |  |  ├── ThisBooleanValue.js
+|  |  |  ├── ThisNumberValue.js
+|  |  |  ├── ThisStringValue.js
+|  |  |  ├── ThisSymbolValue.js
+|  |  |  ├── ThrowCompletion.js
+|  |  |  ├── TimeClip.js
+|  |  |  ├── TimeFromYear.js
+|  |  |  ├── TimeString.js
+|  |  |  ├── TimeWithinDay.js
+|  |  |  ├── TimeZoneString.js
+|  |  |  ├── ToBigInt.js
+|  |  |  ├── ToBigInt64.js
+|  |  |  ├── ToBigUint64.js
+|  |  |  ├── ToBoolean.js
+|  |  |  ├── ToDateString.js
+|  |  |  ├── ToIndex.js
+|  |  |  ├── ToInt16.js
+|  |  |  ├── ToInt32.js
+|  |  |  ├── ToInt8.js
+|  |  |  ├── ToIntegerOrInfinity.js
+|  |  |  ├── ToLength.js
+|  |  |  ├── ToNumber.js
+|  |  |  ├── ToNumeric.js
+|  |  |  ├── ToObject.js
+|  |  |  ├── ToPrimitive.js
+|  |  |  ├── ToPropertyDescriptor.js
+|  |  |  ├── ToPropertyKey.js
+|  |  |  ├── ToString.js
+|  |  |  ├── ToUint16.js
+|  |  |  ├── ToUint32.js
+|  |  |  ├── ToUint8.js
+|  |  |  ├── ToUint8Clamp.js
+|  |  |  ├── ToZeroPaddedDecimalString.js
+|  |  |  ├── TrimString.js
+|  |  |  ├── truncate.js
+|  |  |  ├── TypedArrayByteLength.js
+|  |  |  ├── TypedArrayCreateFromConstructor.js
+|  |  |  ├── TypedArrayCreateSameType.js
+|  |  |  ├── TypedArrayElementSize.js
+|  |  |  ├── TypedArrayElementType.js
+|  |  |  ├── TypedArrayGetElement.js
+|  |  |  ├── TypedArrayLength.js
+|  |  |  ├── TypedArraySetElement.js
+|  |  |  ├── TypedArraySpeciesCreate.js
+|  |  |  ├── UnicodeEscape.js
+|  |  |  ├── UpdateModifiers.js
+|  |  |  ├── UTF16EncodeCodePoint.js
+|  |  |  ├── UTF16SurrogatePairToCodePoint.js
+|  |  |  ├── ValidateAndApplyPropertyDescriptor.js
+|  |  |  ├── ValidateAtomicAccess.js
+|  |  |  ├── ValidateAtomicAccessOnIntegerTypedArray.js
+|  |  |  ├── ValidateIntegerTypedArray.js
+|  |  |  ├── ValidateTypedArray.js
+|  |  |  ├── WeakRefDeref.js
+|  |  |  ├── WeekDay.js
+|  |  |  ├── WordCharacters.js
+|  |  |  └── YearFromTime.js
+|  |  ├── 5/
+|  |  |  ├── abs.js
+|  |  |  ├── AbstractEqualityComparison.js
+|  |  |  ├── AbstractRelationalComparison.js
+|  |  |  ├── Canonicalize.js
+|  |  |  ├── CheckObjectCoercible.js
+|  |  |  ├── DateFromTime.js
+|  |  |  ├── Day.js
+|  |  |  ├── DayFromYear.js
+|  |  |  ├── DaysInYear.js
+|  |  |  ├── DayWithinYear.js
+|  |  |  ├── floor.js
+|  |  |  ├── FromPropertyDescriptor.js
+|  |  |  ├── HourFromTime.js
+|  |  |  ├── InLeapYear.js
+|  |  |  ├── IsAccessorDescriptor.js
+|  |  |  ├── IsCallable.js
+|  |  |  ├── IsDataDescriptor.js
+|  |  |  ├── IsGenericDescriptor.js
+|  |  |  ├── IsPropertyDescriptor.js
+|  |  |  ├── MakeDate.js
+|  |  |  ├── MakeDay.js
+|  |  |  ├── MakeTime.js
+|  |  |  ├── MinFromTime.js
+|  |  |  ├── modulo.js
+|  |  |  ├── MonthFromTime.js
+|  |  |  ├── msFromTime.js
+|  |  |  ├── SameValue.js
+|  |  |  ├── SecFromTime.js
+|  |  |  ├── StrictEqualityComparison.js
+|  |  |  ├── TimeClip.js
+|  |  |  ├── TimeFromYear.js
+|  |  |  ├── TimeWithinDay.js
+|  |  |  ├── ToBoolean.js
+|  |  |  ├── ToInt32.js
+|  |  |  ├── ToInteger.js
+|  |  |  ├── ToNumber.js
+|  |  |  ├── ToObject.js
+|  |  |  ├── ToPrimitive.js
+|  |  |  ├── ToPropertyDescriptor.js
+|  |  |  ├── ToString.js
+|  |  |  ├── ToUint16.js
+|  |  |  ├── ToUint32.js
+|  |  |  ├── Type.js
+|  |  |  ├── WeekDay.js
+|  |  |  └── YearFromTime.js
+|  |  ├── CHANGELOG.md
+|  |  ├── es2015.js
+|  |  ├── es2016.js
+|  |  ├── es2017.js
+|  |  ├── es2018.js
+|  |  ├── es2019.js
+|  |  ├── es2020.js
+|  |  ├── es2021.js
+|  |  ├── es2022.js
+|  |  ├── es2023.js
+|  |  ├── es2024.js
+|  |  ├── es2025.js
+|  |  ├── es5.js
+|  |  ├── es6.js
+|  |  ├── es7.js
+|  |  ├── GetIntrinsic.js
+|  |  ├── helpers/
+|  |  |  ├── assertRecord.js
+|  |  |  ├── assign.js
+|  |  |  ├── bytesAsFloat16.js
+|  |  |  ├── bytesAsFloat32.js
+|  |  |  ├── bytesAsFloat64.js
+|  |  |  ├── bytesAsInteger.js
+|  |  |  ├── callBind.js
+|  |  |  ├── callBound.js
+|  |  |  ├── caseFolding.json
+|  |  |  ├── CharSet.js
+|  |  |  ├── defaultEndianness.js
+|  |  |  ├── DefineOwnProperty.js
+|  |  |  ├── every.js
+|  |  |  ├── forEach.js
+|  |  |  ├── fractionToBinaryString.js
+|  |  |  ├── fromPropertyDescriptor.js
+|  |  |  ├── getInferredName.js
+|  |  |  ├── getIteratorMethod.js
+|  |  |  ├── getOwnPropertyDescriptor.js
+|  |  |  ├── getProto.js
+|  |  |  ├── getSymbolDescription.js
+|  |  |  ├── integerToNBytes.js
+|  |  |  ├── intToBinaryString.js
+|  |  |  ├── isAbstractClosure.js
+|  |  |  ├── IsArray.js
+|  |  |  ├── isByteValue.js
+|  |  |  ├── isCodePoint.js
+|  |  |  ├── isFinite.js
+|  |  |  ├── isFullyPopulatedPropertyDescriptor.js
+|  |  |  ├── isInteger.js
+|  |  |  ├── isLeadingSurrogate.js
+|  |  |  ├── isLineTerminator.js
+|  |  |  ├── isNaN.js
+|  |  |  ├── isNegativeZero.js
+|  |  |  ├── isObject.js
+|  |  |  ├── isPrefixOf.js
+|  |  |  ├── isPrimitive.js
+|  |  |  ├── isPropertyKey.js
+|  |  |  ├── isSamePropertyDescriptor.js
+|  |  |  ├── isSameType.js
+|  |  |  ├── isStringOrHole.js
+|  |  |  ├── isStringOrUndefined.js
+|  |  |  ├── isTrailingSurrogate.js
+|  |  |  ├── maxSafeInteger.js
+|  |  |  ├── maxValue.js
+|  |  |  ├── mod.js
+|  |  |  ├── modBigInt.js
+|  |  |  ├── OwnPropertyKeys.js
+|  |  |  ├── padTimeComponent.js
+|  |  |  ├── records/
+|  |  |  ├── reduce.js
+|  |  |  ├── regexTester.js
+|  |  |  ├── setProto.js
+|  |  |  ├── sign.js
+|  |  |  ├── some.js
+|  |  |  ├── timeConstants.js
+|  |  |  ├── timeValue.js
+|  |  |  ├── typedArrayConstructors.js
+|  |  |  ├── valueToFloat16Bytes.js
+|  |  |  ├── valueToFloat32Bytes.js
+|  |  |  └── valueToFloat64Bytes.js
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── operations/
+|  |  |  ├── 2015.js
+|  |  |  ├── 2016.js
+|  |  |  ├── 2017.js
+|  |  |  ├── 2018.js
+|  |  |  ├── 2019.js
+|  |  |  ├── 2020.js
+|  |  |  ├── 2021.js
+|  |  |  ├── 2022.js
+|  |  |  ├── 2023.js
+|  |  |  ├── 2024.js
+|  |  |  ├── 2025.js
+|  |  |  └── es5.js
+|  |  ├── package.json
+|  |  └── README.md
+|  ├── es-define-property/
+|  |  ├── .eslintrc
+|  |  ├── .github/
+|  |  |  └── FUNDING.yml
+|  |  ├── .nycrc
+|  |  ├── CHANGELOG.md
+|  |  ├── index.d.ts
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  ├── README.md
+|  |  ├── test/
+|  |  |  └── index.js
+|  |  └── tsconfig.json
+|  ├── es-errors/
+|  |  ├── .eslintrc
+|  |  ├── .github/
+|  |  |  └── FUNDING.yml
+|  |  ├── CHANGELOG.md
+|  |  ├── eval.d.ts
+|  |  ├── eval.js
+|  |  ├── index.d.ts
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  ├── range.d.ts
+|  |  ├── range.js
+|  |  ├── README.md
+|  |  ├── ref.d.ts
+|  |  ├── ref.js
+|  |  ├── syntax.d.ts
+|  |  ├── syntax.js
+|  |  ├── test/
+|  |  |  └── index.js
+|  |  ├── tsconfig.json
+|  |  ├── type.d.ts
+|  |  ├── type.js
+|  |  ├── uri.d.ts
+|  |  └── uri.js
+|  ├── es-iterator-helpers/
+|  |  ├── .eslintrc
+|  |  ├── .github/
+|  |  |  └── FUNDING.yml
+|  |  ├── .nycrc
+|  |  ├── aos/
+|  |  |  ├── CreateIteratorFromClosure.js
+|  |  |  ├── GeneratorResume.js
+|  |  |  ├── GeneratorResumeAbrupt.js
+|  |  |  ├── GeneratorStart.js
+|  |  |  ├── GeneratorValidate.js
+|  |  |  ├── GetIteratorDirect.js
+|  |  |  ├── GetIteratorFlattenable.js
+|  |  |  ├── GetOptionsObject.js
+|  |  |  ├── IfAbruptCloseIterators.js
+|  |  |  ├── IteratorCloseAll.js
+|  |  |  ├── IteratorZip.js
+|  |  |  └── ReturnCompletion.js
+|  |  ├── auto.js
+|  |  ├── CHANGELOG.md
+|  |  ├── index.json
+|  |  ├── Iterator/
+|  |  |  ├── auto.js
+|  |  |  ├── implementation.js
+|  |  |  ├── index.js
+|  |  |  ├── polyfill.js
+|  |  |  └── shim.js
+|  |  ├── Iterator.concat/
+|  |  |  ├── auto.js
+|  |  |  ├── implementation.js
+|  |  |  ├── index.js
+|  |  |  ├── polyfill.js
+|  |  |  └── shim.js
+|  |  ├── Iterator.from/
+|  |  |  ├── auto.js
+|  |  |  ├── implementation.js
+|  |  |  ├── index.js
+|  |  |  ├── polyfill.js
+|  |  |  └── shim.js
+|  |  ├── Iterator.prototype/
+|  |  |  ├── auto.js
+|  |  |  ├── implementation.js
+|  |  |  ├── index.js
+|  |  |  ├── polyfill.js
+|  |  |  └── shim.js
+|  |  ├── Iterator.prototype.constructor/
+|  |  |  ├── auto.js
+|  |  |  ├── implementation.js
+|  |  |  ├── index.js
+|  |  |  ├── polyfill.js
+|  |  |  └── shim.js
+|  |  ├── Iterator.prototype.drop/
+|  |  |  ├── auto.js
+|  |  |  ├── implementation.js
+|  |  |  ├── index.js
+|  |  |  ├── polyfill.js
+|  |  |  └── shim.js
+|  |  ├── Iterator.prototype.every/
+|  |  |  ├── auto.js
+|  |  |  ├── implementation.js
+|  |  |  ├── index.js
+|  |  |  ├── polyfill.js
+|  |  |  └── shim.js
+|  |  ├── Iterator.prototype.filter/
+|  |  |  ├── auto.js
+|  |  |  ├── implementation.js
+|  |  |  ├── index.js
+|  |  |  ├── polyfill.js
+|  |  |  └── shim.js
+|  |  ├── Iterator.prototype.find/
+|  |  |  ├── auto.js
+|  |  |  ├── implementation.js
+|  |  |  ├── index.js
+|  |  |  ├── polyfill.js
+|  |  |  └── shim.js
+|  |  ├── Iterator.prototype.flatMap/
+|  |  |  ├── auto.js
+|  |  |  ├── implementation.js
+|  |  |  ├── index.js
+|  |  |  ├── polyfill.js
+|  |  |  └── shim.js
+|  |  ├── Iterator.prototype.forEach/
+|  |  |  ├── auto.js
+|  |  |  ├── implementation.js
+|  |  |  ├── index.js
+|  |  |  ├── polyfill.js
+|  |  |  └── shim.js
+|  |  ├── Iterator.prototype.map/
+|  |  |  ├── auto.js
+|  |  |  ├── implementation.js
+|  |  |  ├── index.js
+|  |  |  ├── polyfill.js
+|  |  |  └── shim.js
+|  |  ├── Iterator.prototype.reduce/
+|  |  |  ├── auto.js
+|  |  |  ├── implementation.js
+|  |  |  ├── index.js
+|  |  |  ├── polyfill.js
+|  |  |  └── shim.js
+|  |  ├── Iterator.prototype.some/
+|  |  |  ├── auto.js
+|  |  |  ├── implementation.js
+|  |  |  ├── index.js
+|  |  |  ├── polyfill.js
+|  |  |  └── shim.js
+|  |  ├── Iterator.prototype.take/
+|  |  |  ├── auto.js
+|  |  |  ├── implementation.js
+|  |  |  ├── index.js
+|  |  |  ├── polyfill.js
+|  |  |  └── shim.js
+|  |  ├── Iterator.prototype.toArray/
+|  |  |  ├── auto.js
+|  |  |  ├── implementation.js
+|  |  |  ├── index.js
+|  |  |  ├── polyfill.js
+|  |  |  └── shim.js
+|  |  ├── Iterator.zip/
+|  |  |  ├── auto.js
+|  |  |  ├── implementation.js
+|  |  |  ├── index.js
+|  |  |  ├── polyfill.js
+|  |  |  └── shim.js
+|  |  ├── Iterator.zipKeyed/
+|  |  |  ├── auto.js
+|  |  |  ├── implementation.js
+|  |  |  ├── index.js
+|  |  |  ├── polyfill.js
+|  |  |  └── shim.js
+|  |  ├── IteratorHelperPrototype/
+|  |  |  └── index.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  ├── README.md
+|  |  ├── shim.js
+|  |  ├── test/
+|  |  |  ├── helpers/
+|  |  |  ├── implementation.js
+|  |  |  ├── index.js
+|  |  |  ├── Iterator.concat.js
+|  |  |  ├── Iterator.from.js
+|  |  |  ├── Iterator.js
+|  |  |  ├── Iterator.prototype.constructor.js
+|  |  |  ├── Iterator.prototype.drop.js
+|  |  |  ├── Iterator.prototype.every.js
+|  |  |  ├── Iterator.prototype.filter.js
+|  |  |  ├── Iterator.prototype.find.js
+|  |  |  ├── Iterator.prototype.flatMap.js
+|  |  |  ├── Iterator.prototype.forEach.js
+|  |  |  ├── Iterator.prototype.js
+|  |  |  ├── Iterator.prototype.map.js
+|  |  |  ├── Iterator.prototype.reduce.js
+|  |  |  ├── Iterator.prototype.some.js
+|  |  |  ├── Iterator.prototype.take.js
+|  |  |  ├── Iterator.prototype.toArray.js
+|  |  |  ├── Iterator.zip.js
+|  |  |  ├── Iterator.zipKeyed.js
+|  |  |  ├── shimmed.js
+|  |  |  └── tests.js
+|  |  └── WrapForValidIteratorPrototype/
+|  |     └── index.js
+|  ├── es-object-atoms/
+|  |  ├── .eslintrc
+|  |  ├── .github/
+|  |  |  └── FUNDING.yml
+|  |  ├── CHANGELOG.md
+|  |  ├── index.d.ts
+|  |  ├── index.js
+|  |  ├── isObject.d.ts
+|  |  ├── isObject.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  ├── README.md
+|  |  ├── RequireObjectCoercible.d.ts
+|  |  ├── RequireObjectCoercible.js
+|  |  ├── test/
+|  |  |  └── index.js
+|  |  ├── ToObject.d.ts
+|  |  ├── ToObject.js
+|  |  └── tsconfig.json
+|  ├── es-set-tostringtag/
+|  |  ├── .eslintrc
+|  |  ├── .nycrc
+|  |  ├── CHANGELOG.md
+|  |  ├── index.d.ts
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  ├── README.md
+|  |  ├── test/
+|  |  |  └── index.js
+|  |  └── tsconfig.json
+|  ├── es-shim-unscopables/
+|  |  ├── .eslintrc
+|  |  ├── .github/
+|  |  |  └── FUNDING.yml
+|  |  ├── .nycrc
+|  |  ├── CHANGELOG.md
+|  |  ├── index.d.ts
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  ├── README.md
+|  |  ├── test/
+|  |  |  ├── index.js
+|  |  |  └── with.js
+|  |  └── tsconfig.json
+|  ├── es-to-primitive/
+|  |  ├── .editorconfig
+|  |  ├── .eslintignore
+|  |  ├── .eslintrc
+|  |  ├── .github/
+|  |  |  └── FUNDING.yml
+|  |  ├── .nycrc
+|  |  ├── CHANGELOG.md
+|  |  ├── es2015.d.ts
+|  |  ├── es2015.js
+|  |  ├── es5.d.ts
+|  |  ├── es5.js
+|  |  ├── es6.d.ts
+|  |  ├── es6.js
+|  |  ├── helpers/
+|  |  |  └── isPrimitive.js
+|  |  ├── index.d.ts
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  ├── README.md
+|  |  ├── test/
+|  |  |  ├── es2015.js
+|  |  |  ├── es5.js
+|  |  |  ├── es6.js
+|  |  |  └── index.js
+|  |  └── tsconfig.json
+|  ├── escalade/
+|  |  ├── dist/
+|  |  |  ├── index.js
+|  |  |  └── index.mjs
+|  |  ├── index.d.mts
+|  |  ├── index.d.ts
+|  |  ├── license
+|  |  ├── package.json
+|  |  ├── readme.md
+|  |  └── sync/
+|  |     ├── index.d.mts
+|  |     ├── index.d.ts
+|  |     ├── index.js
+|  |     └── index.mjs
+|  ├── escape-string-regexp/
+|  |  ├── index.d.ts
+|  |  ├── index.js
+|  |  ├── license
+|  |  ├── package.json
+|  |  └── readme.md
+|  ├── eslint/
+|  |  ├── bin/
+|  |  |  └── eslint.js
+|  |  ├── conf/
+|  |  |  ├── default-cli-options.js
+|  |  |  ├── ecma-version.js
+|  |  |  ├── globals.js
+|  |  |  ├── replacements.json
+|  |  |  └── rule-type-list.json
+|  |  ├── lib/
+|  |  |  ├── api.js
+|  |  |  ├── cli-engine/
+|  |  |  ├── cli.js
+|  |  |  ├── config/
+|  |  |  ├── config-api.js
+|  |  |  ├── eslint/
+|  |  |  ├── languages/
+|  |  |  ├── linter/
+|  |  |  ├── options.js
+|  |  |  ├── rule-tester/
+|  |  |  ├── rules/
+|  |  |  ├── services/
+|  |  |  ├── shared/
+|  |  |  ├── types/
+|  |  |  ├── universal.js
+|  |  |  └── unsupported-api.js
+|  |  ├── LICENSE
+|  |  ├── messages/
+|  |  |  ├── all-files-ignored.js
+|  |  |  ├── all-matched-files-ignored.js
+|  |  |  ├── config-file-missing.js
+|  |  |  ├── config-plugin-missing.js
+|  |  |  ├── config-serialize-function.js
+|  |  |  ├── eslintrc-incompat.js
+|  |  |  ├── eslintrc-plugins.js
+|  |  |  ├── extend-config-missing.js
+|  |  |  ├── failed-to-read-json.js
+|  |  |  ├── file-not-found.js
+|  |  |  ├── invalid-rule-options.js
+|  |  |  ├── invalid-rule-severity.js
+|  |  |  ├── no-config-found.js
+|  |  |  ├── plugin-conflict.js
+|  |  |  ├── plugin-invalid.js
+|  |  |  ├── plugin-missing.js
+|  |  |  ├── print-config-with-directory-path.js
+|  |  |  ├── shared.js
+|  |  |  └── whitespace-found.js
+|  |  ├── package.json
+|  |  └── README.md
+|  ├── eslint-config-next/
+|  |  ├── dist/
+|  |  |  ├── core-web-vitals.js
+|  |  |  ├── index.js
+|  |  |  ├── parser.js
+|  |  |  ├── src/
+|  |  |  └── typescript.js
+|  |  ├── node_modules/
+|  |  |  └── globals/
+|  |  └── package.json
+|  ├── eslint-import-resolver-node/
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── node_modules/
+|  |  |  └── debug/
+|  |  ├── package.json
+|  |  └── README.md
+|  ├── eslint-import-resolver-typescript/
+|  |  ├── lib/
+|  |  |  ├── index.cjs
+|  |  |  ├── index.d.ts
+|  |  |  ├── index.es2020.mjs
+|  |  |  ├── index.js
+|  |  |  └── index.js.map
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  └── README.md
+|  ├── eslint-module-utils/
+|  |  ├── .nycrc
+|  |  ├── CHANGELOG.md
+|  |  ├── contextCompat.d.ts
+|  |  ├── contextCompat.js
+|  |  ├── declaredScope.d.ts
+|  |  ├── declaredScope.js
+|  |  ├── hash.d.ts
+|  |  ├── hash.js
+|  |  ├── ignore.d.ts
+|  |  ├── ignore.js
+|  |  ├── LICENSE
+|  |  ├── module-require.d.ts
+|  |  ├── module-require.js
+|  |  ├── ModuleCache.d.ts
+|  |  ├── ModuleCache.js
+|  |  ├── moduleVisitor.d.ts
+|  |  ├── moduleVisitor.js
+|  |  ├── node_modules/
+|  |  |  └── debug/
+|  |  ├── package.json
+|  |  ├── parse.d.ts
+|  |  ├── parse.js
+|  |  ├── pkgDir.d.ts
+|  |  ├── pkgDir.js
+|  |  ├── pkgUp.d.ts
+|  |  ├── pkgUp.js
+|  |  ├── readPkgUp.d.ts
+|  |  ├── readPkgUp.js
+|  |  ├── resolve.d.ts
+|  |  ├── resolve.js
+|  |  ├── tsconfig.json
+|  |  ├── types.d.ts
+|  |  ├── unambiguous.d.ts
+|  |  ├── unambiguous.js
+|  |  ├── visit.d.ts
+|  |  └── visit.js
+|  ├── eslint-plugin-import/
+|  |  ├── CHANGELOG.md
+|  |  ├── config/
+|  |  |  ├── electron.js
+|  |  |  ├── errors.js
+|  |  |  ├── flat/
+|  |  |  ├── react-native.js
+|  |  |  ├── react.js
+|  |  |  ├── recommended.js
+|  |  |  ├── stage-0.js
+|  |  |  ├── typescript.js
+|  |  |  └── warnings.js
+|  |  ├── docs/
+|  |  |  └── rules/
+|  |  ├── index.d.ts
+|  |  ├── lib/
+|  |  |  ├── core/
+|  |  |  ├── docsUrl.js
+|  |  |  ├── exportMap/
+|  |  |  ├── importDeclaration.js
+|  |  |  ├── index.js
+|  |  |  ├── rules/
+|  |  |  └── scc.js
+|  |  ├── LICENSE
+|  |  ├── memo-parser/
+|  |  |  ├── index.js
+|  |  |  ├── LICENSE
+|  |  |  └── README.md
+|  |  ├── node_modules/
+|  |  |  └── debug/
+|  |  ├── package.json
+|  |  ├── README.md
+|  |  └── SECURITY.md
+|  ├── eslint-plugin-jsx-a11y/
+|  |  ├── .babelrc
+|  |  ├── .eslintrc
+|  |  ├── CHANGELOG.md
+|  |  ├── docs/
+|  |  |  └── rules/
+|  |  ├── lib/
+|  |  |  ├── configs/
+|  |  |  ├── index.js
+|  |  |  ├── rules/
+|  |  |  └── util/
+|  |  ├── LICENSE.md
+|  |  ├── package.json
+|  |  ├── README.md
+|  |  ├── __mocks__/
+|  |  |  ├── genInteractives.js
+|  |  |  ├── IdentifierMock.js
+|  |  |  ├── JSXAttributeMock.js
+|  |  |  ├── JSXElementMock.js
+|  |  |  ├── JSXExpressionContainerMock.js
+|  |  |  ├── JSXSpreadAttributeMock.js
+|  |  |  ├── JSXTextMock.js
+|  |  |  └── LiteralMock.js
+|  |  └── __tests__/
+|  |     ├── index-test.js
+|  |     ├── src/
+|  |     └── __util__/
+|  ├── eslint-plugin-react/
+|  |  ├── configs/
+|  |  |  ├── all.js
+|  |  |  ├── jsx-runtime.js
+|  |  |  └── recommended.js
+|  |  ├── index.d.ts
+|  |  ├── index.d.ts.map
+|  |  ├── index.js
+|  |  ├── lib/
+|  |  |  ├── rules/
+|  |  |  ├── types.d.ts
+|  |  |  └── util/
+|  |  ├── LICENSE
+|  |  ├── node_modules/
+|  |  |  ├── .bin/
+|  |  |  └── resolve/
+|  |  ├── package.json
+|  |  └── README.md
+|  ├── eslint-plugin-react-hooks/
+|  |  ├── cjs/
+|  |  |  ├── eslint-plugin-react-hooks.d.ts
+|  |  |  ├── eslint-plugin-react-hooks.development.js
+|  |  |  └── eslint-plugin-react-hooks.production.js
+|  |  ├── index.d.ts
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  └── README.md
+|  ├── eslint-scope/
+|  |  ├── dist/
+|  |  |  └── eslint-scope.cjs
+|  |  ├── lib/
+|  |  |  ├── assert.js
+|  |  |  ├── definition.js
+|  |  |  ├── index.js
+|  |  |  ├── pattern-visitor.js
+|  |  |  ├── reference.js
+|  |  |  ├── referencer.js
+|  |  |  ├── scope-manager.js
+|  |  |  ├── scope.js
+|  |  |  ├── variable.js
+|  |  |  └── version.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  └── README.md
+|  ├── eslint-visitor-keys/
+|  |  ├── dist/
+|  |  |  ├── eslint-visitor-keys.cjs
+|  |  |  ├── eslint-visitor-keys.d.cts
+|  |  |  ├── index.d.ts
+|  |  |  └── visitor-keys.d.ts
+|  |  ├── lib/
+|  |  |  ├── index.js
+|  |  |  └── visitor-keys.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  └── README.md
+|  ├── espree/
+|  |  ├── dist/
+|  |  |  └── espree.cjs
+|  |  ├── espree.js
+|  |  ├── lib/
+|  |  |  ├── espree.js
+|  |  |  ├── features.js
+|  |  |  ├── options.js
+|  |  |  ├── token-translator.js
+|  |  |  └── version.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  └── README.md
+|  ├── esquery/
+|  |  ├── dist/
+|  |  |  ├── esquery.esm.js
+|  |  |  ├── esquery.esm.min.js
+|  |  |  ├── esquery.esm.min.js.map
+|  |  |  ├── esquery.js
+|  |  |  ├── esquery.lite.js
+|  |  |  ├── esquery.lite.min.js
+|  |  |  ├── esquery.lite.min.js.map
+|  |  |  ├── esquery.min.js
+|  |  |  └── esquery.min.js.map
+|  |  ├── license.txt
+|  |  ├── package.json
+|  |  ├── parser.js
+|  |  └── README.md
+|  ├── esrecurse/
+|  |  ├── .babelrc
+|  |  ├── esrecurse.js
+|  |  ├── gulpfile.babel.js
+|  |  ├── package.json
+|  |  └── README.md
+|  ├── estraverse/
+|  |  ├── .jshintrc
+|  |  ├── estraverse.js
+|  |  ├── gulpfile.js
+|  |  ├── LICENSE.BSD
+|  |  ├── package.json
+|  |  └── README.md
+|  ├── esutils/
+|  |  ├── lib/
+|  |  |  ├── ast.js
+|  |  |  ├── code.js
+|  |  |  ├── keyword.js
+|  |  |  └── utils.js
+|  |  ├── LICENSE.BSD
+|  |  ├── package.json
+|  |  └── README.md
+|  ├── fast-deep-equal/
+|  |  ├── es6/
+|  |  |  ├── index.d.ts
+|  |  |  ├── index.js
+|  |  |  ├── react.d.ts
+|  |  |  └── react.js
+|  |  ├── index.d.ts
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  ├── react.d.ts
+|  |  ├── react.js
+|  |  └── README.md
+|  ├── fast-glob/
+|  |  ├── LICENSE
+|  |  ├── node_modules/
+|  |  |  └── glob-parent/
+|  |  ├── out/
+|  |  |  ├── index.d.ts
+|  |  |  ├── index.js
+|  |  |  ├── managers/
+|  |  |  ├── providers/
+|  |  |  ├── readers/
+|  |  |  ├── settings.d.ts
+|  |  |  ├── settings.js
+|  |  |  ├── types/
+|  |  |  └── utils/
+|  |  ├── package.json
+|  |  └── README.md
+|  ├── fast-json-stable-stringify/
+|  |  ├── .eslintrc.yml
+|  |  ├── .github/
+|  |  |  └── FUNDING.yml
+|  |  ├── .travis.yml
+|  |  ├── benchmark/
+|  |  |  ├── index.js
+|  |  |  └── test.json
+|  |  ├── example/
+|  |  |  ├── key_cmp.js
+|  |  |  ├── nested.js
+|  |  |  ├── str.js
+|  |  |  └── value_cmp.js
+|  |  ├── index.d.ts
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  ├── README.md
+|  |  └── test/
+|  |     ├── cmp.js
+|  |     ├── nested.js
+|  |     ├── str.js
+|  |     └── to-json.js
+|  ├── fast-levenshtein/
+|  |  ├── levenshtein.js
+|  |  ├── LICENSE.md
+|  |  ├── package.json
+|  |  └── README.md
+|  ├── fastq/
+|  |  ├── .github/
+|  |  |  ├── dependabot.yml
+|  |  |  └── workflows/
+|  |  ├── bench.js
+|  |  ├── example.js
+|  |  ├── example.mjs
+|  |  ├── index.d.ts
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  ├── queue.js
+|  |  ├── README.md
+|  |  ├── SECURITY.md
+|  |  └── test/
+|  |     ├── example.ts
+|  |     ├── promise.js
+|  |     ├── test.js
+|  |     └── tsconfig.json
+|  ├── file-entry-cache/
+|  |  ├── cache.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  └── README.md
+|  ├── fill-range/
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  └── README.md
+|  ├── find-up/
+|  |  ├── index.d.ts
+|  |  ├── index.js
+|  |  ├── license
+|  |  ├── package.json
+|  |  └── readme.md
+|  ├── flat-cache/
+|  |  ├── changelog.md
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  ├── README.md
+|  |  └── src/
+|  |     ├── cache.js
+|  |     ├── del.js
+|  |     └── utils.js
+|  ├── flatted/
+|  |  ├── cjs/
+|  |  |  ├── index.js
+|  |  |  └── package.json
+|  |  ├── es.js
+|  |  ├── esm/
+|  |  |  └── index.js
+|  |  ├── esm.js
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── min.js
+|  |  ├── package.json
+|  |  ├── php/
+|  |  |  └── flatted.php
+|  |  ├── python/
+|  |  |  └── flatted.py
+|  |  ├── README.md
+|  |  └── types/
+|  |     └── index.d.ts
+|  ├── for-each/
+|  |  ├── .editorconfig
+|  |  ├── .eslintrc
+|  |  ├── .github/
+|  |  |  ├── FUNDING.yml
+|  |  |  └── SECURITY.md
+|  |  ├── .nycrc
+|  |  ├── CHANGELOG.md
+|  |  ├── index.d.ts
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  ├── README.md
+|  |  ├── test/
+|  |  |  └── test.js
+|  |  └── tsconfig.json
+|  ├── function-bind/
+|  |  ├── .eslintrc
+|  |  ├── .github/
+|  |  |  ├── FUNDING.yml
+|  |  |  └── SECURITY.md
+|  |  ├── .nycrc
+|  |  ├── CHANGELOG.md
+|  |  ├── implementation.js
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  ├── README.md
+|  |  └── test/
+|  |     ├── .eslintrc
+|  |     └── index.js
+|  ├── function.prototype.name/
+|  |  ├── .editorconfig
+|  |  ├── .eslintrc
+|  |  ├── .github/
+|  |  |  └── FUNDING.yml
+|  |  ├── .nycrc
+|  |  ├── auto.js
+|  |  ├── CHANGELOG.md
+|  |  ├── helpers/
+|  |  |  └── functionsHaveNames.js
+|  |  ├── implementation.js
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  ├── polyfill.js
+|  |  ├── README.md
+|  |  ├── shim.js
+|  |  └── test/
+|  |     ├── implementation.js
+|  |     ├── index.js
+|  |     ├── shimmed.js
+|  |     ├── tests.js
+|  |     └── uglified.js
+|  ├── functions-have-names/
+|  |  ├── .editorconfig
+|  |  ├── .eslintrc
+|  |  ├── .github/
+|  |  |  └── FUNDING.yml
+|  |  ├── .nycrc
+|  |  ├── CHANGELOG.md
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  ├── README.md
+|  |  └── test/
+|  |     └── index.js
+|  ├── generator-function/
+|  |  ├── .eslintrc
+|  |  ├── .github/
+|  |  |  └── FUNDING.yml
+|  |  ├── .nycrc
+|  |  ├── CHANGELOG.md
+|  |  ├── index.d.mts
+|  |  ├── index.d.ts
+|  |  ├── index.js
+|  |  ├── index.mjs
+|  |  ├── legacy.js
+|  |  ├── LICENSE.md
+|  |  ├── package.json
+|  |  ├── README.md
+|  |  ├── require.mjs
+|  |  ├── test/
+|  |  |  └── index.js
+|  |  └── tsconfig.json
+|  ├── gensync/
+|  |  ├── index.js
+|  |  ├── index.js.flow
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  ├── README.md
+|  |  └── test/
+|  |     ├── .babelrc
+|  |     └── index.test.js
+|  ├── get-intrinsic/
+|  |  ├── .eslintrc
+|  |  ├── .github/
+|  |  |  └── FUNDING.yml
+|  |  ├── .nycrc
+|  |  ├── CHANGELOG.md
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  ├── README.md
+|  |  └── test/
+|  |     └── GetIntrinsic.js
+|  ├── get-proto/
+|  |  ├── .eslintrc
+|  |  ├── .github/
+|  |  |  └── FUNDING.yml
+|  |  ├── .nycrc
+|  |  ├── CHANGELOG.md
+|  |  ├── index.d.ts
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── Object.getPrototypeOf.d.ts
+|  |  ├── Object.getPrototypeOf.js
+|  |  ├── package.json
+|  |  ├── README.md
+|  |  ├── Reflect.getPrototypeOf.d.ts
+|  |  ├── Reflect.getPrototypeOf.js
+|  |  ├── test/
+|  |  |  └── index.js
+|  |  └── tsconfig.json
+|  ├── get-symbol-description/
+|  |  ├── .eslintrc
+|  |  ├── .github/
+|  |  |  └── FUNDING.yml
+|  |  ├── .nycrc
+|  |  ├── CHANGELOG.md
+|  |  ├── getInferredName.d.ts
+|  |  ├── getInferredName.js
+|  |  ├── index.d.ts
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  ├── README.md
+|  |  ├── test/
+|  |  |  └── index.js
+|  |  └── tsconfig.json
+|  ├── get-tsconfig/
+|  |  ├── dist/
+|  |  |  ├── index.cjs
+|  |  |  ├── index.d.cts
+|  |  |  ├── index.d.mts
+|  |  |  └── index.mjs
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  └── README.md
+|  ├── glob-parent/
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  └── README.md
+|  ├── globals/
+|  |  ├── globals.json
+|  |  ├── index.d.ts
+|  |  ├── index.js
+|  |  ├── license
+|  |  ├── package.json
+|  |  └── readme.md
+|  ├── globalthis/
+|  |  ├── .eslintrc
+|  |  ├── .nycrc
+|  |  ├── auto.js
+|  |  ├── CHANGELOG.md
+|  |  ├── implementation.browser.js
+|  |  ├── implementation.js
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  ├── polyfill.js
+|  |  ├── README.md
+|  |  ├── shim.js
+|  |  └── test/
+|  |     ├── implementation.js
+|  |     ├── index.js
+|  |     ├── native.js
+|  |     ├── shimmed.js
+|  |     └── tests.js
+|  ├── gopd/
+|  |  ├── .eslintrc
+|  |  ├── .github/
+|  |  |  └── FUNDING.yml
+|  |  ├── CHANGELOG.md
+|  |  ├── gOPD.d.ts
+|  |  ├── gOPD.js
+|  |  ├── index.d.ts
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  ├── README.md
+|  |  ├── test/
+|  |  |  └── index.js
+|  |  └── tsconfig.json
+|  ├── graceful-fs/
+|  |  ├── clone.js
+|  |  ├── graceful-fs.js
+|  |  ├── legacy-streams.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  ├── polyfills.js
+|  |  └── README.md
+|  ├── graphemer/
+|  |  ├── CHANGELOG.md
+|  |  ├── lib/
+|  |  |  ├── boundaries.d.ts
+|  |  |  ├── boundaries.d.ts.map
+|  |  |  ├── boundaries.js
+|  |  |  ├── Graphemer.d.ts
+|  |  |  ├── Graphemer.d.ts.map
+|  |  |  ├── Graphemer.js
+|  |  |  ├── GraphemerHelper.d.ts
+|  |  |  ├── GraphemerHelper.d.ts.map
+|  |  |  ├── GraphemerHelper.js
+|  |  |  ├── GraphemerIterator.d.ts
+|  |  |  ├── GraphemerIterator.d.ts.map
+|  |  |  ├── GraphemerIterator.js
+|  |  |  ├── index.d.ts
+|  |  |  ├── index.d.ts.map
+|  |  |  └── index.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  └── README.md
+|  ├── has-bigints/
+|  |  ├── .eslintrc
+|  |  ├── .github/
+|  |  |  └── FUNDING.yml
+|  |  ├── .nycrc
+|  |  ├── CHANGELOG.md
+|  |  ├── index.d.ts
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  ├── README.md
+|  |  ├── test/
+|  |  |  └── index.js
+|  |  └── tsconfig.json
+|  ├── has-flag/
+|  |  ├── index.d.ts
+|  |  ├── index.js
+|  |  ├── license
+|  |  ├── package.json
+|  |  └── readme.md
+|  ├── has-property-descriptors/
+|  |  ├── .eslintrc
+|  |  ├── .github/
+|  |  |  └── FUNDING.yml
+|  |  ├── .nycrc
+|  |  ├── CHANGELOG.md
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  ├── README.md
+|  |  └── test/
+|  |     └── index.js
+|  ├── has-proto/
+|  |  ├── .eslintrc
+|  |  ├── .github/
+|  |  |  └── FUNDING.yml
+|  |  ├── accessor.d.ts
+|  |  ├── accessor.js
+|  |  ├── CHANGELOG.md
+|  |  ├── index.d.ts
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── mutator.d.ts
+|  |  ├── mutator.js
+|  |  ├── package.json
+|  |  ├── README.md
+|  |  ├── test/
+|  |  |  ├── accessor.js
+|  |  |  ├── index.js
+|  |  |  └── mutator.js
+|  |  └── tsconfig.json
+|  ├── has-symbols/
+|  |  ├── .eslintrc
+|  |  ├── .github/
+|  |  |  └── FUNDING.yml
+|  |  ├── .nycrc
+|  |  ├── CHANGELOG.md
+|  |  ├── index.d.ts
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  ├── README.md
+|  |  ├── shams.d.ts
+|  |  ├── shams.js
+|  |  ├── test/
+|  |  |  ├── index.js
+|  |  |  ├── shams/
+|  |  |  └── tests.js
+|  |  └── tsconfig.json
+|  ├── has-tostringtag/
+|  |  ├── .eslintrc
+|  |  ├── .github/
+|  |  |  └── FUNDING.yml
+|  |  ├── .nycrc
+|  |  ├── CHANGELOG.md
+|  |  ├── index.d.ts
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  ├── README.md
+|  |  ├── shams.d.ts
+|  |  ├── shams.js
+|  |  ├── test/
+|  |  |  ├── index.js
+|  |  |  ├── shams/
+|  |  |  └── tests.js
+|  |  └── tsconfig.json
+|  ├── hasown/
+|  |  ├── .eslintrc
+|  |  ├── .github/
+|  |  |  └── FUNDING.yml
+|  |  ├── .nycrc
+|  |  ├── CHANGELOG.md
+|  |  ├── index.d.ts
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  ├── README.md
+|  |  └── tsconfig.json
+|  ├── hermes-estree/
+|  |  ├── dist/
+|  |  |  ├── generated/
+|  |  |  ├── index.js
+|  |  |  ├── index.js.flow
+|  |  |  ├── predicates.js
+|  |  |  ├── predicates.js.flow
+|  |  |  ├── selectors.js
+|  |  |  ├── selectors.js.flow
+|  |  |  ├── types.js
+|  |  |  └── types.js.flow
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  └── README.md
+|  ├── hermes-parser/
+|  |  ├── dist/
+|  |  |  ├── babel/
+|  |  |  ├── estree/
+|  |  |  ├── generated/
+|  |  |  ├── getModuleDocblock.js
+|  |  |  ├── getModuleDocblock.js.flow
+|  |  |  ├── HermesAST.js.flow
+|  |  |  ├── HermesASTAdapter.js
+|  |  |  ├── HermesASTAdapter.js.flow
+|  |  |  ├── HermesParser.js
+|  |  |  ├── HermesParser.js.flow
+|  |  |  ├── HermesParserDecodeUTF8String.js
+|  |  |  ├── HermesParserDecodeUTF8String.js.flow
+|  |  |  ├── HermesParserDeserializer.js
+|  |  |  ├── HermesParserDeserializer.js.flow
+|  |  |  ├── HermesParserNodeDeserializers.js
+|  |  |  ├── HermesParserNodeDeserializers.js.flow
+|  |  |  ├── HermesParserWASM.js
+|  |  |  ├── HermesParserWASM.js.flow
+|  |  |  ├── HermesToESTreeAdapter.js
+|  |  |  ├── HermesToESTreeAdapter.js.flow
+|  |  |  ├── index.js
+|  |  |  ├── index.js.flow
+|  |  |  ├── ParserOptions.js
+|  |  |  ├── ParserOptions.js.flow
+|  |  |  ├── transform/
+|  |  |  ├── traverse/
+|  |  |  └── utils/
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  └── README.md
+|  ├── ignore/
+|  |  ├── index.d.ts
+|  |  ├── index.js
+|  |  ├── legacy.js
+|  |  ├── LICENSE-MIT
+|  |  ├── package.json
+|  |  └── README.md
+|  ├── import-fresh/
+|  |  ├── index.d.ts
+|  |  ├── index.js
+|  |  ├── license
+|  |  ├── package.json
+|  |  └── readme.md
+|  ├── imurmurhash/
+|  |  ├── imurmurhash.js
+|  |  ├── imurmurhash.min.js
+|  |  ├── package.json
+|  |  └── README.md
+|  ├── internal-slot/
+|  |  ├── .attw.json
+|  |  ├── .editorconfig
+|  |  ├── .eslintrc
+|  |  ├── .github/
+|  |  |  └── FUNDING.yml
+|  |  ├── .nycrc
+|  |  ├── CHANGELOG.md
+|  |  ├── index.d.ts
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  ├── README.md
+|  |  ├── test/
+|  |  |  └── index.js
+|  |  └── tsconfig.json
+|  ├── is-array-buffer/
+|  |  ├── .eslintrc
+|  |  ├── .github/
+|  |  |  └── FUNDING.yml
+|  |  ├── .nycrc
+|  |  ├── CHANGELOG.md
+|  |  ├── index.d.ts
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  ├── README.md
+|  |  ├── test/
+|  |  |  └── index.js
+|  |  └── tsconfig.json
+|  ├── is-async-function/
+|  |  ├── .eslintrc
+|  |  ├── .nycrc
+|  |  ├── CHANGELOG.md
+|  |  ├── index.d.ts
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  ├── README.md
+|  |  ├── test/
+|  |  |  ├── index.js
+|  |  |  └── uglified.js
+|  |  └── tsconfig.json
+|  ├── is-bigint/
+|  |  ├── .eslintrc
+|  |  ├── .github/
+|  |  |  └── FUNDING.yml
+|  |  ├── .nycrc
+|  |  ├── CHANGELOG.md
+|  |  ├── index.d.ts
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  ├── README.md
+|  |  ├── test/
+|  |  |  └── index.js
+|  |  └── tsconfig.json
+|  ├── is-boolean-object/
+|  |  ├── .editorconfig
+|  |  ├── .eslintrc
+|  |  ├── .github/
+|  |  |  └── FUNDING.yml
+|  |  ├── .nycrc
+|  |  ├── CHANGELOG.md
+|  |  ├── index.d.ts
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  ├── README.md
+|  |  ├── test/
+|  |  |  └── index.js
+|  |  └── tsconfig.json
+|  ├── is-bun-module/
+|  |  ├── dist/
+|  |  |  ├── bun.mjs
+|  |  |  ├── generic.d.ts
+|  |  |  ├── generic.js
+|  |  |  ├── shared.d.ts
+|  |  |  └── shared.js
+|  |  ├── LICENSE
+|  |  ├── node_modules/
+|  |  |  ├── .bin/
+|  |  |  └── semver/
+|  |  ├── package.json
+|  |  └── README.md
+|  ├── is-callable/
+|  |  ├── .editorconfig
+|  |  ├── .eslintrc
+|  |  ├── .github/
+|  |  |  └── FUNDING.yml
+|  |  ├── .nycrc
+|  |  ├── CHANGELOG.md
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  ├── README.md
+|  |  └── test/
+|  |     └── index.js
+|  ├── is-core-module/
+|  |  ├── .eslintrc
+|  |  ├── .nycrc
+|  |  ├── CHANGELOG.md
+|  |  ├── core.json
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  ├── README.md
+|  |  └── test/
+|  |     └── index.js
+|  ├── is-data-view/
+|  |  ├── .editorconfig
+|  |  ├── .eslintrc
+|  |  ├── .github/
+|  |  |  └── FUNDING.yml
+|  |  ├── .nycrc
+|  |  ├── CHANGELOG.md
+|  |  ├── index.d.ts
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  ├── README.md
+|  |  ├── test/
+|  |  |  └── index.js
+|  |  └── tsconfig.json
+|  ├── is-date-object/
+|  |  ├── .editorconfig
+|  |  ├── .eslintrc
+|  |  ├── .github/
+|  |  |  └── FUNDING.yml
+|  |  ├── .nycrc
+|  |  ├── CHANGELOG.md
+|  |  ├── index.d.ts
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  ├── README.md
+|  |  ├── test/
+|  |  |  └── index.js
+|  |  └── tsconfig.json
+|  ├── is-extglob/
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  └── README.md
+|  ├── is-finalizationregistry/
+|  |  ├── .eslintrc
+|  |  ├── .github/
+|  |  |  └── FUNDING.yml
+|  |  ├── .nycrc
+|  |  ├── CHANGELOG.md
+|  |  ├── index.d.ts
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  ├── README.md
+|  |  ├── test/
+|  |  |  └── index.js
+|  |  └── tsconfig.json
+|  ├── is-generator-function/
+|  |  ├── .eslintrc
+|  |  ├── .nvmrc
+|  |  ├── .nycrc
+|  |  ├── CHANGELOG.md
+|  |  ├── index.d.ts
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  ├── README.md
+|  |  ├── test/
+|  |  |  ├── corejs.js
+|  |  |  ├── index.js
+|  |  |  └── uglified.js
+|  |  └── tsconfig.json
+|  ├── is-glob/
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  └── README.md
+|  ├── is-map/
+|  |  ├── .editorconfig
+|  |  ├── .eslintrc
+|  |  ├── .gitattributes
+|  |  ├── .github/
+|  |  |  └── FUNDING.yml
+|  |  ├── .nycrc
+|  |  ├── CHANGELOG.md
+|  |  ├── index.d.ts
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  ├── README.md
+|  |  ├── test/
+|  |  |  └── index.js
+|  |  └── tsconfig.json
+|  ├── is-negative-zero/
+|  |  ├── .editorconfig
+|  |  ├── .eslintrc
+|  |  ├── .github/
+|  |  |  └── FUNDING.yml
+|  |  ├── .nycrc
+|  |  ├── CHANGELOG.md
+|  |  ├── index.d.ts
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  ├── README.md
+|  |  ├── test/
+|  |  |  └── index.js
+|  |  └── tsconfig.json
+|  ├── is-number/
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  └── README.md
+|  ├── is-number-object/
+|  |  ├── .editorconfig
+|  |  ├── .eslintrc
+|  |  ├── .github/
+|  |  |  └── FUNDING.yml
+|  |  ├── .nycrc
+|  |  ├── CHANGELOG.md
+|  |  ├── index.d.ts
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  ├── README.md
+|  |  ├── test/
+|  |  |  └── index.js
+|  |  └── tsconfig.json
+|  ├── is-regex/
+|  |  ├── .editorconfig
+|  |  ├── .eslintrc
+|  |  ├── .nycrc
+|  |  ├── CHANGELOG.md
+|  |  ├── index.d.ts
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  ├── README.md
+|  |  ├── test/
+|  |  |  └── index.js
+|  |  └── tsconfig.json
+|  ├── is-set/
+|  |  ├── .editorconfig
+|  |  ├── .eslintrc
+|  |  ├── .gitattributes
+|  |  ├── .github/
+|  |  |  └── FUNDING.yml
+|  |  ├── .nycrc
+|  |  ├── CHANGELOG.md
+|  |  ├── index.d.ts
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  ├── README.md
+|  |  ├── test/
+|  |  |  └── index.js
+|  |  └── tsconfig.json
+|  ├── is-shared-array-buffer/
+|  |  ├── .eslintrc
+|  |  ├── .github/
+|  |  |  └── FUNDING.yml
+|  |  ├── .nycrc
+|  |  ├── CHANGELOG.md
+|  |  ├── index.d.ts
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  ├── README.md
+|  |  ├── test/
+|  |  |  └── index.js
+|  |  └── tsconfig.json
+|  ├── is-string/
+|  |  ├── .eslintrc
+|  |  ├── .github/
+|  |  |  └── FUNDING.yml
+|  |  ├── .nycrc
+|  |  ├── CHANGELOG.md
+|  |  ├── index.d.ts
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  ├── README.md
+|  |  ├── test/
+|  |  |  └── index.js
+|  |  └── tsconfig.json
+|  ├── is-symbol/
+|  |  ├── .editorconfig
+|  |  ├── .eslintrc
+|  |  ├── .github/
+|  |  |  └── FUNDING.yml
+|  |  ├── .nycrc
+|  |  ├── CHANGELOG.md
+|  |  ├── index.d.ts
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  ├── README.md
+|  |  ├── test/
+|  |  |  └── index.js
+|  |  └── tsconfig.json
+|  ├── is-typed-array/
+|  |  ├── .editorconfig
+|  |  ├── .eslintrc
+|  |  ├── .github/
+|  |  |  └── FUNDING.yml
+|  |  ├── .nycrc
+|  |  ├── CHANGELOG.md
+|  |  ├── index.d.ts
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  ├── README.md
+|  |  ├── test/
+|  |  |  └── index.js
+|  |  └── tsconfig.json
+|  ├── is-weakmap/
+|  |  ├── .editorconfig
+|  |  ├── .eslintrc
+|  |  ├── .github/
+|  |  |  └── FUNDING.yml
+|  |  ├── .nycrc
+|  |  ├── CHANGELOG.md
+|  |  ├── index.d.ts
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  ├── README.md
+|  |  ├── test/
+|  |  |  └── index.js
+|  |  └── tsconfig.json
+|  ├── is-weakref/
+|  |  ├── .eslintrc
+|  |  ├── .github/
+|  |  |  └── FUNDING.yml
+|  |  ├── .nycrc
+|  |  ├── CHANGELOG.md
+|  |  ├── index.d.ts
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  ├── README.md
+|  |  ├── test/
+|  |  |  └── index.js
+|  |  └── tsconfig.json
+|  ├── is-weakset/
+|  |  ├── .editorconfig
+|  |  ├── .eslintrc
+|  |  ├── .gitattributes
+|  |  ├── .github/
+|  |  |  └── FUNDING.yml
+|  |  ├── .nycrc
+|  |  ├── CHANGELOG.md
+|  |  ├── index.d.ts
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  ├── README.md
+|  |  ├── test/
+|  |  |  └── index.js
+|  |  └── tsconfig.json
+|  ├── isarray/
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  └── README.md
+|  ├── isexe/
+|  |  ├── .npmignore
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── mode.js
+|  |  ├── package.json
+|  |  ├── README.md
+|  |  ├── test/
+|  |  |  └── basic.js
+|  |  └── windows.js
+|  ├── iterator.prototype/
+|  |  ├── .eslintrc
+|  |  ├── .github/
+|  |  |  └── FUNDING.yml
+|  |  ├── CHANGELOG.md
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  ├── README.md
+|  |  └── test/
+|  |     └── index.js
+|  ├── jiti/
+|  |  ├── dist/
+|  |  |  ├── babel.cjs
+|  |  |  └── jiti.cjs
+|  |  ├── lib/
+|  |  |  ├── jiti-cli.mjs
+|  |  |  ├── jiti-hooks.mjs
+|  |  |  ├── jiti-native.mjs
+|  |  |  ├── jiti-register.d.mts
+|  |  |  ├── jiti-register.mjs
+|  |  |  ├── jiti.cjs
+|  |  |  ├── jiti.d.cts
+|  |  |  ├── jiti.d.mts
+|  |  |  ├── jiti.mjs
+|  |  |  └── types.d.ts
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  └── README.md
+|  ├── js-tokens/
+|  |  ├── CHANGELOG.md
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  └── README.md
+|  ├── js-yaml/
+|  |  ├── bin/
+|  |  |  └── js-yaml.js
+|  |  ├── CHANGELOG.md
+|  |  ├── dist/
+|  |  |  ├── js-yaml.js
+|  |  |  ├── js-yaml.min.js
+|  |  |  └── js-yaml.mjs
+|  |  ├── index.js
+|  |  ├── lib/
+|  |  |  ├── common.js
+|  |  |  ├── dumper.js
+|  |  |  ├── exception.js
+|  |  |  ├── loader.js
+|  |  |  ├── schema/
+|  |  |  ├── schema.js
+|  |  |  ├── snippet.js
+|  |  |  ├── type/
+|  |  |  └── type.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  └── README.md
+|  ├── jsesc/
+|  |  ├── bin/
+|  |  |  └── jsesc
+|  |  ├── jsesc.js
+|  |  ├── LICENSE-MIT.txt
+|  |  ├── man/
+|  |  |  └── jsesc.1
+|  |  ├── package.json
+|  |  └── README.md
+|  ├── json-buffer/
+|  |  ├── .travis.yml
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  ├── README.md
+|  |  └── test/
+|  |     └── index.js
+|  ├── json-schema-traverse/
+|  |  ├── .eslintrc.yml
+|  |  ├── .travis.yml
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  ├── README.md
+|  |  └── spec/
+|  |     ├── .eslintrc.yml
+|  |     ├── fixtures/
+|  |     └── index.spec.js
+|  ├── json-stable-stringify-without-jsonify/
+|  |  ├── .npmignore
+|  |  ├── .travis.yml
+|  |  ├── example/
+|  |  |  ├── key_cmp.js
+|  |  |  ├── nested.js
+|  |  |  ├── str.js
+|  |  |  └── value_cmp.js
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  ├── readme.markdown
+|  |  └── test/
+|  |     ├── cmp.js
+|  |     ├── nested.js
+|  |     ├── replacer.js
+|  |     ├── space.js
+|  |     ├── str.js
+|  |     └── to-json.js
+|  ├── json5/
+|  |  ├── dist/
+|  |  |  ├── index.js
+|  |  |  ├── index.min.js
+|  |  |  ├── index.min.mjs
+|  |  |  └── index.mjs
+|  |  ├── lib/
+|  |  |  ├── cli.js
+|  |  |  ├── index.d.ts
+|  |  |  ├── index.js
+|  |  |  ├── parse.d.ts
+|  |  |  ├── parse.js
+|  |  |  ├── register.js
+|  |  |  ├── require.js
+|  |  |  ├── stringify.d.ts
+|  |  |  ├── stringify.js
+|  |  |  ├── unicode.d.ts
+|  |  |  ├── unicode.js
+|  |  |  ├── util.d.ts
+|  |  |  └── util.js
+|  |  ├── LICENSE.md
+|  |  ├── package.json
+|  |  └── README.md
+|  ├── jsx-ast-utils/
+|  |  ├── .babelrc
+|  |  ├── .eslintignore
+|  |  ├── .eslintrc
+|  |  ├── .github/
+|  |  |  └── FUNDING.yml
+|  |  ├── CHANGELOG.md
+|  |  ├── elementType.js
+|  |  ├── eventHandlers.js
+|  |  ├── eventHandlersByType.js
+|  |  ├── getLiteralPropValue.js
+|  |  ├── getProp.js
+|  |  ├── getPropValue.js
+|  |  ├── hasAnyProp.js
+|  |  ├── hasEveryProp.js
+|  |  ├── hasProp.js
+|  |  ├── lib/
+|  |  |  ├── elementType.js
+|  |  |  ├── eventHandlers.js
+|  |  |  ├── getProp.js
+|  |  |  ├── getPropValue.js
+|  |  |  ├── hasProp.js
+|  |  |  ├── index.js
+|  |  |  ├── propName.js
+|  |  |  └── values/
+|  |  ├── LICENSE.md
+|  |  ├── package.json
+|  |  ├── propName.js
+|  |  ├── README.md
+|  |  ├── src/
+|  |  |  ├── elementType.js
+|  |  |  ├── eventHandlers.js
+|  |  |  ├── getProp.js
+|  |  |  ├── getPropValue.js
+|  |  |  ├── hasProp.js
+|  |  |  ├── index.js
+|  |  |  ├── propName.js
+|  |  |  └── values/
+|  |  └── __tests__/
+|  |     ├── helper.js
+|  |     └── src/
+|  ├── keyv/
+|  |  ├── package.json
+|  |  ├── README.md
+|  |  └── src/
+|  |     ├── index.d.ts
+|  |     └── index.js
+|  ├── language-subtag-registry/
+|  |  ├── data/
+|  |  |  └── json/
+|  |  ├── package.json
+|  |  └── README.md
+|  ├── language-tags/
+|  |  ├── lib/
+|  |  |  ├── index.js
+|  |  |  ├── Subtag.js
+|  |  |  └── Tag.js
+|  |  ├── package.json
+|  |  └── README.md
+|  ├── levn/
+|  |  ├── lib/
+|  |  |  ├── cast.js
+|  |  |  ├── index.js
+|  |  |  └── parse-string.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  └── README.md
+|  ├── lightningcss/
+|  |  ├── LICENSE
+|  |  ├── node/
+|  |  |  ├── ast.d.ts
+|  |  |  ├── ast.js.flow
+|  |  |  ├── browserslistToTargets.js
+|  |  |  ├── composeVisitors.js
+|  |  |  ├── flags.js
+|  |  |  ├── index.d.ts
+|  |  |  ├── index.js
+|  |  |  ├── index.js.flow
+|  |  |  ├── index.mjs
+|  |  |  ├── targets.d.ts
+|  |  |  └── targets.js.flow
+|  |  ├── package.json
+|  |  └── README.md
+|  ├── lightningcss-win32-x64-msvc/
+|  |  ├── LICENSE
+|  |  ├── lightningcss.win32-x64-msvc.node
+|  |  ├── package.json
+|  |  └── README.md
+|  ├── locate-path/
+|  |  ├── index.d.ts
+|  |  ├── index.js
+|  |  ├── license
+|  |  ├── package.json
+|  |  └── readme.md
+|  ├── lodash.merge/
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  └── README.md
+|  ├── loose-envify/
+|  |  ├── cli.js
+|  |  ├── custom.js
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── loose-envify.js
+|  |  ├── package.json
+|  |  ├── README.md
+|  |  └── replace.js
+|  ├── lru-cache/
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  └── README.md
+|  ├── magic-string/
+|  |  ├── dist/
+|  |  |  ├── magic-string.cjs.d.ts
+|  |  |  ├── magic-string.cjs.js
+|  |  |  ├── magic-string.cjs.js.map
+|  |  |  ├── magic-string.es.d.mts
+|  |  |  ├── magic-string.es.mjs
+|  |  |  ├── magic-string.es.mjs.map
+|  |  |  ├── magic-string.umd.js
+|  |  |  └── magic-string.umd.js.map
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  └── README.md
+|  ├── math-intrinsics/
+|  |  ├── .eslintrc
+|  |  ├── .github/
+|  |  |  └── FUNDING.yml
+|  |  ├── abs.d.ts
+|  |  ├── abs.js
+|  |  ├── CHANGELOG.md
+|  |  ├── constants/
+|  |  |  ├── maxArrayLength.d.ts
+|  |  |  ├── maxArrayLength.js
+|  |  |  ├── maxSafeInteger.d.ts
+|  |  |  ├── maxSafeInteger.js
+|  |  |  ├── maxValue.d.ts
+|  |  |  └── maxValue.js
+|  |  ├── floor.d.ts
+|  |  ├── floor.js
+|  |  ├── isFinite.d.ts
+|  |  ├── isFinite.js
+|  |  ├── isInteger.d.ts
+|  |  ├── isInteger.js
+|  |  ├── isNaN.d.ts
+|  |  ├── isNaN.js
+|  |  ├── isNegativeZero.d.ts
+|  |  ├── isNegativeZero.js
+|  |  ├── LICENSE
+|  |  ├── max.d.ts
+|  |  ├── max.js
+|  |  ├── min.d.ts
+|  |  ├── min.js
+|  |  ├── mod.d.ts
+|  |  ├── mod.js
+|  |  ├── package.json
+|  |  ├── pow.d.ts
+|  |  ├── pow.js
+|  |  ├── README.md
+|  |  ├── round.d.ts
+|  |  ├── round.js
+|  |  ├── sign.d.ts
+|  |  ├── sign.js
+|  |  ├── test/
+|  |  |  └── index.js
+|  |  └── tsconfig.json
+|  ├── merge2/
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  └── README.md
+|  ├── micromatch/
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  └── README.md
+|  ├── minimatch/
+|  |  ├── LICENSE
+|  |  ├── minimatch.js
+|  |  ├── package.json
+|  |  └── README.md
+|  ├── minimist/
+|  |  ├── .eslintrc
+|  |  ├── .github/
+|  |  |  └── FUNDING.yml
+|  |  ├── .nycrc
+|  |  ├── CHANGELOG.md
+|  |  ├── example/
+|  |  |  └── parse.js
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  ├── README.md
+|  |  └── test/
+|  |     ├── all_bool.js
+|  |     ├── bool.js
+|  |     ├── dash.js
+|  |     ├── default_bool.js
+|  |     ├── dotted.js
+|  |     ├── kv_short.js
+|  |     ├── long.js
+|  |     ├── num.js
+|  |     ├── parse.js
+|  |     ├── parse_modified.js
+|  |     ├── proto.js
+|  |     ├── short.js
+|  |     ├── stop_early.js
+|  |     ├── unknown.js
+|  |     └── whitespace.js
+|  ├── ms/
+|  |  ├── index.js
+|  |  ├── license.md
+|  |  ├── package.json
+|  |  └── readme.md
+|  ├── nanoid/
+|  |  ├── async/
+|  |  |  ├── index.browser.cjs
+|  |  |  ├── index.browser.js
+|  |  |  ├── index.cjs
+|  |  |  ├── index.d.ts
+|  |  |  ├── index.js
+|  |  |  ├── index.native.js
+|  |  |  └── package.json
+|  |  ├── bin/
+|  |  |  └── nanoid.cjs
+|  |  ├── index.browser.cjs
+|  |  ├── index.browser.js
+|  |  ├── index.cjs
+|  |  ├── index.d.cts
+|  |  ├── index.d.ts
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── nanoid.js
+|  |  ├── non-secure/
+|  |  |  ├── index.cjs
+|  |  |  ├── index.d.ts
+|  |  |  ├── index.js
+|  |  |  └── package.json
+|  |  ├── package.json
+|  |  ├── README.md
+|  |  └── url-alphabet/
+|  |     ├── index.cjs
+|  |     ├── index.js
+|  |     └── package.json
+|  ├── napi-postinstall/
+|  |  ├── lib/
+|  |  |  ├── cli.d.ts
+|  |  |  ├── cli.js
+|  |  |  ├── cli.js.map
+|  |  |  ├── constants.d.ts
+|  |  |  ├── constants.js
+|  |  |  ├── constants.js.map
+|  |  |  ├── fallback.d.ts
+|  |  |  ├── fallback.js
+|  |  |  ├── fallback.js.map
+|  |  |  ├── helpers.d.ts
+|  |  |  ├── helpers.js
+|  |  |  ├── helpers.js.map
+|  |  |  ├── index.d.ts
+|  |  |  ├── index.js
+|  |  |  ├── index.js.map
+|  |  |  ├── target.d.ts
+|  |  |  ├── target.js
+|  |  |  ├── target.js.map
+|  |  |  ├── types.d.ts
+|  |  |  ├── types.js
+|  |  |  └── types.js.map
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  └── README.md
+|  ├── natural-compare/
+|  |  ├── index.js
+|  |  ├── package.json
+|  |  └── README.md
+|  ├── next/
+|  |  ├── app.d.ts
+|  |  ├── app.js
+|  |  ├── babel.d.ts
+|  |  ├── babel.js
+|  |  ├── cache.d.ts
+|  |  ├── cache.js
+|  |  ├── client.d.ts
+|  |  ├── client.js
+|  |  ├── compat/
+|  |  |  ├── router.d.ts
+|  |  |  └── router.js
+|  |  ├── constants.d.ts
+|  |  ├── constants.js
+|  |  ├── dist/
+|  |  |  ├── api/
+|  |  |  ├── bin/
+|  |  |  ├── build/
+|  |  |  ├── cli/
+|  |  |  ├── client/
+|  |  |  ├── compiled/
+|  |  |  ├── diagnostics/
+|  |  |  ├── esm/
+|  |  |  ├── experimental/
+|  |  |  ├── export/
+|  |  |  ├── lib/
+|  |  |  ├── next-devtools/
+|  |  |  ├── pages/
+|  |  |  ├── server/
+|  |  |  ├── shared/
+|  |  |  ├── styled-jsx/
+|  |  |  ├── telemetry/
+|  |  |  ├── trace/
+|  |  |  └── types.d.ts
+|  |  ├── document.d.ts
+|  |  ├── document.js
+|  |  ├── dynamic.d.ts
+|  |  ├── dynamic.js
+|  |  ├── error.d.ts
+|  |  ├── error.js
+|  |  ├── experimental/
+|  |  |  ├── testing/
+|  |  |  └── testmode/
+|  |  ├── font/
+|  |  |  ├── google/
+|  |  |  ├── index.d.ts
+|  |  |  └── local/
+|  |  ├── form.d.ts
+|  |  ├── form.js
+|  |  ├── head.d.ts
+|  |  ├── head.js
+|  |  ├── headers.d.ts
+|  |  ├── headers.js
+|  |  ├── image-types/
+|  |  |  └── global.d.ts
+|  |  ├── image.d.ts
+|  |  ├── image.js
+|  |  ├── index.d.ts
+|  |  ├── jest.d.ts
+|  |  ├── jest.js
+|  |  ├── legacy/
+|  |  |  ├── image.d.ts
+|  |  |  └── image.js
+|  |  ├── license.md
+|  |  ├── link.d.ts
+|  |  ├── link.js
+|  |  ├── navigation-types/
+|  |  |  └── compat/
+|  |  ├── navigation.d.ts
+|  |  ├── navigation.js
+|  |  ├── node_modules/
+|  |  |  └── postcss/
+|  |  ├── og.d.ts
+|  |  ├── og.js
+|  |  ├── package.json
+|  |  ├── README.md
+|  |  ├── root-params.d.ts
+|  |  ├── root-params.js
+|  |  ├── router.d.ts
+|  |  ├── router.js
+|  |  ├── script.d.ts
+|  |  ├── script.js
+|  |  ├── server.d.ts
+|  |  ├── server.js
+|  |  ├── types/
+|  |  |  ├── compiled.d.ts
+|  |  |  └── global.d.ts
+|  |  ├── types.d.ts
+|  |  ├── types.js
+|  |  ├── web-vitals.d.ts
+|  |  └── web-vitals.js
+|  ├── node-releases/
+|  |  ├── data/
+|  |  |  ├── processed/
+|  |  |  └── release-schedule/
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  └── README.md
+|  ├── object-assign/
+|  |  ├── index.js
+|  |  ├── license
+|  |  ├── package.json
+|  |  └── readme.md
+|  ├── object-inspect/
+|  |  ├── .eslintrc
+|  |  ├── .github/
+|  |  |  └── FUNDING.yml
+|  |  ├── .nycrc
+|  |  ├── CHANGELOG.md
+|  |  ├── example/
+|  |  |  ├── all.js
+|  |  |  ├── circular.js
+|  |  |  ├── fn.js
+|  |  |  └── inspect.js
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── package-support.json
+|  |  ├── package.json
+|  |  ├── readme.markdown
+|  |  ├── test/
+|  |  |  ├── bigint.js
+|  |  |  ├── browser/
+|  |  |  ├── circular.js
+|  |  |  ├── deep.js
+|  |  |  ├── element.js
+|  |  |  ├── err.js
+|  |  |  ├── fakes.js
+|  |  |  ├── fn.js
+|  |  |  ├── global.js
+|  |  |  ├── has.js
+|  |  |  ├── holes.js
+|  |  |  ├── indent-option.js
+|  |  |  ├── inspect.js
+|  |  |  ├── lowbyte.js
+|  |  |  ├── number.js
+|  |  |  ├── quoteStyle.js
+|  |  |  ├── toStringTag.js
+|  |  |  ├── undef.js
+|  |  |  └── values.js
+|  |  ├── test-core-js.js
+|  |  └── util.inspect.js
+|  ├── object-keys/
+|  |  ├── .editorconfig
+|  |  ├── .eslintrc
+|  |  ├── .travis.yml
+|  |  ├── CHANGELOG.md
+|  |  ├── implementation.js
+|  |  ├── index.js
+|  |  ├── isArguments.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  ├── README.md
+|  |  └── test/
+|  |     └── index.js
+|  ├── object.assign/
+|  |  ├── .editorconfig
+|  |  ├── .eslintrc
+|  |  ├── .github/
+|  |  |  └── FUNDING.yml
+|  |  ├── .nycrc
+|  |  ├── auto.js
+|  |  ├── CHANGELOG.md
+|  |  ├── dist/
+|  |  |  └── browser.js
+|  |  ├── hasSymbols.js
+|  |  ├── implementation.js
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  ├── polyfill.js
+|  |  ├── README.md
+|  |  ├── shim.js
+|  |  └── test/
+|  |     ├── implementation.js
+|  |     ├── index.js
+|  |     ├── native.js
+|  |     ├── ses-compat.js
+|  |     ├── shimmed.js
+|  |     └── tests.js
+|  ├── object.entries/
+|  |  ├── .editorconfig
+|  |  ├── .eslintrc
+|  |  ├── .nycrc
+|  |  ├── auto.js
+|  |  ├── CHANGELOG.md
+|  |  ├── implementation.js
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  ├── polyfill.js
+|  |  ├── README.md
+|  |  ├── shim.js
+|  |  └── test/
+|  |     ├── .eslintrc
+|  |     ├── implementation.js
+|  |     ├── index.js
+|  |     ├── native.js
+|  |     ├── shimmed.js
+|  |     └── tests.js
+|  ├── object.fromentries/
+|  |  ├── .editorconfig
+|  |  ├── .eslintrc
+|  |  ├── .nycrc
+|  |  ├── auto.js
+|  |  ├── CHANGELOG.md
+|  |  ├── implementation.js
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  ├── polyfill.js
+|  |  ├── README.md
+|  |  ├── shim.js
+|  |  └── test/
+|  |     ├── implementation.js
+|  |     ├── index.js
+|  |     ├── shimmed.js
+|  |     └── tests.js
+|  ├── object.groupby/
+|  |  ├── .eslintrc
+|  |  ├── .github/
+|  |  |  └── FUNDING.yml
+|  |  ├── .nycrc
+|  |  ├── auto.js
+|  |  ├── CHANGELOG.md
+|  |  ├── implementation.js
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  ├── polyfill.js
+|  |  ├── README.md
+|  |  ├── shim.js
+|  |  └── test/
+|  |     ├── implementation.js
+|  |     ├── index.js
+|  |     ├── shimmed.js
+|  |     └── tests.js
+|  ├── object.values/
+|  |  ├── .editorconfig
+|  |  ├── .eslintrc
+|  |  ├── .nycrc
+|  |  ├── auto.js
+|  |  ├── CHANGELOG.md
+|  |  ├── implementation.js
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  ├── polyfill.js
+|  |  ├── README.md
+|  |  ├── shim.js
+|  |  └── test/
+|  |     ├── .eslintrc
+|  |     ├── implementation.js
+|  |     ├── index.js
+|  |     ├── shimmed.js
+|  |     └── tests.js
+|  ├── optionator/
+|  |  ├── CHANGELOG.md
+|  |  ├── lib/
+|  |  |  ├── help.js
+|  |  |  ├── index.js
+|  |  |  └── util.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  └── README.md
+|  ├── own-keys/
+|  |  ├── .eslintrc
+|  |  ├── .github/
+|  |  |  └── FUNDING.yml
+|  |  ├── .nycrc
+|  |  ├── CHANGELOG.md
+|  |  ├── index.d.ts
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  ├── README.md
+|  |  ├── test/
+|  |  |  └── index.js
+|  |  └── tsconfig.json
+|  ├── p-limit/
+|  |  ├── index.d.ts
+|  |  ├── index.js
+|  |  ├── license
+|  |  ├── package.json
+|  |  └── readme.md
+|  ├── p-locate/
+|  |  ├── index.d.ts
+|  |  ├── index.js
+|  |  ├── license
+|  |  ├── package.json
+|  |  └── readme.md
+|  ├── parent-module/
+|  |  ├── index.js
+|  |  ├── license
+|  |  ├── package.json
+|  |  └── readme.md
+|  ├── path-exists/
+|  |  ├── index.d.ts
+|  |  ├── index.js
+|  |  ├── license
+|  |  ├── package.json
+|  |  └── readme.md
+|  ├── path-key/
+|  |  ├── index.d.ts
+|  |  ├── index.js
+|  |  ├── license
+|  |  ├── package.json
+|  |  └── readme.md
+|  ├── path-parse/
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  └── README.md
+|  ├── picocolors/
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  ├── picocolors.browser.js
+|  |  ├── picocolors.d.ts
+|  |  ├── picocolors.js
+|  |  ├── README.md
+|  |  └── types.d.ts
+|  ├── picomatch/
+|  |  ├── CHANGELOG.md
+|  |  ├── index.js
+|  |  ├── lib/
+|  |  |  ├── constants.js
+|  |  |  ├── parse.js
+|  |  |  ├── picomatch.js
+|  |  |  ├── scan.js
+|  |  |  └── utils.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  └── README.md
+|  ├── possible-typed-array-names/
+|  |  ├── .eslintrc
+|  |  ├── .github/
+|  |  |  └── FUNDING.yml
+|  |  ├── CHANGELOG.md
+|  |  ├── index.d.ts
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  ├── README.md
+|  |  ├── test/
+|  |  |  └── index.js
+|  |  └── tsconfig.json
+|  ├── postcss/
+|  |  ├── lib/
+|  |  |  ├── at-rule.d.ts
+|  |  |  ├── at-rule.js
+|  |  |  ├── comment.d.ts
+|  |  |  ├── comment.js
+|  |  |  ├── container.d.ts
+|  |  |  ├── container.js
+|  |  |  ├── css-syntax-error.d.ts
+|  |  |  ├── css-syntax-error.js
+|  |  |  ├── declaration.d.ts
+|  |  |  ├── declaration.js
+|  |  |  ├── document.d.ts
+|  |  |  ├── document.js
+|  |  |  ├── fromJSON.d.ts
+|  |  |  ├── fromJSON.js
+|  |  |  ├── input.d.ts
+|  |  |  ├── input.js
+|  |  |  ├── lazy-result.d.ts
+|  |  |  ├── lazy-result.js
+|  |  |  ├── list.d.ts
+|  |  |  ├── list.js
+|  |  |  ├── map-generator.js
+|  |  |  ├── no-work-result.d.ts
+|  |  |  ├── no-work-result.js
+|  |  |  ├── node.d.ts
+|  |  |  ├── node.js
+|  |  |  ├── parse.d.ts
+|  |  |  ├── parse.js
+|  |  |  ├── parser.js
+|  |  |  ├── postcss.d.mts
+|  |  |  ├── postcss.d.ts
+|  |  |  ├── postcss.js
+|  |  |  ├── postcss.mjs
+|  |  |  ├── previous-map.d.ts
+|  |  |  ├── previous-map.js
+|  |  |  ├── processor.d.ts
+|  |  |  ├── processor.js
+|  |  |  ├── result.d.ts
+|  |  |  ├── result.js
+|  |  |  ├── root.d.ts
+|  |  |  ├── root.js
+|  |  |  ├── rule.d.ts
+|  |  |  ├── rule.js
+|  |  |  ├── stringifier.d.ts
+|  |  |  ├── stringifier.js
+|  |  |  ├── stringify.d.ts
+|  |  |  ├── stringify.js
+|  |  |  ├── symbols.js
+|  |  |  ├── terminal-highlight.js
+|  |  |  ├── tokenize.js
+|  |  |  ├── warn-once.js
+|  |  |  ├── warning.d.ts
+|  |  |  └── warning.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  └── README.md
+|  ├── prelude-ls/
+|  |  ├── CHANGELOG.md
+|  |  ├── lib/
+|  |  |  ├── Func.js
+|  |  |  ├── index.js
+|  |  |  ├── List.js
+|  |  |  ├── Num.js
+|  |  |  ├── Obj.js
+|  |  |  └── Str.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  └── README.md
+|  ├── prop-types/
+|  |  ├── checkPropTypes.js
+|  |  ├── factory.js
+|  |  ├── factoryWithThrowingShims.js
+|  |  ├── factoryWithTypeCheckers.js
+|  |  ├── index.js
+|  |  ├── lib/
+|  |  |  ├── has.js
+|  |  |  └── ReactPropTypesSecret.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  ├── prop-types.js
+|  |  ├── prop-types.min.js
+|  |  └── README.md
+|  ├── punycode/
+|  |  ├── LICENSE-MIT.txt
+|  |  ├── package.json
+|  |  ├── punycode.es6.js
+|  |  ├── punycode.js
+|  |  └── README.md
+|  ├── queue-microtask/
+|  |  ├── index.d.ts
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  └── README.md
+|  ├── react/
+|  |  ├── cjs/
+|  |  |  ├── react-compiler-runtime.development.js
+|  |  |  ├── react-compiler-runtime.production.js
+|  |  |  ├── react-compiler-runtime.profiling.js
+|  |  |  ├── react-jsx-dev-runtime.development.js
+|  |  |  ├── react-jsx-dev-runtime.production.js
+|  |  |  ├── react-jsx-dev-runtime.profiling.js
+|  |  |  ├── react-jsx-dev-runtime.react-server.development.js
+|  |  |  ├── react-jsx-dev-runtime.react-server.production.js
+|  |  |  ├── react-jsx-runtime.development.js
+|  |  |  ├── react-jsx-runtime.production.js
+|  |  |  ├── react-jsx-runtime.profiling.js
+|  |  |  ├── react-jsx-runtime.react-server.development.js
+|  |  |  ├── react-jsx-runtime.react-server.production.js
+|  |  |  ├── react.development.js
+|  |  |  ├── react.production.js
+|  |  |  ├── react.react-server.development.js
+|  |  |  └── react.react-server.production.js
+|  |  ├── compiler-runtime.js
+|  |  ├── index.js
+|  |  ├── jsx-dev-runtime.js
+|  |  ├── jsx-dev-runtime.react-server.js
+|  |  ├── jsx-runtime.js
+|  |  ├── jsx-runtime.react-server.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  ├── react.react-server.js
+|  |  └── README.md
+|  ├── react-dom/
+|  |  ├── cjs/
+|  |  |  ├── react-dom-client.development.js
+|  |  |  ├── react-dom-client.production.js
+|  |  |  ├── react-dom-profiling.development.js
+|  |  |  ├── react-dom-profiling.profiling.js
+|  |  |  ├── react-dom-server-legacy.browser.development.js
+|  |  |  ├── react-dom-server-legacy.browser.production.js
+|  |  |  ├── react-dom-server-legacy.node.development.js
+|  |  |  ├── react-dom-server-legacy.node.production.js
+|  |  |  ├── react-dom-server.browser.development.js
+|  |  |  ├── react-dom-server.browser.production.js
+|  |  |  ├── react-dom-server.bun.development.js
+|  |  |  ├── react-dom-server.bun.production.js
+|  |  |  ├── react-dom-server.edge.development.js
+|  |  |  ├── react-dom-server.edge.production.js
+|  |  |  ├── react-dom-server.node.development.js
+|  |  |  ├── react-dom-server.node.production.js
+|  |  |  ├── react-dom-test-utils.development.js
+|  |  |  ├── react-dom-test-utils.production.js
+|  |  |  ├── react-dom.development.js
+|  |  |  ├── react-dom.production.js
+|  |  |  ├── react-dom.react-server.development.js
+|  |  |  └── react-dom.react-server.production.js
+|  |  ├── client.js
+|  |  ├── client.react-server.js
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  ├── profiling.js
+|  |  ├── profiling.react-server.js
+|  |  ├── react-dom.react-server.js
+|  |  ├── README.md
+|  |  ├── server.browser.js
+|  |  ├── server.bun.js
+|  |  ├── server.edge.js
+|  |  ├── server.js
+|  |  ├── server.node.js
+|  |  ├── server.react-server.js
+|  |  ├── static.browser.js
+|  |  ├── static.edge.js
+|  |  ├── static.js
+|  |  ├── static.node.js
+|  |  ├── static.react-server.js
+|  |  └── test-utils.js
+|  ├── react-is/
+|  |  ├── build-info.json
+|  |  ├── cjs/
+|  |  |  ├── react-is.development.js
+|  |  |  └── react-is.production.min.js
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  ├── README.md
+|  |  └── umd/
+|  |     ├── react-is.development.js
+|  |     └── react-is.production.min.js
+|  ├── reflect.getprototypeof/
+|  |  ├── .eslintrc
+|  |  ├── .nycrc
+|  |  ├── auto.js
+|  |  ├── CHANGELOG.md
+|  |  ├── implementation.js
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  ├── polyfill.js
+|  |  ├── README.md
+|  |  ├── shim.js
+|  |  └── test/
+|  |     ├── implementation.js
+|  |     ├── index.js
+|  |     ├── shimmed.js
+|  |     └── tests.js
+|  ├── regexp.prototype.flags/
+|  |  ├── .editorconfig
+|  |  ├── .eslintrc
+|  |  ├── .nycrc
+|  |  ├── auto.js
+|  |  ├── CHANGELOG.md
+|  |  ├── implementation.js
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  ├── polyfill.js
+|  |  ├── README.md
+|  |  ├── shim.js
+|  |  └── test/
+|  |     ├── builtin.js
+|  |     ├── implementation.js
+|  |     ├── index.js
+|  |     ├── shimmed.js
+|  |     └── tests.js
+|  ├── resolve/
+|  |  ├── .editorconfig
+|  |  ├── .eslintrc
+|  |  ├── .github/
+|  |  |  ├── FUNDING.yml
+|  |  |  ├── INCIDENT_RESPONSE_PROCESS.md
+|  |  |  └── THREAT_MODEL.md
+|  |  ├── async.js
+|  |  ├── bin/
+|  |  |  └── resolve
+|  |  ├── example/
+|  |  |  ├── async.js
+|  |  |  └── sync.js
+|  |  ├── index.js
+|  |  ├── lib/
+|  |  |  ├── async.js
+|  |  |  ├── caller.js
+|  |  |  ├── core.js
+|  |  |  ├── core.json
+|  |  |  ├── homedir.js
+|  |  |  ├── is-core.js
+|  |  |  ├── node-modules-paths.js
+|  |  |  ├── normalize-options.js
+|  |  |  └── sync.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  ├── readme.markdown
+|  |  ├── SECURITY.md
+|  |  ├── sync.js
+|  |  └── test/
+|  |     ├── core.js
+|  |     ├── dotdot/
+|  |     ├── dotdot.js
+|  |     ├── faulty_basedir.js
+|  |     ├── filter.js
+|  |     ├── filter_sync.js
+|  |     ├── home_paths.js
+|  |     ├── home_paths_sync.js
+|  |     ├── mock.js
+|  |     ├── mock_sync.js
+|  |     ├── module_dir/
+|  |     ├── module_dir.js
+|  |     ├── node-modules-paths.js
+|  |     ├── node_path/
+|  |     ├── node_path.js
+|  |     ├── nonstring.js
+|  |     ├── pathfilter/
+|  |     ├── pathfilter.js
+|  |     ├── precedence/
+|  |     ├── precedence.js
+|  |     ├── resolver/
+|  |     ├── resolver.js
+|  |     ├── resolver_sync.js
+|  |     ├── shadowed_core/
+|  |     ├── shadowed_core.js
+|  |     ├── subdirs.js
+|  |     └── symlinks.js
+|  ├── resolve-from/
+|  |  ├── index.js
+|  |  ├── license
+|  |  ├── package.json
+|  |  └── readme.md
+|  ├── resolve-pkg-maps/
+|  |  ├── dist/
+|  |  |  ├── index.cjs
+|  |  |  ├── index.d.cts
+|  |  |  ├── index.d.mts
+|  |  |  └── index.mjs
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  └── README.md
+|  ├── reusify/
+|  |  ├── .github/
+|  |  |  ├── dependabot.yml
+|  |  |  └── workflows/
+|  |  ├── benchmarks/
+|  |  |  ├── createNoCodeFunction.js
+|  |  |  ├── fib.js
+|  |  |  └── reuseNoCodeFunction.js
+|  |  ├── eslint.config.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  ├── README.md
+|  |  ├── reusify.d.ts
+|  |  ├── reusify.js
+|  |  ├── SECURITY.md
+|  |  ├── test.js
+|  |  └── tsconfig.json
+|  ├── run-parallel/
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  └── README.md
+|  ├── safe-array-concat/
+|  |  ├── .eslintrc
+|  |  ├── .github/
+|  |  |  └── FUNDING.yml
+|  |  ├── .nycrc
+|  |  ├── CHANGELOG.md
+|  |  ├── index.d.ts
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  ├── README.md
+|  |  ├── test/
+|  |  |  └── index.js
+|  |  └── tsconfig.json
+|  ├── safe-push-apply/
+|  |  ├── .eslintrc
+|  |  ├── .github/
+|  |  |  └── FUNDING.yml
+|  |  ├── .nycrc
+|  |  ├── CHANGELOG.md
+|  |  ├── index.d.ts
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  ├── README.md
+|  |  ├── test/
+|  |  |  └── index.js
+|  |  └── tsconfig.json
+|  ├── safe-regex-test/
+|  |  ├── .eslintrc
+|  |  ├── .github/
+|  |  |  └── FUNDING.yml
+|  |  ├── .nycrc
+|  |  ├── CHANGELOG.md
+|  |  ├── index.d.ts
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  ├── README.md
+|  |  ├── test/
+|  |  |  └── index.js
+|  |  └── tsconfig.json
+|  ├── scheduler/
+|  |  ├── cjs/
+|  |  |  ├── scheduler-unstable_mock.development.js
+|  |  |  ├── scheduler-unstable_mock.production.js
+|  |  |  ├── scheduler-unstable_post_task.development.js
+|  |  |  ├── scheduler-unstable_post_task.production.js
+|  |  |  ├── scheduler.development.js
+|  |  |  ├── scheduler.native.development.js
+|  |  |  ├── scheduler.native.production.js
+|  |  |  └── scheduler.production.js
+|  |  ├── index.js
+|  |  ├── index.native.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  ├── README.md
+|  |  ├── unstable_mock.js
+|  |  └── unstable_post_task.js
+|  ├── semver/
+|  |  ├── bin/
+|  |  |  └── semver.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  ├── range.bnf
+|  |  ├── README.md
+|  |  └── semver.js
+|  ├── set-function-length/
+|  |  ├── .eslintrc
+|  |  ├── .github/
+|  |  |  └── FUNDING.yml
+|  |  ├── .nycrc
+|  |  ├── CHANGELOG.md
+|  |  ├── env.d.ts
+|  |  ├── env.js
+|  |  ├── index.d.ts
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  ├── README.md
+|  |  └── tsconfig.json
+|  ├── set-function-name/
+|  |  ├── .eslintrc
+|  |  ├── .github/
+|  |  |  └── FUNDING.yml
+|  |  ├── CHANGELOG.md
+|  |  ├── index.d.ts
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  ├── README.md
+|  |  └── tsconfig.json
+|  ├── set-proto/
+|  |  ├── .eslintrc
+|  |  ├── .github/
+|  |  |  └── FUNDING.yml
+|  |  ├── .nycrc
+|  |  ├── CHANGELOG.md
+|  |  ├── index.d.ts
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── Object.setPrototypeOf.d.ts
+|  |  ├── Object.setPrototypeOf.js
+|  |  ├── package.json
+|  |  ├── README.md
+|  |  ├── Reflect.setPrototypeOf.d.ts
+|  |  ├── Reflect.setPrototypeOf.js
+|  |  ├── test/
+|  |  |  └── index.js
+|  |  └── tsconfig.json
+|  ├── sharp/
+|  |  ├── install/
+|  |  |  └── check.js
+|  |  ├── lib/
+|  |  |  ├── channel.js
+|  |  |  ├── colour.js
+|  |  |  ├── composite.js
+|  |  |  ├── constructor.js
+|  |  |  ├── index.d.ts
+|  |  |  ├── index.js
+|  |  |  ├── input.js
+|  |  |  ├── is.js
+|  |  |  ├── libvips.js
+|  |  |  ├── operation.js
+|  |  |  ├── output.js
+|  |  |  ├── resize.js
+|  |  |  ├── sharp.js
+|  |  |  └── utility.js
+|  |  ├── LICENSE
+|  |  ├── node_modules/
+|  |  |  ├── .bin/
+|  |  |  └── semver/
+|  |  ├── package.json
+|  |  ├── README.md
+|  |  └── src/
+|  |     ├── binding.gyp
+|  |     ├── common.cc
+|  |     ├── common.h
+|  |     ├── metadata.cc
+|  |     ├── metadata.h
+|  |     ├── operations.cc
+|  |     ├── operations.h
+|  |     ├── pipeline.cc
+|  |     ├── pipeline.h
+|  |     ├── sharp.cc
+|  |     ├── stats.cc
+|  |     ├── stats.h
+|  |     ├── utilities.cc
+|  |     └── utilities.h
+|  ├── shebang-command/
+|  |  ├── index.js
+|  |  ├── license
+|  |  ├── package.json
+|  |  └── readme.md
+|  ├── shebang-regex/
+|  |  ├── index.d.ts
+|  |  ├── index.js
+|  |  ├── license
+|  |  ├── package.json
+|  |  └── readme.md
+|  ├── side-channel/
+|  |  ├── .editorconfig
+|  |  ├── .eslintrc
+|  |  ├── .github/
+|  |  |  └── FUNDING.yml
+|  |  ├── .nycrc
+|  |  ├── CHANGELOG.md
+|  |  ├── index.d.ts
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  ├── README.md
+|  |  ├── test/
+|  |  |  └── index.js
+|  |  └── tsconfig.json
+|  ├── side-channel-list/
+|  |  ├── .editorconfig
+|  |  ├── .eslintrc
+|  |  ├── .github/
+|  |  |  └── FUNDING.yml
+|  |  ├── .nycrc
+|  |  ├── CHANGELOG.md
+|  |  ├── index.d.ts
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── list.d.ts
+|  |  ├── package.json
+|  |  ├── README.md
+|  |  ├── test/
+|  |  |  └── index.js
+|  |  └── tsconfig.json
+|  ├── side-channel-map/
+|  |  ├── .editorconfig
+|  |  ├── .eslintrc
+|  |  ├── .github/
+|  |  |  └── FUNDING.yml
+|  |  ├── .nycrc
+|  |  ├── CHANGELOG.md
+|  |  ├── index.d.ts
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  ├── README.md
+|  |  ├── test/
+|  |  |  └── index.js
+|  |  └── tsconfig.json
+|  ├── side-channel-weakmap/
+|  |  ├── .editorconfig
+|  |  ├── .eslintrc
+|  |  ├── .github/
+|  |  |  └── FUNDING.yml
+|  |  ├── .nycrc
+|  |  ├── CHANGELOG.md
+|  |  ├── index.d.ts
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  ├── README.md
+|  |  ├── test/
+|  |  |  └── index.js
+|  |  └── tsconfig.json
+|  ├── source-map-js/
+|  |  ├── lib/
+|  |  |  ├── array-set.js
+|  |  |  ├── base64-vlq.js
+|  |  |  ├── base64.js
+|  |  |  ├── binary-search.js
+|  |  |  ├── mapping-list.js
+|  |  |  ├── quick-sort.js
+|  |  |  ├── source-map-consumer.d.ts
+|  |  |  ├── source-map-consumer.js
+|  |  |  ├── source-map-generator.d.ts
+|  |  |  ├── source-map-generator.js
+|  |  |  ├── source-node.d.ts
+|  |  |  ├── source-node.js
+|  |  |  └── util.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  ├── README.md
+|  |  ├── source-map.d.ts
+|  |  └── source-map.js
+|  ├── stable-hash/
+|  |  ├── dist/
+|  |  |  ├── index.d.ts
+|  |  |  ├── index.js
+|  |  |  └── index.mjs
+|  |  ├── package.json
+|  |  └── README.md
+|  ├── stop-iteration-iterator/
+|  |  ├── .eslintrc
+|  |  ├── .github/
+|  |  |  └── FUNDING.yml
+|  |  ├── .nycrc
+|  |  ├── CHANGELOG.md
+|  |  ├── index.d.ts
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  ├── README.md
+|  |  ├── test/
+|  |  |  └── index.js
+|  |  └── tsconfig.json
+|  ├── string.prototype.includes/
+|  |  ├── .editorconfig
+|  |  ├── .eslintrc
+|  |  ├── .gitattributes
+|  |  ├── .github/
+|  |  |  └── workflows/
+|  |  ├── .travis.yml
+|  |  ├── auto.js
+|  |  ├── implementation.js
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  ├── polyfill.js
+|  |  ├── README.md
+|  |  ├── shim.js
+|  |  └── tests/
+|  |     ├── index.js
+|  |     ├── shimmed.js
+|  |     └── tests.js
+|  ├── string.prototype.matchall/
+|  |  ├── .editorconfig
+|  |  ├── .eslintrc
+|  |  ├── .github/
+|  |  |  └── FUNDING.yml
+|  |  ├── .nycrc
+|  |  ├── auto.js
+|  |  ├── CHANGELOG.md
+|  |  ├── implementation.js
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  ├── polyfill-regexp-matchall.js
+|  |  ├── polyfill.js
+|  |  ├── README.md
+|  |  ├── regexp-matchall.js
+|  |  ├── shim.js
+|  |  └── test/
+|  |     ├── index.js
+|  |     ├── shimmed.js
+|  |     └── tests.js
+|  ├── string.prototype.repeat/
+|  |  ├── .editorconfig
+|  |  ├── .gitattributes
+|  |  ├── .travis.yml
+|  |  ├── auto.js
+|  |  ├── implementation.js
+|  |  ├── index.js
+|  |  ├── LICENSE-MIT.txt
+|  |  ├── package.json
+|  |  ├── polyfill.js
+|  |  ├── README.md
+|  |  ├── shim.js
+|  |  └── tests/
+|  |     ├── index.js
+|  |     ├── shimmed.js
+|  |     └── tests.js
+|  ├── string.prototype.trim/
+|  |  ├── .editorconfig
+|  |  ├── .eslintrc
+|  |  ├── .nycrc
+|  |  ├── auto.js
+|  |  ├── CHANGELOG.md
+|  |  ├── implementation.js
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  ├── polyfill.js
+|  |  ├── README.md
+|  |  ├── shim.js
+|  |  └── test/
+|  |     ├── implementation.js
+|  |     ├── index.js
+|  |     ├── shimmed.js
+|  |     └── tests.js
+|  ├── string.prototype.trimend/
+|  |  ├── .editorconfig
+|  |  ├── .eslintrc
+|  |  ├── .nycrc
+|  |  ├── auto.js
+|  |  ├── CHANGELOG.md
+|  |  ├── implementation.js
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  ├── polyfill.js
+|  |  ├── README.md
+|  |  ├── shim.js
+|  |  └── test/
+|  |     ├── implementation.js
+|  |     ├── index.js
+|  |     ├── shimmed.js
+|  |     └── tests.js
+|  ├── string.prototype.trimstart/
+|  |  ├── .editorconfig
+|  |  ├── .eslintrc
+|  |  ├── .nycrc
+|  |  ├── auto.js
+|  |  ├── CHANGELOG.md
+|  |  ├── implementation.js
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  ├── polyfill.js
+|  |  ├── README.md
+|  |  ├── shim.js
+|  |  └── test/
+|  |     ├── implementation.js
+|  |     ├── index.js
+|  |     ├── shimmed.js
+|  |     └── tests.js
+|  ├── strip-bom/
+|  |  ├── index.js
+|  |  ├── license
+|  |  ├── package.json
+|  |  └── readme.md
+|  ├── strip-json-comments/
+|  |  ├── index.d.ts
+|  |  ├── index.js
+|  |  ├── license
+|  |  ├── package.json
+|  |  └── readme.md
+|  ├── styled-jsx/
+|  |  ├── babel-test.js
+|  |  ├── babel.js
+|  |  ├── css.d.ts
+|  |  ├── css.js
+|  |  ├── dist/
+|  |  |  ├── babel/
+|  |  |  ├── index/
+|  |  |  └── webpack/
+|  |  ├── global.d.ts
+|  |  ├── index.d.ts
+|  |  ├── index.js
+|  |  ├── lib/
+|  |  |  ├── style-transform.js
+|  |  |  └── stylesheet.js
+|  |  ├── license.md
+|  |  ├── macro.d.ts
+|  |  ├── macro.js
+|  |  ├── package.json
+|  |  ├── readme.md
+|  |  ├── style.d.ts
+|  |  ├── style.js
+|  |  └── webpack.js
+|  ├── supports-color/
+|  |  ├── browser.js
+|  |  ├── index.js
+|  |  ├── license
+|  |  ├── package.json
+|  |  └── readme.md
+|  ├── supports-preserve-symlinks-flag/
+|  |  ├── .eslintrc
+|  |  ├── .github/
+|  |  |  └── FUNDING.yml
+|  |  ├── .nycrc
+|  |  ├── browser.js
+|  |  ├── CHANGELOG.md
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  ├── README.md
+|  |  └── test/
+|  |     └── index.js
+|  ├── tailwindcss/
+|  |  ├── dist/
+|  |  |  ├── chunk-GFBUASX3.mjs
+|  |  |  ├── chunk-HTB5LLOP.mjs
+|  |  |  ├── chunk-TCCVBPYE.mjs
+|  |  |  ├── colors-b_6i0Oi7.d.ts
+|  |  |  ├── colors.d.mts
+|  |  |  ├── colors.d.ts
+|  |  |  ├── colors.js
+|  |  |  ├── colors.mjs
+|  |  |  ├── default-theme.d.mts
+|  |  |  ├── default-theme.d.ts
+|  |  |  ├── default-theme.js
+|  |  |  ├── default-theme.mjs
+|  |  |  ├── flatten-color-palette.d.mts
+|  |  |  ├── flatten-color-palette.d.ts
+|  |  |  ├── flatten-color-palette.js
+|  |  |  ├── flatten-color-palette.mjs
+|  |  |  ├── lib.d.mts
+|  |  |  ├── lib.d.ts
+|  |  |  ├── lib.js
+|  |  |  ├── lib.mjs
+|  |  |  ├── plugin.d.mts
+|  |  |  ├── plugin.d.ts
+|  |  |  ├── plugin.js
+|  |  |  ├── plugin.mjs
+|  |  |  ├── resolve-config-BIFUA2FY.d.ts
+|  |  |  ├── resolve-config-QUZ9b-Gn.d.mts
+|  |  |  └── types-WlZgYgM8.d.mts
+|  |  ├── index.css
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  ├── preflight.css
+|  |  ├── README.md
+|  |  ├── theme.css
+|  |  └── utilities.css
+|  ├── tapable/
+|  |  ├── lib/
+|  |  |  ├── AsyncParallelBailHook.js
+|  |  |  ├── AsyncParallelHook.js
+|  |  |  ├── AsyncSeriesBailHook.js
+|  |  |  ├── AsyncSeriesHook.js
+|  |  |  ├── AsyncSeriesLoopHook.js
+|  |  |  ├── AsyncSeriesWaterfallHook.js
+|  |  |  ├── Hook.js
+|  |  |  ├── HookCodeFactory.js
+|  |  |  ├── HookMap.js
+|  |  |  ├── index.js
+|  |  |  ├── MultiHook.js
+|  |  |  ├── SyncBailHook.js
+|  |  |  ├── SyncHook.js
+|  |  |  ├── SyncLoopHook.js
+|  |  |  ├── SyncWaterfallHook.js
+|  |  |  └── util-browser.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  ├── README.md
+|  |  └── tapable.d.ts
+|  ├── tinyglobby/
+|  |  ├── dist/
+|  |  |  ├── index.cjs
+|  |  |  ├── index.d.cts
+|  |  |  ├── index.d.mts
+|  |  |  └── index.mjs
+|  |  ├── LICENSE
+|  |  ├── node_modules/
+|  |  |  ├── fdir/
+|  |  |  └── picomatch/
+|  |  ├── package.json
+|  |  └── README.md
+|  ├── to-regex-range/
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  └── README.md
+|  ├── ts-api-utils/
+|  |  ├── lib/
+|  |  |  ├── index.cjs
+|  |  |  ├── index.d.cts
+|  |  |  ├── index.d.ts
+|  |  |  └── index.js
+|  |  ├── LICENSE.md
+|  |  ├── package.json
+|  |  └── README.md
+|  ├── tsconfig-paths/
+|  |  ├── CHANGELOG.md
+|  |  ├── lib/
+|  |  |  ├── config-loader.d.ts
+|  |  |  ├── config-loader.js
+|  |  |  ├── config-loader.js.map
+|  |  |  ├── filesystem.d.ts
+|  |  |  ├── filesystem.js
+|  |  |  ├── filesystem.js.map
+|  |  |  ├── index.d.ts
+|  |  |  ├── index.js
+|  |  |  ├── index.js.map
+|  |  |  ├── mapping-entry.d.ts
+|  |  |  ├── mapping-entry.js
+|  |  |  ├── mapping-entry.js.map
+|  |  |  ├── match-path-async.d.ts
+|  |  |  ├── match-path-async.js
+|  |  |  ├── match-path-async.js.map
+|  |  |  ├── match-path-sync.d.ts
+|  |  |  ├── match-path-sync.js
+|  |  |  ├── match-path-sync.js.map
+|  |  |  ├── options.d.ts
+|  |  |  ├── options.js
+|  |  |  ├── options.js.map
+|  |  |  ├── register.d.ts
+|  |  |  ├── register.js
+|  |  |  ├── register.js.map
+|  |  |  ├── try-path.d.ts
+|  |  |  ├── try-path.js
+|  |  |  ├── try-path.js.map
+|  |  |  ├── tsconfig-loader.d.ts
+|  |  |  ├── tsconfig-loader.js
+|  |  |  ├── tsconfig-loader.js.map
+|  |  |  └── __tests__/
+|  |  ├── LICENSE
+|  |  ├── node_modules/
+|  |  |  ├── .bin/
+|  |  |  └── json5/
+|  |  ├── package.json
+|  |  ├── README.md
+|  |  ├── register.js
+|  |  └── src/
+|  |     ├── config-loader.ts
+|  |     ├── filesystem.ts
+|  |     ├── index.ts
+|  |     ├── mapping-entry.ts
+|  |     ├── match-path-async.ts
+|  |     ├── match-path-sync.ts
+|  |     ├── options.ts
+|  |     ├── register.ts
+|  |     ├── try-path.ts
+|  |     ├── tsconfig-loader.ts
+|  |     └── __tests__/
+|  ├── tslib/
+|  |  ├── CopyrightNotice.txt
+|  |  ├── LICENSE.txt
+|  |  ├── modules/
+|  |  |  ├── index.d.ts
+|  |  |  ├── index.js
+|  |  |  └── package.json
+|  |  ├── package.json
+|  |  ├── README.md
+|  |  ├── SECURITY.md
+|  |  ├── tslib.d.ts
+|  |  ├── tslib.es6.html
+|  |  ├── tslib.es6.js
+|  |  ├── tslib.es6.mjs
+|  |  ├── tslib.html
+|  |  └── tslib.js
+|  ├── type-check/
+|  |  ├── lib/
+|  |  |  ├── check.js
+|  |  |  ├── index.js
+|  |  |  └── parse-type.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  └── README.md
+|  ├── typed-array-buffer/
+|  |  ├── .eslintrc
+|  |  ├── .github/
+|  |  |  └── FUNDING.yml
+|  |  ├── .nycrc
+|  |  ├── CHANGELOG.md
+|  |  ├── index.d.ts
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  ├── README.md
+|  |  ├── test/
+|  |  |  └── index.js
+|  |  └── tsconfig.json
+|  ├── typed-array-byte-length/
+|  |  ├── .eslintrc
+|  |  ├── .github/
+|  |  |  └── FUNDING.yml
+|  |  ├── .nycrc
+|  |  ├── CHANGELOG.md
+|  |  ├── index.d.ts
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  ├── README.md
+|  |  ├── test/
+|  |  |  └── index.js
+|  |  └── tsconfig.json
+|  ├── typed-array-byte-offset/
+|  |  ├── .eslintrc
+|  |  ├── .github/
+|  |  |  └── FUNDING.yml
+|  |  ├── .nycrc
+|  |  ├── CHANGELOG.md
+|  |  ├── index.d.ts
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  ├── README.md
+|  |  ├── test/
+|  |  |  └── index.js
+|  |  └── tsconfig.json
+|  ├── typed-array-length/
+|  |  ├── .eslintrc
+|  |  ├── .github/
+|  |  |  └── FUNDING.yml
+|  |  ├── .nycrc
+|  |  ├── CHANGELOG.md
+|  |  ├── index.d.ts
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  ├── README.md
+|  |  ├── test/
+|  |  |  └── index.js
+|  |  └── tsconfig.json
+|  ├── typescript/
+|  |  ├── bin/
+|  |  |  ├── tsc
+|  |  |  └── tsserver
+|  |  ├── lib/
+|  |  |  ├── cs/
+|  |  |  ├── de/
+|  |  |  ├── es/
+|  |  |  ├── fr/
+|  |  |  ├── it/
+|  |  |  ├── ja/
+|  |  |  ├── ko/
+|  |  |  ├── lib.d.ts
+|  |  |  ├── lib.decorators.d.ts
+|  |  |  ├── lib.decorators.legacy.d.ts
+|  |  |  ├── lib.dom.asynciterable.d.ts
+|  |  |  ├── lib.dom.d.ts
+|  |  |  ├── lib.dom.iterable.d.ts
+|  |  |  ├── lib.es2015.collection.d.ts
+|  |  |  ├── lib.es2015.core.d.ts
+|  |  |  ├── lib.es2015.d.ts
+|  |  |  ├── lib.es2015.generator.d.ts
+|  |  |  ├── lib.es2015.iterable.d.ts
+|  |  |  ├── lib.es2015.promise.d.ts
+|  |  |  ├── lib.es2015.proxy.d.ts
+|  |  |  ├── lib.es2015.reflect.d.ts
+|  |  |  ├── lib.es2015.symbol.d.ts
+|  |  |  ├── lib.es2015.symbol.wellknown.d.ts
+|  |  |  ├── lib.es2016.array.include.d.ts
+|  |  |  ├── lib.es2016.d.ts
+|  |  |  ├── lib.es2016.full.d.ts
+|  |  |  ├── lib.es2016.intl.d.ts
+|  |  |  ├── lib.es2017.arraybuffer.d.ts
+|  |  |  ├── lib.es2017.d.ts
+|  |  |  ├── lib.es2017.date.d.ts
+|  |  |  ├── lib.es2017.full.d.ts
+|  |  |  ├── lib.es2017.intl.d.ts
+|  |  |  ├── lib.es2017.object.d.ts
+|  |  |  ├── lib.es2017.sharedmemory.d.ts
+|  |  |  ├── lib.es2017.string.d.ts
+|  |  |  ├── lib.es2017.typedarrays.d.ts
+|  |  |  ├── lib.es2018.asyncgenerator.d.ts
+|  |  |  ├── lib.es2018.asynciterable.d.ts
+|  |  |  ├── lib.es2018.d.ts
+|  |  |  ├── lib.es2018.full.d.ts
+|  |  |  ├── lib.es2018.intl.d.ts
+|  |  |  ├── lib.es2018.promise.d.ts
+|  |  |  ├── lib.es2018.regexp.d.ts
+|  |  |  ├── lib.es2019.array.d.ts
+|  |  |  ├── lib.es2019.d.ts
+|  |  |  ├── lib.es2019.full.d.ts
+|  |  |  ├── lib.es2019.intl.d.ts
+|  |  |  ├── lib.es2019.object.d.ts
+|  |  |  ├── lib.es2019.string.d.ts
+|  |  |  ├── lib.es2019.symbol.d.ts
+|  |  |  ├── lib.es2020.bigint.d.ts
+|  |  |  ├── lib.es2020.d.ts
+|  |  |  ├── lib.es2020.date.d.ts
+|  |  |  ├── lib.es2020.full.d.ts
+|  |  |  ├── lib.es2020.intl.d.ts
+|  |  |  ├── lib.es2020.number.d.ts
+|  |  |  ├── lib.es2020.promise.d.ts
+|  |  |  ├── lib.es2020.sharedmemory.d.ts
+|  |  |  ├── lib.es2020.string.d.ts
+|  |  |  ├── lib.es2020.symbol.wellknown.d.ts
+|  |  |  ├── lib.es2021.d.ts
+|  |  |  ├── lib.es2021.full.d.ts
+|  |  |  ├── lib.es2021.intl.d.ts
+|  |  |  ├── lib.es2021.promise.d.ts
+|  |  |  ├── lib.es2021.string.d.ts
+|  |  |  ├── lib.es2021.weakref.d.ts
+|  |  |  ├── lib.es2022.array.d.ts
+|  |  |  ├── lib.es2022.d.ts
+|  |  |  ├── lib.es2022.error.d.ts
+|  |  |  ├── lib.es2022.full.d.ts
+|  |  |  ├── lib.es2022.intl.d.ts
+|  |  |  ├── lib.es2022.object.d.ts
+|  |  |  ├── lib.es2022.regexp.d.ts
+|  |  |  ├── lib.es2022.string.d.ts
+|  |  |  ├── lib.es2023.array.d.ts
+|  |  |  ├── lib.es2023.collection.d.ts
+|  |  |  ├── lib.es2023.d.ts
+|  |  |  ├── lib.es2023.full.d.ts
+|  |  |  ├── lib.es2023.intl.d.ts
+|  |  |  ├── lib.es2024.arraybuffer.d.ts
+|  |  |  ├── lib.es2024.collection.d.ts
+|  |  |  ├── lib.es2024.d.ts
+|  |  |  ├── lib.es2024.full.d.ts
+|  |  |  ├── lib.es2024.object.d.ts
+|  |  |  ├── lib.es2024.promise.d.ts
+|  |  |  ├── lib.es2024.regexp.d.ts
+|  |  |  ├── lib.es2024.sharedmemory.d.ts
+|  |  |  ├── lib.es2024.string.d.ts
+|  |  |  ├── lib.es5.d.ts
+|  |  |  ├── lib.es6.d.ts
+|  |  |  ├── lib.esnext.array.d.ts
+|  |  |  ├── lib.esnext.collection.d.ts
+|  |  |  ├── lib.esnext.d.ts
+|  |  |  ├── lib.esnext.decorators.d.ts
+|  |  |  ├── lib.esnext.disposable.d.ts
+|  |  |  ├── lib.esnext.error.d.ts
+|  |  |  ├── lib.esnext.float16.d.ts
+|  |  |  ├── lib.esnext.full.d.ts
+|  |  |  ├── lib.esnext.intl.d.ts
+|  |  |  ├── lib.esnext.iterator.d.ts
+|  |  |  ├── lib.esnext.promise.d.ts
+|  |  |  ├── lib.esnext.sharedmemory.d.ts
+|  |  |  ├── lib.scripthost.d.ts
+|  |  |  ├── lib.webworker.asynciterable.d.ts
+|  |  |  ├── lib.webworker.d.ts
+|  |  |  ├── lib.webworker.importscripts.d.ts
+|  |  |  ├── lib.webworker.iterable.d.ts
+|  |  |  ├── pl/
+|  |  |  ├── pt-br/
+|  |  |  ├── ru/
+|  |  |  ├── tr/
+|  |  |  ├── tsc.js
+|  |  |  ├── tsserver.js
+|  |  |  ├── tsserverlibrary.d.ts
+|  |  |  ├── tsserverlibrary.js
+|  |  |  ├── typescript.d.ts
+|  |  |  ├── typescript.js
+|  |  |  ├── typesMap.json
+|  |  |  ├── typingsInstaller.js
+|  |  |  ├── watchGuard.js
+|  |  |  ├── zh-cn/
+|  |  |  ├── zh-tw/
+|  |  |  ├── _tsc.js
+|  |  |  ├── _tsserver.js
+|  |  |  └── _typingsInstaller.js
+|  |  ├── LICENSE.txt
+|  |  ├── package.json
+|  |  ├── README.md
+|  |  ├── SECURITY.md
+|  |  └── ThirdPartyNoticeText.txt
+|  ├── typescript-eslint/
+|  |  ├── dist/
+|  |  |  ├── compatibility-types.d.ts
+|  |  |  ├── compatibility-types.js
+|  |  |  ├── config-helper.d.ts
+|  |  |  ├── config-helper.js
+|  |  |  ├── getTSConfigRootDirFromStack.d.ts
+|  |  |  ├── getTSConfigRootDirFromStack.js
+|  |  |  ├── index.d.ts
+|  |  |  └── index.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  └── README.md
+|  ├── unbox-primitive/
+|  |  ├── .editorconfig
+|  |  ├── .eslintrc
+|  |  ├── .github/
+|  |  |  └── FUNDING.yml
+|  |  ├── .nycrc
+|  |  ├── CHANGELOG.md
+|  |  ├── index.d.ts
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  ├── README.md
+|  |  ├── test/
+|  |  |  └── index.js
+|  |  └── tsconfig.json
+|  ├── undici-types/
+|  |  ├── agent.d.ts
+|  |  ├── api.d.ts
+|  |  ├── balanced-pool.d.ts
+|  |  ├── cache.d.ts
+|  |  ├── client.d.ts
+|  |  ├── connector.d.ts
+|  |  ├── content-type.d.ts
+|  |  ├── cookies.d.ts
+|  |  ├── diagnostics-channel.d.ts
+|  |  ├── dispatcher.d.ts
+|  |  ├── env-http-proxy-agent.d.ts
+|  |  ├── errors.d.ts
+|  |  ├── eventsource.d.ts
+|  |  ├── fetch.d.ts
+|  |  ├── file.d.ts
+|  |  ├── filereader.d.ts
+|  |  ├── formdata.d.ts
+|  |  ├── global-dispatcher.d.ts
+|  |  ├── global-origin.d.ts
+|  |  ├── handlers.d.ts
+|  |  ├── header.d.ts
+|  |  ├── index.d.ts
+|  |  ├── interceptors.d.ts
+|  |  ├── LICENSE
+|  |  ├── mock-agent.d.ts
+|  |  ├── mock-client.d.ts
+|  |  ├── mock-errors.d.ts
+|  |  ├── mock-interceptor.d.ts
+|  |  ├── mock-pool.d.ts
+|  |  ├── package.json
+|  |  ├── patch.d.ts
+|  |  ├── pool-stats.d.ts
+|  |  ├── pool.d.ts
+|  |  ├── proxy-agent.d.ts
+|  |  ├── readable.d.ts
+|  |  ├── README.md
+|  |  ├── retry-agent.d.ts
+|  |  ├── retry-handler.d.ts
+|  |  ├── util.d.ts
+|  |  ├── webidl.d.ts
+|  |  └── websocket.d.ts
+|  ├── unrs-resolver/
+|  |  ├── browser.js
+|  |  ├── index.d.ts
+|  |  ├── index.js
+|  |  ├── package.json
+|  |  └── README.md
+|  ├── update-browserslist-db/
+|  |  ├── check-npm-version.js
+|  |  ├── cli.js
+|  |  ├── index.d.ts
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  ├── README.md
+|  |  └── utils.js
+|  ├── uri-js/
+|  |  ├── dist/
+|  |  |  ├── es5/
+|  |  |  └── esnext/
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  ├── README.md
+|  |  └── yarn.lock
+|  ├── which/
+|  |  ├── bin/
+|  |  |  └── node-which
+|  |  ├── CHANGELOG.md
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  ├── README.md
+|  |  └── which.js
+|  ├── which-boxed-primitive/
+|  |  ├── .editorconfig
+|  |  ├── .eslintrc
+|  |  ├── .github/
+|  |  |  └── FUNDING.yml
+|  |  ├── .nycrc
+|  |  ├── CHANGELOG.md
+|  |  ├── index.d.ts
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  ├── README.md
+|  |  ├── test/
+|  |  |  └── index.js
+|  |  └── tsconfig.json
+|  ├── which-builtin-type/
+|  |  ├── .eslintrc
+|  |  ├── .nycrc
+|  |  ├── CHANGELOG.md
+|  |  ├── index.d.ts
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  ├── README.md
+|  |  ├── test/
+|  |  |  └── index.js
+|  |  └── tsconfig.json
+|  ├── which-collection/
+|  |  ├── .eslintrc
+|  |  ├── .github/
+|  |  |  └── FUNDING.yml
+|  |  ├── .nycrc
+|  |  ├── CHANGELOG.md
+|  |  ├── index.d.ts
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  ├── README.md
+|  |  ├── test/
+|  |  |  └── index.js
+|  |  └── tsconfig.json
+|  ├── which-typed-array/
+|  |  ├── .editorconfig
+|  |  ├── .eslintrc
+|  |  ├── .github/
+|  |  |  └── FUNDING.yml
+|  |  ├── .nycrc
+|  |  ├── CHANGELOG.md
+|  |  ├── index.d.ts
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  ├── README.md
+|  |  ├── test/
+|  |  |  └── index.js
+|  |  └── tsconfig.json
+|  ├── word-wrap/
+|  |  ├── index.d.ts
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  └── README.md
+|  ├── yallist/
+|  |  ├── iterator.js
+|  |  ├── LICENSE
+|  |  ├── package.json
+|  |  ├── README.md
+|  |  └── yallist.js
+|  ├── yocto-queue/
+|  |  ├── index.d.ts
+|  |  ├── index.js
+|  |  ├── license
+|  |  ├── package.json
+|  |  └── readme.md
+|  ├── zod/
+|  |  ├── index.cjs
+|  |  ├── index.d.cts
+|  |  ├── index.d.ts
+|  |  ├── index.js
+|  |  ├── LICENSE
+|  |  ├── locales/
+|  |  |  ├── index.cjs
+|  |  |  ├── index.d.cts
+|  |  |  ├── index.d.ts
+|  |  |  ├── index.js
+|  |  |  └── package.json
+|  |  ├── mini/
+|  |  |  ├── index.cjs
+|  |  |  ├── index.d.cts
+|  |  |  ├── index.d.ts
+|  |  |  ├── index.js
+|  |  |  └── package.json
+|  |  ├── package.json
+|  |  ├── README.md
+|  |  ├── src/
+|  |  |  ├── index.ts
+|  |  |  ├── locales/
+|  |  |  ├── mini/
+|  |  |  ├── v3/
+|  |  |  ├── v4/
+|  |  |  └── v4-mini/
+|  |  ├── v3/
+|  |  |  ├── errors.cjs
+|  |  |  ├── errors.d.cts
+|  |  |  ├── errors.d.ts
+|  |  |  ├── errors.js
+|  |  |  ├── external.cjs
+|  |  |  ├── external.d.cts
+|  |  |  ├── external.d.ts
+|  |  |  ├── external.js
+|  |  |  ├── helpers/
+|  |  |  ├── index.cjs
+|  |  |  ├── index.d.cts
+|  |  |  ├── index.d.ts
+|  |  |  ├── index.js
+|  |  |  ├── locales/
+|  |  |  ├── package.json
+|  |  |  ├── standard-schema.cjs
+|  |  |  ├── standard-schema.d.cts
+|  |  |  ├── standard-schema.d.ts
+|  |  |  ├── standard-schema.js
+|  |  |  ├── types.cjs
+|  |  |  ├── types.d.cts
+|  |  |  ├── types.d.ts
+|  |  |  ├── types.js
+|  |  |  ├── ZodError.cjs
+|  |  |  ├── ZodError.d.cts
+|  |  |  ├── ZodError.d.ts
+|  |  |  └── ZodError.js
+|  |  ├── v4/
+|  |  |  ├── classic/
+|  |  |  ├── core/
+|  |  |  ├── index.cjs
+|  |  |  ├── index.d.cts
+|  |  |  ├── index.d.ts
+|  |  |  ├── index.js
+|  |  |  ├── locales/
+|  |  |  ├── mini/
+|  |  |  └── package.json
+|  |  └── v4-mini/
+|  |     ├── index.cjs
+|  |     ├── index.d.cts
+|  |     ├── index.d.ts
+|  |     ├── index.js
+|  |     └── package.json
+|  └── zod-validation-error/
+|     ├── LICENSE
+|     ├── package.json
+|     ├── README.md
+|     ├── README.v3.md
+|     ├── v3/
+|     |  ├── index.d.mts
+|     |  ├── index.d.ts
+|     |  ├── index.js
+|     |  ├── index.js.map
+|     |  ├── index.mjs
+|     |  └── index.mjs.map
+|     └── v4/
+|        ├── index.d.mts
+|        ├── index.d.ts
+|        ├── index.js
+|        ├── index.js.map
+|        ├── index.mjs
+|        └── index.mjs.map
+├── package-lock.json
+├── package.json
+├── postcss.config.mjs
+├── public/
+|  ├── file.svg
+|  ├── globe.svg
+|  ├── next.svg
+|  ├── vercel.svg
+|  └── window.svg
+├── README.md
+├── structure.txt
+├── structure.txtnpmdddd
+└── tsconfig.json
+
+directory: 1074 file: 6217
+
+
+
+[2K[1G
